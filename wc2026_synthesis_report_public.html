@@ -1,0 +1,1207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>World Cup 2026 — Consensus Group Predictions | Football Intelligence Desk</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:wght@400;500&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap');
+
+  :root {
+    --black: #080a0d;
+    --dark: #0e1117;
+    --card: #13161e;
+    --card2: #191d27;
+    --border: #252934;
+    --accent: #e8ff2e;
+    --accent2: #ff4d4d;
+    --accent3: #4dffb4;
+    --text: #e4e6ea;
+    --muted: #7a7f8e;
+    --gold: #f5c518;
+    --purple: #a78bfa;
+    --orange: #fb923c;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body { background: var(--black); color: var(--text); font-family: 'DM Sans', sans-serif; line-height: 1.65; }
+
+  /* ─── MASTHEAD ─── */
+  .masthead {
+    background: var(--dark);
+    border-bottom: 3px solid var(--accent);
+    padding: 22px 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky; top: 0; z-index: 100;
+  }
+  .mb-brand { display: flex; flex-direction: column; gap: 2px; }
+  .mb-label { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 3px; color: var(--muted); text-transform: uppercase; }
+  .mb-title { font-family: 'Bebas Neue', sans-serif; font-size: 26px; letter-spacing: 2px; color: var(--accent); }
+  .mb-meta { text-align: right; }
+  .mb-date { font-family: 'DM Mono', monospace; font-size: 10px; color: var(--muted); }
+  .mb-sub { font-family: 'Bebas Neue', sans-serif; font-size: 16px; color: var(--text); letter-spacing: 1px; }
+
+  /* ─── HERO ─── */
+  .hero {
+    padding: 72px 52px 56px;
+    background: linear-gradient(160deg, #0a0c10 0%, #10141c 60%, #080a0d 100%);
+    border-bottom: 1px solid var(--border);
+    position: relative; overflow: hidden;
+  }
+  .hero::before {
+    content: '3×';
+    position: absolute; right: 40px; top: 0;
+    font-family: 'Bebas Neue', sans-serif; font-size: 320px;
+    color: rgba(232,255,46,0.025); line-height: 1;
+    pointer-events: none; user-select: none;
+  }
+  .hero-kicker { font-family: 'DM Mono', monospace; font-size: 11px; letter-spacing: 4px; color: var(--accent); text-transform: uppercase; margin-bottom: 18px; }
+  .hero-h1 { font-family: 'Bebas Neue', sans-serif; font-size: 78px; line-height: 0.92; letter-spacing: 2px; color: #fff; margin-bottom: 26px; max-width: 900px; }
+  .hero-h1 em { color: var(--accent); font-style: normal; }
+  .hero-sub { font-size: 15px; color: var(--muted); max-width: 680px; margin-bottom: 36px; line-height: 1.75; }
+  .hero-pills { display: flex; gap: 10px; flex-wrap: wrap; }
+  .pill { display: inline-flex; align-items: center; gap: 6px; background: rgba(232,255,46,0.07); border: 1px solid rgba(232,255,46,0.2); color: var(--accent); font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 1px; padding: 5px 12px; border-radius: 2px; text-transform: uppercase; }
+  .pill.r { background: rgba(255,77,77,0.07); border-color: rgba(255,77,77,0.2); color: var(--accent2); }
+  .pill.g { background: rgba(77,255,180,0.07); border-color: rgba(77,255,180,0.2); color: var(--accent3); }
+  .pill.p { background: rgba(167,139,250,0.07); border-color: rgba(167,139,250,0.2); color: var(--purple); }
+
+  /* ─── METHODOLOGY ─── */
+  .method-bar {
+    display: grid; grid-template-columns: repeat(3, 1fr);
+    border-bottom: 1px solid var(--border);
+  }
+  .method-item {
+    padding: 24px 36px;
+    border-right: 1px solid var(--border);
+  }
+  .method-item:last-child { border-right: none; }
+  .mi-num { font-family: 'Bebas Neue', sans-serif; font-size: 48px; line-height: 1; color: var(--accent); margin-bottom: 4px; }
+  .mi-label { font-family: 'Bebas Neue', sans-serif; font-size: 17px; letter-spacing: 1px; color: var(--text); margin-bottom: 6px; }
+  .mi-desc { font-size: 12px; color: var(--muted); line-height: 1.6; }
+
+  /* ─── SECTION ─── */
+  .section { padding: 52px; border-bottom: 1px solid var(--border); }
+  .section-title { font-family: 'Bebas Neue', sans-serif; font-size: 38px; letter-spacing: 2px; color: var(--accent); margin-bottom: 6px; }
+  .section-sub { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 3px; color: var(--muted); text-transform: uppercase; margin-bottom: 36px; }
+
+  /* ─── CONFLICT MATRIX ─── */
+  .conflict-table { width: 100%; border-collapse: collapse; }
+  .conflict-table th {
+    background: rgba(232,255,46,0.07); font-family: 'DM Mono', monospace;
+    font-size: 10px; letter-spacing: 2px; text-transform: uppercase;
+    color: var(--accent); padding: 10px 16px; text-align: left;
+    border-bottom: 2px solid rgba(232,255,46,0.2);
+  }
+  .conflict-table td {
+    padding: 11px 16px; border-bottom: 1px solid var(--border);
+    font-size: 13px; vertical-align: middle;
+  }
+  .conflict-table tr:hover td { background: rgba(232,255,46,0.025); }
+  .conflict-table td:first-child { font-family: 'Bebas Neue', sans-serif; font-size: 22px; color: var(--accent); width: 90px; }
+  .conflict-tag { font-family: 'DM Mono', monospace; font-size: 10px; padding: 3px 8px; border-radius: 2px; text-transform: uppercase; letter-spacing: 1px; display: inline-block; }
+  .tag-agree { background: rgba(77,255,180,0.12); color: var(--accent3); border: 1px solid rgba(77,255,180,0.25); }
+  .tag-split { background: rgba(251,146,60,0.12); color: var(--orange); border: 1px solid rgba(251,146,60,0.25); }
+  .tag-minor { background: rgba(245,197,24,0.12); color: var(--gold); border: 1px solid rgba(245,197,24,0.25); }
+
+  /* ─── CONSENSUS GRID ─── */
+  .consensus-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+  .cg-card {
+    background: var(--card); border: 1px solid var(--border);
+    padding: 0; overflow: hidden;
+  }
+  .cg-head {
+    display: flex; align-items: center; gap: 14px;
+    padding: 14px 18px; border-bottom: 1px solid var(--border);
+    background: rgba(255,255,255,0.02);
+  }
+  .cg-letter { font-family: 'Bebas Neue', sans-serif; font-size: 36px; color: var(--accent); line-height: 1; width: 32px; }
+  .cg-grp-name { flex: 1; }
+  .cg-grp-teams { font-weight: 700; font-size: 12px; color: var(--text); line-height: 1.3; }
+  .cg-badge { flex-shrink: 0; }
+  .badge { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 1px; text-transform: uppercase; padding: 3px 8px; border-radius: 2px; }
+  .badge-h { background: rgba(77,255,180,0.12); color: var(--accent3); border: 1px solid rgba(77,255,180,0.25); }
+  .badge-m { background: rgba(245,197,24,0.12); color: var(--gold); border: 1px solid rgba(245,197,24,0.25); }
+  .badge-l { background: rgba(255,77,77,0.12); color: var(--accent2); border: 1px solid rgba(255,77,77,0.25); }
+  .cg-row {
+    display: flex; align-items: center; gap: 10px;
+    padding: 9px 18px; border-bottom: 1px solid rgba(37,41,52,0.6);
+    transition: background 0.12s;
+  }
+  .cg-row:hover { background: rgba(232,255,46,0.025); }
+  .cg-row:last-child { border-bottom: none; }
+  .cg-pos { font-family: 'Bebas Neue', sans-serif; font-size: 20px; width: 22px; text-align: center; }
+  .pos1 { color: var(--gold); }
+  .pos2 { color: #aab0bf; }
+  .pos3 { color: #7a7f8e; }
+  .pos4 { color: #4a4f5e; }
+  .cg-flag { font-size: 18px; width: 24px; text-align: center; }
+  .cg-name { flex: 1; font-size: 13px; font-weight: 700; }
+  .conflict-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--orange); flex-shrink: 0; }
+
+  /* ─── GROUP ANALYSIS BLOCKS ─── */
+  .ga-block { margin-bottom: 64px; }
+  .ga-header {
+    display: flex; align-items: flex-start; gap: 20px;
+    padding-bottom: 18px; margin-bottom: 28px;
+    border-bottom: 2px solid var(--border);
+  }
+  .ga-letter-big { font-family: 'Bebas Neue', sans-serif; font-size: 72px; line-height: 0.9; color: var(--accent); width: 70px; flex-shrink: 0; margin-top: -4px; }
+  .ga-header-right { flex: 1; }
+  .ga-title { font-family: 'Bebas Neue', sans-serif; font-size: 26px; letter-spacing: 1px; color: #fff; margin-bottom: 4px; }
+  .ga-meta { font-family: 'DM Mono', monospace; font-size: 10px; color: var(--muted); letter-spacing: 2px; text-transform: uppercase; }
+  .ga-badge { flex-shrink: 0; margin-top: 4px; }
+
+  .ga-body { display: grid; grid-template-columns: 320px 1fr; gap: 18px; }
+
+  .ga-standings {
+    background: var(--card); border: 1px solid var(--border); overflow: hidden;
+  }
+  .gs-head {
+    background: rgba(232,255,46,0.06); padding: 9px 14px;
+    font-family: 'DM Mono', monospace; font-size: 9px;
+    letter-spacing: 3px; color: var(--accent); text-transform: uppercase;
+    border-bottom: 1px solid var(--border);
+  }
+  .gs-row {
+    display: flex; align-items: center; gap: 10px;
+    padding: 11px 14px; border-bottom: 1px solid rgba(37,41,52,0.6);
+  }
+  .gs-row:last-child { border-bottom: none; }
+  .gs-pos { font-family: 'Bebas Neue', sans-serif; font-size: 20px; width: 22px; text-align: center; }
+  .gs-flag { font-size: 18px; width: 24px; text-align: center; }
+  .gs-info { flex: 1; }
+  .gs-name { font-weight: 700; font-size: 13px; margin-bottom: 1px; }
+  .gs-tag { font-family: 'DM Mono', monospace; font-size: 10px; color: var(--muted); }
+  .gs-conf { font-family: 'DM Mono', monospace; font-size: 10px; color: var(--muted); }
+  .gs-conflict-flag {
+    font-family: 'DM Mono', monospace; font-size: 9px; padding: 2px 6px;
+    background: rgba(251,146,60,0.12); color: var(--orange);
+    border: 1px solid rgba(251,146,60,0.25); border-radius: 2px; text-transform: uppercase;
+    flex-shrink: 0;
+  }
+  .advance-line { background: rgba(232,255,46,0.07); padding: 5px 14px; font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 2px; color: rgba(232,255,46,0.5); text-transform: uppercase; border-top: 1px dashed rgba(232,255,46,0.15); border-bottom: 1px dashed rgba(232,255,46,0.15); }
+
+  .ga-analysis { display: flex; flex-direction: column; gap: 14px; }
+
+  .analysis-section { background: var(--card); border: 1px solid var(--border); padding: 18px; }
+  .as-label { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 3px; color: var(--muted); text-transform: uppercase; margin-bottom: 12px; padding-bottom: 10px; border-bottom: 1px solid var(--border); }
+
+  .intel-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 14px; }
+  .intel-item { }
+  .il { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 2px; color: var(--muted); text-transform: uppercase; margin-bottom: 3px; }
+  .iv { font-size: 12px; font-weight: 700; }
+  .iv-g { color: var(--accent3); }
+  .iv-w { color: var(--gold); }
+  .iv-r { color: var(--accent2); }
+  .iv-p { color: var(--purple); }
+
+  .consensus-call { border-left: 3px solid var(--accent); padding-left: 14px; font-size: 13px; line-height: 1.75; color: #d0d4dc; font-style: italic; margin-bottom: 14px; }
+
+  .conflict-box {
+    background: rgba(251,146,60,0.05); border: 1px solid rgba(251,146,60,0.2);
+    padding: 14px; border-left: 3px solid var(--orange);
+  }
+  .cb-title { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 2px; color: var(--orange); text-transform: uppercase; margin-bottom: 8px; }
+  .cb-body { font-size: 12px; color: #c8cad0; line-height: 1.65; }
+
+  .no-conflict-box {
+    background: rgba(77,255,180,0.04); border: 1px solid rgba(77,255,180,0.15);
+    padding: 12px 14px; border-left: 3px solid var(--accent3);
+    font-family: 'DM Mono', monospace; font-size: 10px; color: rgba(77,255,180,0.7); letter-spacing: 1px;
+  }
+
+  /* ─── META VERDICTS ─── */
+  .verdict-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-bottom: 16px; }
+  .verdict-card { background: var(--card); border: 1px solid var(--border); padding: 22px; }
+  .vc-label { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 3px; color: var(--muted); text-transform: uppercase; margin-bottom: 10px; }
+  .vc-value { font-family: 'Bebas Neue', sans-serif; font-size: 22px; letter-spacing: 1px; margin-bottom: 8px; line-height: 1.1; }
+  .vc-desc { font-size: 12px; color: #9a9fa8; line-height: 1.55; }
+  .vc-conflict { margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--border); font-family: 'DM Mono', monospace; font-size: 10px; color: var(--orange); line-height: 1.5; }
+
+  /* ─── DEBATE ─── */
+  .debate-list { display: flex; flex-direction: column; gap: 2px; }
+  .debate-item {
+    background: var(--card); border: 1px solid var(--border);
+    border-left: 4px solid var(--accent2); padding: 22px 28px;
+    display: grid; grid-template-columns: 56px 1fr; gap: 20px;
+    align-items: start;
+  }
+  .di-num { font-family: 'Bebas Neue', sans-serif; font-size: 52px; color: rgba(255,77,77,0.15); line-height: 1; }
+  .di-body { }
+  .di-title { font-family: 'Bebas Neue', sans-serif; font-size: 20px; letter-spacing: 1px; color: var(--accent2); margin-bottom: 8px; line-height: 1.1; }
+  .di-text { font-size: 13px; color: #c0c4cc; line-height: 1.72; }
+
+  /* ─── BOLD CALL ─── */
+  .bold-call-block {
+    background: rgba(255,77,77,0.04);
+    border: 1px solid rgba(255,77,77,0.2);
+    border-top: 4px solid var(--accent2);
+    padding: 36px 40px; margin-top: 16px;
+  }
+  .bc-kicker { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 3px; color: var(--accent2); text-transform: uppercase; margin-bottom: 14px; }
+  .bc-title { font-family: 'Bebas Neue', sans-serif; font-size: 30px; letter-spacing: 2px; color: #fff; margin-bottom: 14px; line-height: 1.1; }
+  .bc-body { font-size: 14px; line-height: 1.8; color: #d0d4dc; }
+
+  /* ─── SOURCES ─── */
+  .sources-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+  .si { background: var(--card); border: 1px solid var(--border); padding: 10px 14px; display: flex; align-items: flex-start; gap: 8px; }
+  .si::before { content: '◈'; color: var(--accent); font-size: 10px; flex-shrink: 0; margin-top: 2px; }
+  .si-text { font-family: 'DM Mono', monospace; font-size: 10px; color: var(--muted); line-height: 1.5; }
+
+  /* ─── FOOTER ─── */
+  footer { background: var(--dark); border-top: 1px solid var(--border); padding: 32px 52px; display: flex; justify-content: space-between; align-items: center; }
+  .ft-brand { font-family: 'Bebas Neue', sans-serif; font-size: 24px; letter-spacing: 2px; color: var(--accent); }
+  .ft-note { font-family: 'DM Mono', monospace; font-size: 10px; color: var(--muted); text-align: right; line-height: 1.9; }
+
+  /* NAV */
+  .group-nav {
+    display: flex; flex-wrap: wrap; gap: 6px;
+    padding: 16px 52px; background: var(--dark);
+    border-bottom: 1px solid var(--border);
+    position: sticky; top: 71px; z-index: 90;
+  }
+  .nb { font-family: 'Bebas Neue', sans-serif; font-size: 14px; letter-spacing: 2px; background: transparent; border: 1px solid var(--border); color: var(--muted); padding: 5px 13px; cursor: pointer; transition: all 0.15s; text-decoration: none; }
+  .nb:hover, .nb.active { background: var(--accent); color: var(--black); border-color: var(--accent); }
+  .nb.meta { border-color: rgba(232,255,46,0.35); color: var(--accent); }
+  .nb.meta:hover { background: var(--accent); color: var(--black); }
+</style>
+</head>
+<body>
+
+<!-- MASTHEAD -->
+<header class="masthead">
+  <div class="mb-brand">
+    <div class="mb-label">Synthesis Intelligence Report</div>
+    <div class="mb-title">Football Intelligence Desk</div>
+  </div>
+  <div class="mb-meta">
+    <div class="mb-date">June 4, 2026 · Multi-Source AI Consensus</div>
+    <div class="mb-sub">FIFA World Cup 2026 · All 12 Groups</div>
+  </div>
+</header>
+
+<!-- NAV -->
+<nav class="group-nav">
+  <a href="#conflict-matrix" class="nb meta">MATRIX</a>
+  <a href="#group-a" class="nb">A</a>
+  <a href="#group-b" class="nb">B</a>
+  <a href="#group-c" class="nb">C</a>
+  <a href="#group-d" class="nb">D</a>
+  <a href="#group-e" class="nb">E</a>
+  <a href="#group-f" class="nb">F</a>
+  <a href="#group-g" class="nb">G</a>
+  <a href="#group-h" class="nb">H</a>
+  <a href="#group-i" class="nb">I</a>
+  <a href="#group-j" class="nb">J</a>
+  <a href="#group-k" class="nb">K</a>
+  <a href="#group-l" class="nb">L</a>
+  <a href="#verdicts" class="nb meta">VERDICTS</a>
+  <a href="#debate" class="nb meta">DEBATE</a>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-kicker">Multi-Source AI Consensus · Deep Research Synthesis · June 4, 2026</div>
+  <h1 class="hero-h1">World Cup 2026<br><em>Consensus</em><br>Group Predictions</h1>
+  <p class="hero-sub">This report synthesizes multiple independent AI analytical sources, drawing on 50+ data sources covering squad intelligence, injury trackers, statistical projection models, tactical breakdowns, and market data. Where the sources agree, confidence is elevated. Where they diverge, the conflict is laid out and resolved with a reasoned call.</p>
+  <div class="hero-pills">
+    <span class="pill g">9 of 12 groups — full consensus</span>
+    <span class="pill r">2 groups — 3rd/4th conflict · 1 group FID override</span>
+    <span class="pill">48 squads reviewed</span>
+    <span class="pill p">Key factual corrections noted</span>
+  </div>
+</div>
+
+<!-- METHODOLOGY -->
+<div class="method-bar">
+  <div class="method-item">
+    <div class="mi-num">R1</div>
+    <div class="mi-label">FID Original Research</div>
+    <div class="mi-desc">Multi-source data synthesis covering squad registrations, injury intelligence, statistical projections, tactical previews, and competition data (June 2, 2026). Primary research layer.</div>
+  </div>
+  <div class="method-item">
+    <div class="mi-num">R2</div>
+    <div class="mi-label">AI Market Analysis</div>
+    <div class="mi-desc">Market-signal-weighted predictions drawing on odds data and prediction market intelligence. Strong on pricing the tightness of groups, weaker on squad-specific injury intelligence. Provided useful second opinion.</div>
+  </div>
+  <div class="method-item">
+    <div class="mi-num">R3</div>
+    <div class="mi-label">Tactical Deep Dive</div>
+    <div class="mi-desc">Formation- and structure-focused breakdown. Strong on pressing systems and tactical profiles. Contains one confirmed factual error (Morocco's coach) that affected Group C framing — flagged in analysis.</div>
+  </div>
+</div>
+
+<!-- CONFLICT MATRIX -->
+<section class="section" id="conflict-matrix">
+  <div class="section-title">Source Conflict Matrix</div>
+  <div class="section-sub">Where the three reports agreed vs. diverged · Resolved before final prediction</div>
+
+  <table class="conflict-table">
+    <thead>
+      <tr>
+        <th>Group</th>
+        <th>1st</th>
+        <th>2nd</th>
+        <th>3rd</th>
+        <th>4th</th>
+        <th>Agreement</th>
+        <th>Conflict Note</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>A</td>
+        <td>🇲🇽 Mexico</td>
+        <td>🇰🇷 South Korea</td>
+        <td>🇨🇿 Czechia</td>
+        <td>🇿🇦 South Africa</td>
+        <td><span class="conflict-tag tag-agree">Full</span></td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>B</td>
+        <td>🇨🇭 Switzerland</td>
+        <td>🇨🇦 Canada</td>
+        <td>🇧🇦 Bosnia</td>
+        <td>🇶🇦 Qatar</td>
+        <td><span class="conflict-tag tag-agree">Full</span></td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>C</td>
+        <td>🇧🇷 Brazil</td>
+        <td>🇲🇦 Morocco</td>
+        <td>🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland</td>
+        <td>🇭🇹 Haiti</td>
+        <td><span class="conflict-tag tag-agree">Full</span></td>
+        <td>R3 listed wrong Morocco coach (Regragui → Ouahbi)</td>
+      </tr>
+      <tr>
+        <td>D</td>
+        <td>🇹🇷 Türkiye</td>
+        <td>🇺🇸 USA</td>
+        <td>🇦🇺 Australia</td>
+        <td>🇵🇾 Paraguay</td>
+        <td><span class="conflict-tag tag-split">FID Override</span></td>
+        <td>R2+R3 = USA 1st; R1 (FID) override: Türkiye 1st. 3rd/4th also split: Australia 3rd (2–1)</td>
+      </tr>
+      <tr>
+        <td>E</td>
+        <td>🇩🇪 Germany</td>
+        <td>🇪🇨 Ecuador</td>
+        <td>🇨🇮 Ivory Coast</td>
+        <td>🇨🇼 Curaçao</td>
+        <td><span class="conflict-tag tag-agree">Full</span></td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>F</td>
+        <td>🇳🇱 Netherlands</td>
+        <td>🇯🇵 Japan</td>
+        <td>🇸🇪 Sweden</td>
+        <td>🇹🇳 Tunisia</td>
+        <td><span class="conflict-tag tag-agree">Full</span></td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>G</td>
+        <td>🇧🇪 Belgium</td>
+        <td>🇪🇬 Egypt</td>
+        <td>🇮🇷 Iran</td>
+        <td>🇳🇿 New Zealand</td>
+        <td><span class="conflict-tag tag-agree">Full</span></td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>H</td>
+        <td>🇪🇸 Spain</td>
+        <td>🇺🇾 Uruguay</td>
+        <td>🇨🇻 Cape Verde</td>
+        <td>🇸🇦 Saudi Arabia</td>
+        <td><span class="conflict-tag tag-split">Split 3/4</span></td>
+        <td>R1+R3 = Cape Verde 3rd; R2 = Saudi Arabia 3rd. Resolved: Cape Verde 3rd (2–1)</td>
+      </tr>
+      <tr>
+        <td>I</td>
+        <td>🇫🇷 France</td>
+        <td>🇳🇴 Norway</td>
+        <td>🇸🇳 Senegal</td>
+        <td>🇮🇶 Iraq</td>
+        <td><span class="conflict-tag tag-agree">Full</span></td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>J</td>
+        <td>🇦🇷 Argentina</td>
+        <td>🇦🇹 Austria</td>
+        <td>🇩🇿 Algeria</td>
+        <td>🇯🇴 Jordan</td>
+        <td><span class="conflict-tag tag-agree">Full</span></td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>K</td>
+        <td>🇵🇹 Portugal</td>
+        <td>🇨🇴 Colombia</td>
+        <td>🇨🇩 DR Congo</td>
+        <td>🇺🇿 Uzbekistan</td>
+        <td><span class="conflict-tag tag-split">Split 3/4</span></td>
+        <td>R1+R2 = DR Congo 3rd; R3 = Uzbekistan 3rd. Resolved: DR Congo 3rd (2–1)</td>
+      </tr>
+      <tr>
+        <td>L</td>
+        <td>🏴󠁧󠁢󠁥󠁮󠁧󠁿 England</td>
+        <td>🇭🇷 Croatia</td>
+        <td>🇬🇭 Ghana</td>
+        <td>🇵🇦 Panama</td>
+        <td><span class="conflict-tag tag-agree">Full</span></td>
+        <td>—</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- CONSENSUS SUMMARY GRID -->
+<section class="section">
+  <div class="section-title">Consensus Summary</div>
+  <div class="section-sub">Final predicted standings for all 12 groups · Orange dot = position involved in source conflict</div>
+  <div class="consensus-grid">
+
+    <div class="cg-card">
+      <div class="cg-head"><div class="cg-letter">A</div><div class="cg-grp-name"><div class="cg-grp-teams">Mexico · S. Korea · Czechia · S. Africa</div></div><div class="cg-badge"><span class="badge badge-h">High</span></div></div>
+      <div class="cg-row"><div class="cg-pos pos1">1</div><div class="cg-flag">🇲🇽</div><div class="cg-name">Mexico</div></div>
+      <div class="cg-row"><div class="cg-pos pos2">2</div><div class="cg-flag">🇰🇷</div><div class="cg-name">South Korea</div></div>
+      <div class="cg-row"><div class="cg-pos pos3">3</div><div class="cg-flag">🇨🇿</div><div class="cg-name">Czechia</div></div>
+      <div class="cg-row"><div class="cg-pos pos4">4</div><div class="cg-flag">🇿🇦</div><div class="cg-name">South Africa</div></div>
+    </div>
+
+    <div class="cg-card">
+      <div class="cg-head"><div class="cg-letter">B</div><div class="cg-grp-name"><div class="cg-grp-teams">Switzerland · Canada · Bosnia · Qatar</div></div><div class="cg-badge"><span class="badge badge-m">Medium</span></div></div>
+      <div class="cg-row"><div class="cg-pos pos1">1</div><div class="cg-flag">🇨🇭</div><div class="cg-name">Switzerland</div></div>
+      <div class="cg-row"><div class="cg-pos pos2">2</div><div class="cg-flag">🇨🇦</div><div class="cg-name">Canada</div></div>
+      <div class="cg-row"><div class="cg-pos pos3">3</div><div class="cg-flag">🇧🇦</div><div class="cg-name">Bosnia & Herz.</div></div>
+      <div class="cg-row"><div class="cg-pos pos4">4</div><div class="cg-flag">🇶🇦</div><div class="cg-name">Qatar</div></div>
+    </div>
+
+    <div class="cg-card">
+      <div class="cg-head"><div class="cg-letter">C</div><div class="cg-grp-name"><div class="cg-grp-teams">Brazil · Morocco · Scotland · Haiti</div></div><div class="cg-badge"><span class="badge badge-h">High</span></div></div>
+      <div class="cg-row"><div class="cg-pos pos1">1</div><div class="cg-flag">🇧🇷</div><div class="cg-name">Brazil</div></div>
+      <div class="cg-row"><div class="cg-pos pos2">2</div><div class="cg-flag">🇲🇦</div><div class="cg-name">Morocco</div></div>
+      <div class="cg-row"><div class="cg-pos pos3">3</div><div class="cg-flag">🏴󠁧󠁢󠁳󠁣󠁴󠁿</div><div class="cg-name">Scotland</div></div>
+      <div class="cg-row"><div class="cg-pos pos4">4</div><div class="cg-flag">🇭🇹</div><div class="cg-name">Haiti</div></div>
+    </div>
+
+    <div class="cg-card">
+      <div class="cg-head"><div class="cg-letter">D</div><div class="cg-grp-name"><div class="cg-grp-teams">Türkiye · USA · Australia · Paraguay</div></div><div class="cg-badge"><span class="badge badge-m">Medium</span></div></div>
+      <div class="cg-row"><div class="cg-pos pos1">1</div><div class="cg-flag">🇹🇷</div><div class="cg-name">Türkiye</div></div>
+      <div class="cg-row"><div class="cg-pos pos2">2</div><div class="cg-flag">🇺🇸</div><div class="cg-name">USA <span class="conflict-dot" style="display:inline-block;vertical-align:middle;margin-left:4px;"></span></div></div>
+      <div class="cg-row"><div class="cg-pos pos3">3</div><div class="cg-flag">🇦🇺</div><div class="cg-name">Australia <span class="conflict-dot" style="display:inline-block;vertical-align:middle;margin-left:4px;"></span></div></div>
+      <div class="cg-row"><div class="cg-pos pos4">4</div><div class="cg-flag">🇵🇾</div><div class="cg-name">Paraguay <span class="conflict-dot" style="display:inline-block;vertical-align:middle;margin-left:4px;"></span></div></div>
+    </div>
+
+    <div class="cg-card">
+      <div class="cg-head"><div class="cg-letter">E</div><div class="cg-grp-name"><div class="cg-grp-teams">Germany · Ecuador · Ivory Coast · Curaçao</div></div><div class="cg-badge"><span class="badge badge-h">High</span></div></div>
+      <div class="cg-row"><div class="cg-pos pos1">1</div><div class="cg-flag">🇩🇪</div><div class="cg-name">Germany</div></div>
+      <div class="cg-row"><div class="cg-pos pos2">2</div><div class="cg-flag">🇪🇨</div><div class="cg-name">Ecuador</div></div>
+      <div class="cg-row"><div class="cg-pos pos3">3</div><div class="cg-flag">🇨🇮</div><div class="cg-name">Ivory Coast</div></div>
+      <div class="cg-row"><div class="cg-pos pos4">4</div><div class="cg-flag">🇨🇼</div><div class="cg-name">Curaçao</div></div>
+    </div>
+
+    <div class="cg-card">
+      <div class="cg-head"><div class="cg-letter">F</div><div class="cg-grp-name"><div class="cg-grp-teams">Netherlands · Japan · Sweden · Tunisia</div></div><div class="cg-badge"><span class="badge badge-m">Medium</span></div></div>
+      <div class="cg-row"><div class="cg-pos pos1">1</div><div class="cg-flag">🇳🇱</div><div class="cg-name">Netherlands</div></div>
+      <div class="cg-row"><div class="cg-pos pos2">2</div><div class="cg-flag">🇯🇵</div><div class="cg-name">Japan</div></div>
+      <div class="cg-row"><div class="cg-pos pos3">3</div><div class="cg-flag">🇸🇪</div><div class="cg-name">Sweden</div></div>
+      <div class="cg-row"><div class="cg-pos pos4">4</div><div class="cg-flag">🇹🇳</div><div class="cg-name">Tunisia</div></div>
+    </div>
+
+    <div class="cg-card">
+      <div class="cg-head"><div class="cg-letter">G</div><div class="cg-grp-name"><div class="cg-grp-teams">Belgium · Egypt · Iran · New Zealand</div></div><div class="cg-badge"><span class="badge badge-m">Medium</span></div></div>
+      <div class="cg-row"><div class="cg-pos pos1">1</div><div class="cg-flag">🇧🇪</div><div class="cg-name">Belgium</div></div>
+      <div class="cg-row"><div class="cg-pos pos2">2</div><div class="cg-flag">🇪🇬</div><div class="cg-name">Egypt</div></div>
+      <div class="cg-row"><div class="cg-pos pos3">3</div><div class="cg-flag">🇮🇷</div><div class="cg-name">Iran</div></div>
+      <div class="cg-row"><div class="cg-pos pos4">4</div><div class="cg-flag">🇳🇿</div><div class="cg-name">New Zealand</div></div>
+    </div>
+
+    <div class="cg-card">
+      <div class="cg-head"><div class="cg-letter">H</div><div class="cg-grp-name"><div class="cg-grp-teams">Spain · Uruguay · Cape Verde · Saudi Arabia</div></div><div class="cg-badge"><span class="badge badge-m">Medium</span></div></div>
+      <div class="cg-row"><div class="cg-pos pos1">1</div><div class="cg-flag">🇪🇸</div><div class="cg-name">Spain</div></div>
+      <div class="cg-row"><div class="cg-pos pos2">2</div><div class="cg-flag">🇺🇾</div><div class="cg-name">Uruguay</div></div>
+      <div class="cg-row"><div class="cg-pos pos3">3</div><div class="cg-flag">🇨🇻</div><div class="cg-name">Cape Verde <span class="conflict-dot" style="display:inline-block;vertical-align:middle;margin-left:4px;"></span></div></div>
+      <div class="cg-row"><div class="cg-pos pos4">4</div><div class="cg-flag">🇸🇦</div><div class="cg-name">Saudi Arabia <span class="conflict-dot" style="display:inline-block;vertical-align:middle;margin-left:4px;"></span></div></div>
+    </div>
+
+    <div class="cg-card">
+      <div class="cg-head"><div class="cg-letter">I</div><div class="cg-grp-name"><div class="cg-grp-teams">France · Norway · Senegal · Iraq</div></div><div class="cg-badge"><span class="badge badge-m">Medium</span></div></div>
+      <div class="cg-row"><div class="cg-pos pos1">1</div><div class="cg-flag">🇫🇷</div><div class="cg-name">France</div></div>
+      <div class="cg-row"><div class="cg-pos pos2">2</div><div class="cg-flag">🇳🇴</div><div class="cg-name">Norway</div></div>
+      <div class="cg-row"><div class="cg-pos pos3">3</div><div class="cg-flag">🇸🇳</div><div class="cg-name">Senegal</div></div>
+      <div class="cg-row"><div class="cg-pos pos4">4</div><div class="cg-flag">🇮🇶</div><div class="cg-name">Iraq</div></div>
+    </div>
+
+    <div class="cg-card">
+      <div class="cg-head"><div class="cg-letter">J</div><div class="cg-grp-name"><div class="cg-grp-teams">Argentina · Austria · Algeria · Jordan</div></div><div class="cg-badge"><span class="badge badge-h">High</span></div></div>
+      <div class="cg-row"><div class="cg-pos pos1">1</div><div class="cg-flag">🇦🇷</div><div class="cg-name">Argentina</div></div>
+      <div class="cg-row"><div class="cg-pos pos2">2</div><div class="cg-flag">🇦🇹</div><div class="cg-name">Austria</div></div>
+      <div class="cg-row"><div class="cg-pos pos3">3</div><div class="cg-flag">🇩🇿</div><div class="cg-name">Algeria</div></div>
+      <div class="cg-row"><div class="cg-pos pos4">4</div><div class="cg-flag">🇯🇴</div><div class="cg-name">Jordan</div></div>
+    </div>
+
+    <div class="cg-card">
+      <div class="cg-head"><div class="cg-letter">K</div><div class="cg-grp-name"><div class="cg-grp-teams">Portugal · Colombia · DR Congo · Uzbekistan</div></div><div class="cg-badge"><span class="badge badge-h">High</span></div></div>
+      <div class="cg-row"><div class="cg-pos pos1">1</div><div class="cg-flag">🇵🇹</div><div class="cg-name">Portugal</div></div>
+      <div class="cg-row"><div class="cg-pos pos2">2</div><div class="cg-flag">🇨🇴</div><div class="cg-name">Colombia</div></div>
+      <div class="cg-row"><div class="cg-pos pos3">3</div><div class="cg-flag">🇨🇩</div><div class="cg-name">DR Congo <span class="conflict-dot" style="display:inline-block;vertical-align:middle;margin-left:4px;"></span></div></div>
+      <div class="cg-row"><div class="cg-pos pos4">4</div><div class="cg-flag">🇺🇿</div><div class="cg-name">Uzbekistan <span class="conflict-dot" style="display:inline-block;vertical-align:middle;margin-left:4px;"></span></div></div>
+    </div>
+
+    <div class="cg-card">
+      <div class="cg-head"><div class="cg-letter">L</div><div class="cg-grp-name"><div class="cg-grp-teams">England · Croatia · Ghana · Panama</div></div><div class="cg-badge"><span class="badge badge-h">High</span></div></div>
+      <div class="cg-row"><div class="cg-pos pos1">1</div><div class="cg-flag">🏴󠁧󠁢󠁥󠁮󠁧󠁿</div><div class="cg-name">England</div></div>
+      <div class="cg-row"><div class="cg-pos pos2">2</div><div class="cg-flag">🇭🇷</div><div class="cg-name">Croatia</div></div>
+      <div class="cg-row"><div class="cg-pos pos3">3</div><div class="cg-flag">🇬🇭</div><div class="cg-name">Ghana</div></div>
+      <div class="cg-row"><div class="cg-pos pos4">4</div><div class="cg-flag">🇵🇦</div><div class="cg-name">Panama</div></div>
+    </div>
+
+  </div>
+</section>
+
+<!-- GROUP-BY-GROUP ANALYSIS -->
+<section class="section" style="padding-bottom: 0;">
+  <div class="section-title">Group-by-Group Analysis</div>
+  <div class="section-sub">Reasoning · Source comparison · Conflict resolution for each group</div>
+</section>
+
+<div style="padding: 40px 52px;">
+
+  <!-- GROUP A -->
+  <div class="ga-block" id="group-a">
+    <div class="ga-header">
+      <div class="ga-letter-big">A</div>
+      <div class="ga-header-right">
+        <div class="ga-title">Mexico · South Korea · Czechia · South Africa</div>
+        <div class="ga-meta">Jun 11–26 · Azteca, Monterrey, Atlanta · Host Advantage Group</div>
+      </div>
+      <div class="ga-badge"><span class="badge badge-h">High Confidence</span></div>
+    </div>
+    <div class="ga-body">
+      <div class="ga-standings">
+        <div class="gs-head">Consensus Prediction</div>
+        <div class="gs-row"><div class="gs-pos pos1">1</div><div class="gs-flag">🇲🇽</div><div class="gs-info"><div class="gs-name">Mexico</div><div class="gs-tag">Host · All 3 games in Mexico</div></div><div class="gs-conf" style="color:var(--accent)">-110</div></div>
+        <div class="advance-line">⬡ Advance to Round of 32</div>
+        <div class="gs-row"><div class="gs-pos pos2">2</div><div class="gs-flag">🇰🇷</div><div class="gs-info"><div class="gs-name">South Korea</div><div class="gs-tag">Son Heung-min · WC group experience</div></div><div class="gs-conf">+350</div></div>
+        <div class="gs-row"><div class="gs-pos pos3">3</div><div class="gs-flag">🇨🇿</div><div class="gs-info"><div class="gs-name">Czechia</div><div class="gs-tag">Playoff qualifier · Schick clinical</div></div><div class="gs-conf">+330</div></div>
+        <div class="gs-row"><div class="gs-pos pos4">4</div><div class="gs-flag">🇿🇦</div><div class="gs-info"><div class="gs-name">South Africa</div><div class="gs-tag">AFCON pedigree, WC absent since 2010</div></div><div class="gs-conf">+1200</div></div>
+      </div>
+      <div class="ga-analysis">
+        <div class="analysis-section">
+          <div class="as-label">Intel Summary</div>
+          <div class="intel-row">
+            <div class="intel-item"><div class="il">Group Winner</div><div class="iv iv-g">Mexico</div></div>
+            <div class="intel-item"><div class="il">Runner-Up</div><div class="iv iv-w">South Korea</div></div>
+            <div class="intel-item"><div class="il">Dangerous 3rd</div><div class="iv">Czechia</div></div>
+            <div class="intel-item"><div class="il">Likely to Underperform</div><div class="iv iv-r">South Africa</div></div>
+          </div>
+          <div class="consensus-call">All three reports agreed unanimously: Mexico first on home advantage, South Korea second, Czechia third, South Africa fourth. This is the clearest group in the tournament from a source-agreement perspective.</div>
+          <div class="no-conflict-box">✓ FULL CONSENSUS ACROSS ALL THREE SOURCES — No conflict to resolve</div>
+        </div>
+        <div class="analysis-section">
+          <div class="as-label">Synthesis Reasoning</div>
+          <p style="font-size:13px; line-height:1.75; color:#c8ccd4;">Mexico's case is almost entirely context-based rather than quality-based. Playing all three group games in Mexico — including the tournament opener against South Africa at the Azteca on June 11, where altitude sits at 7,200 feet — creates a physiological barrier that neither Czechia nor South Africa can easily overcome. All three reports acknowledged this, though R2 was the most direct in flagging Mexico as also the group's "most likely to underperform" on a relative basis — meaning they could still finish first while playing below their ceiling. R3 added Santiago Gimenez's injury-disrupted club season as a real concern for Mexico's attack. South Korea edges Czechia for second because of better squad depth, stronger recent tournament form at the World Cup group stage, and Son Heung-min remaining a genuinely dangerous outlet even at 34. Czechia were playoff qualifiers and carry physical threat through Schick but lack the depth to control games against two strong opponents. South Africa, absent from the World Cup since 2010 when they were hosts, face the steepest quality gap.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- GROUP B -->
+  <div class="ga-block" id="group-b">
+    <div class="ga-header">
+      <div class="ga-letter-big">B</div>
+      <div class="ga-header-right">
+        <div class="ga-title">Switzerland · Canada · Bosnia & Herzegovina · Qatar</div>
+        <div class="ga-meta">Jun 12–24 · Toronto, Vancouver, Santa Clara, Inglewood, Seattle</div>
+      </div>
+      <div class="ga-badge"><span class="badge badge-m">Medium Confidence</span></div>
+    </div>
+    <div class="ga-body">
+      <div class="ga-standings">
+        <div class="gs-head">Consensus Prediction</div>
+        <div class="gs-row"><div class="gs-pos pos1">1</div><div class="gs-flag">🇨🇭</div><div class="gs-info"><div class="gs-name">Switzerland</div><div class="gs-tag">6 consecutive WCs · Beat France, Italy</div></div><div class="gs-conf" style="color:var(--accent)">-125</div></div>
+        <div class="advance-line">⬡ Advance to Round of 32</div>
+        <div class="gs-row"><div class="gs-pos pos2">2</div><div class="gs-flag">🇨🇦</div><div class="gs-info"><div class="gs-name">Canada</div><div class="gs-tag">Home nation · Davies, David, Buchanan</div></div><div class="gs-conf">+200</div></div>
+        <div class="gs-row"><div class="gs-pos pos3">3</div><div class="gs-flag">🇧🇦</div><div class="gs-info"><div class="gs-name">Bosnia & Herzegovina</div><div class="gs-tag">Eliminated Italy in playoffs</div></div><div class="gs-conf">+500</div></div>
+        <div class="gs-row"><div class="gs-pos pos4">4</div><div class="gs-flag">🇶🇦</div><div class="gs-info"><div class="gs-name">Qatar</div><div class="gs-tag">0 wins at 2022 WC as hosts</div></div><div class="gs-conf">+3000</div></div>
+      </div>
+      <div class="ga-analysis">
+        <div class="analysis-section">
+          <div class="as-label">Intel Summary</div>
+          <div class="intel-row">
+            <div class="intel-item"><div class="il">Group Winner</div><div class="iv iv-g">Switzerland</div></div>
+            <div class="intel-item"><div class="il">Runner-Up</div><div class="iv iv-w">Canada</div></div>
+            <div class="intel-item"><div class="il">Dangerous 3rd</div><div class="iv">Bosnia</div></div>
+            <div class="intel-item"><div class="il">Likely to Underperform</div><div class="iv iv-r">Canada / Qatar</div></div>
+          </div>
+          <div class="consensus-call">All three sources predicted the identical table order. The medium confidence rating reflects not source disagreement but an acknowledged structural ambiguity — Switzerland and Canada are separated by tournament experience and tactical stability rather than a wide quality gap, and Canada's home games could narrow that gap further.</div>
+          <div class="no-conflict-box">✓ FULL CONSENSUS — Split concern: R1 and R3 flag Canada underperforming; R2 flags Canada as "most likely to underperform"</div>
+        </div>
+        <div class="analysis-section">
+          <div class="as-label">Synthesis Reasoning</div>
+          <p style="font-size:13px; line-height:1.75; color:#c8ccd4;">Switzerland is the most complete tournament team in this group — six consecutive World Cup appearances, a manager in Murat Yakin who knows how to navigate group stages, and the squad that eliminated France in 2021. Their ceiling might be lower than Canada's on a great day, but their floor is higher. Canada's home advantage in Toronto and Vancouver is real and meaningful: the Davies, Jonathan David, and Buchanan trio represents genuine attacking firepower, but R3 added a specific concern — Marcelo Flores' ACL injury during Concacaf Champions depletes their creative depth on the left. Canada's 2022 group-stage exit (zero points) remains a data point. Bosnia present the group's most interesting tactical wrinkle: they beat Italy in the playoffs and carry real technical quality in their midfield. R2 specifically called them a dangerous spoiler in any Canada vs Bosnia match. Qatar, who won zero games as hosts in 2022, are under Julen Lopetegui per R3's intelligence; regardless of manager, the quality gap is stark.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- GROUP C -->
+  <div class="ga-block" id="group-c">
+    <div class="ga-header">
+      <div class="ga-letter-big">C</div>
+      <div class="ga-header-right">
+        <div class="ga-title">Brazil · Morocco · Scotland · Haiti</div>
+        <div class="ga-meta">Jun 13–24 · MetLife, Gillette, Mercedes-Benz · Trap Game Opener Jun 13</div>
+      </div>
+      <div class="ga-badge"><span class="badge badge-h">High Confidence</span></div>
+    </div>
+    <div class="ga-body">
+      <div class="ga-standings">
+        <div class="gs-head">Consensus Prediction</div>
+        <div class="gs-row"><div class="gs-pos pos1">1</div><div class="gs-flag">🇧🇷</div><div class="gs-info"><div class="gs-name">Brazil</div><div class="gs-tag">Ancelotti · Vinicius, Raphinha · Neymar fitness Q</div></div><div class="gs-conf" style="color:var(--accent)">-350</div></div>
+        <div class="advance-line">⬡ Advance to Round of 32</div>
+        <div class="gs-row"><div class="gs-pos pos2">2</div><div class="gs-flag">🇲🇦</div><div class="gs-info"><div class="gs-name">Morocco</div><div class="gs-tag">Coach: Ouahbi (not Regragui) · Hakimi, Diaz</div></div><div class="gs-conf">+400</div></div>
+        <div class="gs-row"><div class="gs-pos pos3">3</div><div class="gs-flag">🏴󠁧󠁢󠁳󠁣󠁴󠁿</div><div class="gs-info"><div class="gs-name">Scotland</div><div class="gs-tag">Set-piece threat · Clarke structure</div></div><div class="gs-conf">+1000</div></div>
+        <div class="gs-row"><div class="gs-pos pos4">4</div><div class="gs-flag">🇭🇹</div><div class="gs-info"><div class="gs-name">Haiti</div><div class="gs-tag">Beat New Zealand in warm-up · Still heavy underdogs</div></div><div class="gs-conf">+12000</div></div>
+      </div>
+      <div class="ga-analysis">
+        <div class="analysis-section">
+          <div class="as-label">Intel Summary</div>
+          <div class="intel-row">
+            <div class="intel-item"><div class="il">Group Winner</div><div class="iv iv-g">Brazil</div></div>
+            <div class="intel-item"><div class="il">Runner-Up</div><div class="iv iv-w">Morocco</div></div>
+            <div class="intel-item"><div class="il">Dangerous 3rd</div><div class="iv">Scotland</div></div>
+            <div class="intel-item"><div class="il">Likely to Underperform</div><div class="iv iv-r">Brazil (pressure)</div></div>
+          </div>
+          <div class="consensus-call">All three sources predicted Brazil first, Morocco second, Scotland third, Haiti fourth. However, R3 contained a notable factual error: it described Morocco as still operating under Walid Regragui. Regragui resigned following the 2025 AFCON controversy and was replaced by Mohamed Ouahbi. This matters tactically because Ouahbi favours a more attacking style than Regragui's ultra-compact 5-4-1. Brazil are also listed as the group's "most likely to underperform" by two of three sources, despite being the favourite — a signal that pressure and squad disruption are real factors.</div>
+          <div class="conflict-box" style="margin-top:12px;">
+            <div class="cb-title">⚠ Factual Correction — R3</div>
+            <div class="cb-body">R3 states Morocco are managed by Walid Regragui. This is incorrect. Regragui resigned after a controversy at the 2025 AFCON final, and was replaced by Mohamed Ouahbi, who previously led Morocco's youth setup. This changes the tactical framing of Group C — Ouahbi's style introduces more attacking ambition than Regragui's ultra-defensive shape, which may affect Morocco's goal difference but also their vulnerability to Brazil's transitions.</div>
+          </div>
+        </div>
+        <div class="analysis-section">
+          <div class="as-label">Synthesis Reasoning</div>
+          <p style="font-size:13px; line-height:1.75; color:#c8ccd4;">Brazil open against Morocco at MetLife on June 13 — by far the group's defining fixture. The opening result will shape everything that follows. Brazil are without Rodrygo and Estevão through injury; Neymar is back in the squad but his fitness is genuinely uncertain after 2.5 years away; and Ancelotti has had limited time to impose a cohesive system on a squad he's only managed since late 2025. That said, Vinicius Jr. and Raphinha represent a wide-attack combination capable of breaking any defensive structure, and Guimarães-Casemiro in midfield is one of the most experienced double-pivot pairings at the tournament. Morocco are built to beat exactly this type of opponent — compact shape, Hakimi's overlapping runs as a release valve, Brahim Diaz picking pockets between the lines. Scotland's value is not in finishing second — it's in accumulating points against Morocco and Haiti that could put them in the top eight third-place qualifiers. R2 was the most direct in making Scotland "the most interesting third-place team" story in the tournament alongside Senegal.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- GROUP D -->
+  <div class="ga-block" id="group-d">
+    <div class="ga-header">
+      <div class="ga-letter-big">D</div>
+      <div class="ga-header-right">
+        <div class="ga-title">Türkiye · USA · Australia · Paraguay</div>
+        <div class="ga-meta">Jun 13–26 · Vancouver, San Francisco, Los Angeles, Kansas City · FID Analytical Override</div>
+      </div>
+      <div class="ga-badge"><span class="badge badge-m">Medium Confidence</span></div>
+    </div>
+    <div class="ga-body">
+      <div class="ga-standings">
+        <div class="gs-head">FID Prediction</div>
+        <div class="gs-row"><div class="gs-pos pos1">1</div><div class="gs-flag">🇹🇷</div><div class="gs-info"><div class="gs-name">Türkiye</div><div class="gs-tag">Guler (Real Madrid) · Yildiz (Juventus) · Calhanoglu (Inter captain)</div></div><div class="gs-conf" style="color:var(--accent)">FID Pick</div></div>
+        <div class="advance-line">⬡ Advance to Round of 32</div>
+        <div class="gs-row"><div class="gs-pos pos2">2</div><div class="gs-flag">🇺🇸</div><div class="gs-info"><div class="gs-name">USA</div><div class="gs-tag">Host · Pulisic, McKennie, Adams · SoFi decider Jun 26</div></div><div class="gs-conf">+130</div></div>
+        <div class="gs-row"><div class="gs-pos pos3">3</div><div class="gs-flag">🇦🇺</div><div class="gs-info"><div class="gs-name">Australia</div><div class="gs-tag">2022 R16 pedigree · Leckie, Irvine</div></div><div class="gs-conf" style="color:var(--orange)">+900 ⬡</div></div>
+        <div class="gs-row"><div class="gs-pos pos4">4</div><div class="gs-flag">🇵🇾</div><div class="gs-info"><div class="gs-name">Paraguay</div><div class="gs-tag">CONMEBOL qualifier · Physical but limited</div></div><div class="gs-conf" style="color:var(--orange)">+350 ⬡</div></div>
+      </div>
+      <div class="ga-analysis">
+        <div class="analysis-section">
+          <div class="as-label">Intel Summary</div>
+          <div class="intel-row">
+            <div class="intel-item"><div class="il">Group Winner</div><div class="iv iv-g">Türkiye</div></div>
+            <div class="intel-item"><div class="il">Runner-Up</div><div class="iv iv-w">USA</div></div>
+            <div class="intel-item"><div class="il">Dangerous 3rd</div><div class="iv">Australia / Paraguay</div></div>
+            <div class="intel-item"><div class="il">Likely to Underperform</div><div class="iv iv-r">USA (pressure)</div></div>
+          </div>
+          <div class="conflict-box">
+            <div class="cb-title">⚠ Source Conflict: 1st & 2nd Place — FID Analytical Override</div>
+            <div class="cb-body"><strong>R2 + R3:</strong> USA 1st, Türkiye 2nd — citing USA's home advantage at SoFi Stadium, the psychological benefit of a partisan crowd, and the structural edge of a host nation in decisive group fixtures.<br><br><strong>R1 (FID Override):</strong> Türkiye 1st, USA 2nd — the case rests entirely on squad quality. Arda Guler at Real Madrid, Kenan Yildiz breaking through at Juventus, Hakan Calhanoglu captaining Inter Milan: this is not a collection of players punching above their domestic level. This is a squad built on genuine European elite-level pedigree. The USMNT's core — Pulisic, McKennie, Adams — are quality players operating at a measurably different club tier. Home advantage matters most when teams are evenly matched. When the quality differential is this clear, environment tilts outcomes rather than determines them. The additional signal: every source simultaneously labelled USA the group favourite and the tournament's most likely Pot 1 underperformer. That contradiction resolves in Turkey's favour.<br><br><strong>Resolution:</strong> FID analytical override — Türkiye 1st. The 2-of-3 majority (R2+R3) is noted and acknowledged. The override is applied on the basis of the squad quality differential and the analytical contradiction embedded in the USA dual-label. If Turkey arrive at the June 26 SoFi fixture having beaten Paraguay and Australia, the crowd becomes atmosphere rather than leverage.</div>
+          </div>
+          <div class="conflict-box" style="margin-top:10px;">
+            <div class="cb-title">⚠ Secondary Conflict: 3rd & 4th Place</div>
+            <div class="cb-body"><strong>R1 + R3:</strong> Australia 3rd, Paraguay 4th — based on Australia's 2022 Round of 16 pedigree and organized defensive structure.<br><br><strong>R2:</strong> Paraguay 3rd, Australia 4th — citing CONMEBOL edge and compact aggression.<br><br><strong>Resolution:</strong> Australia 3rd (2–1). Their 2022 tournament run, organized defensive block, and transitional threat give them the structural edge. Both remain viable third-place qualifiers in the broader bracket.</div>
+          </div>
+        </div>
+        <div class="analysis-section">
+          <div class="as-label">Synthesis Reasoning</div>
+          <p style="font-size:13px; line-height:1.75; color:#c8ccd4;">This is the group where FID's analytical position diverges from the broader source consensus — and the reasoning is direct. Turkey's squad quality, assessed objectively, is superior to the USMNT's. Arda Guler is the Champions League's most dangerous young creative player, operating at Real Madrid's level week to week. Kenan Yildiz has broken through at Juventus as a genuine match-winner, not a promising project. Hakan Calhanoglu captains Inter Milan, one of the most tactically sophisticated clubs in Europe across the past two seasons. This is not a collection of individual talents performing above their domestic ceiling — this is a squad grounded in genuine European elite-level pedigree. The USMNT's core — Pulisic, McKennie, Adams — are quality players, but they represent a different tier of club football. The gap is measurable, not just impressionistic. R3 identified USA's structural weakness directly: a 5-2 warm-up loss to Belgium exposed what happens when their transition shape breaks down against a technically superior side applying positional pressure. Turkey, under Vincenzo Montella, are precisely the type of opponent built to exploit those channels. R2 called USA "the most vulnerable Pot 1 seed" in the tournament — and still picked them first. That contradiction is the sharpest analytical signal in this group, and it points one way. Home advantage at SoFi on June 26 is real, but it is decisive when teams are evenly matched. Turkey beat Paraguay and Australia first — straightforward given the squad comparison — and arrive at SoFi needing only a draw or already through. At that point, the atmosphere in Inglewood is noise. The 3rd/4th contest between Australia and Paraguay is secondary but genuine: Australia's 2022 run gives them the structural edge, though Paraguay as a third-place qualifier cannot be dismissed.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- GROUP E -->
+  <div class="ga-block" id="group-e">
+    <div class="ga-header">
+      <div class="ga-letter-big">E</div>
+      <div class="ga-header-right">
+        <div class="ga-title">Germany · Ecuador · Ivory Coast · Curaçao</div>
+        <div class="ga-meta">Jun 13–25 · Dallas, Houston, Atlanta, Boston · Most Straightforward Group</div>
+      </div>
+      <div class="ga-badge"><span class="badge badge-h">High Confidence</span></div>
+    </div>
+    <div class="ga-body">
+      <div class="ga-standings">
+        <div class="gs-head">Consensus Prediction</div>
+        <div class="gs-row"><div class="gs-pos pos1">1</div><div class="gs-flag">🇩🇪</div><div class="gs-info"><div class="gs-name">Germany</div><div class="gs-tag">Musiala fit · Wirtz · Nagelsmann settled system</div></div><div class="gs-conf" style="color:var(--accent)">-250</div></div>
+        <div class="advance-line">⬡ Advance to Round of 32</div>
+        <div class="gs-row"><div class="gs-pos pos2">2</div><div class="gs-flag">🇪🇨</div><div class="gs-info"><div class="gs-name">Ecuador</div><div class="gs-tag">Caicedo, Pacho, Hincapié · 5 goals conceded qualifying</div></div><div class="gs-conf">+370</div></div>
+        <div class="gs-row"><div class="gs-pos pos3">3</div><div class="gs-flag">🇨🇮</div><div class="gs-info"><div class="gs-name">Ivory Coast</div><div class="gs-tag">AFCON 2023 winners · Amad Diallo pacy transition</div></div><div class="gs-conf">+600</div></div>
+        <div class="gs-row"><div class="gs-pos pos4">4</div><div class="gs-flag">🇨🇼</div><div class="gs-info"><div class="gs-name">Curaçao</div><div class="gs-tag">Historic WC debut · Dick Advocaat (coach, per R3)</div></div><div class="gs-conf">+12000</div></div>
+      </div>
+      <div class="ga-analysis">
+        <div class="analysis-section">
+          <div class="as-label">Intel Summary</div>
+          <div class="intel-row">
+            <div class="intel-item"><div class="il">Group Winner</div><div class="iv iv-g">Germany</div></div>
+            <div class="intel-item"><div class="il">Runner-Up</div><div class="iv iv-w">Ecuador</div></div>
+            <div class="intel-item"><div class="il">Dangerous 3rd</div><div class="iv">Ivory Coast</div></div>
+            <div class="intel-item"><div class="il">Likely to Underperform</div><div class="iv iv-r">Ivory Coast</div></div>
+          </div>
+          <div class="consensus-call">Complete three-way consensus — identical table order. The rating reflects the genuineness of Ecuador's defensive credentials (5 goals conceded in 18 qualifying games, per R3) and Ivory Coast's attacking talent, which makes this more than a one-team group. Germany's dominance is not in question — it's the width of the gap that provides nuance.</div>
+          <div class="no-conflict-box">✓ FULL CONSENSUS — Ivory Coast listed as both "dangerous 3rd" and "most likely to underperform" by all three reports, a paradox reflecting their talent-vs-consistency split</div>
+        </div>
+        <div class="analysis-section">
+          <div class="as-label">Synthesis Reasoning</div>
+          <p style="font-size:13px; line-height:1.75; color:#c8ccd4;">Germany's draw is about as favorable as a top-seeded team could ask for. Julian Nagelsmann has had 18 months of competitive rhythm to implement his system, Jamal Musiala is back from injury, and Florian Wirtz arrives off arguably the best Bundesliga individual season of 2025/26. All three reports rated Germany's -250 price as reflecting genuine dominance, not just ranking. Ecuador is the most analytically interesting second-place pick in the tournament: R3 specifically cited their conceding of only five qualifying goals across 18 matches, with a backline of Willian Pacho, Piero Hincapié, and Moisés Caicedo shielding the pivot. Ivory Coast are a frustrating team to analyze — AFCON 2023 champions with genuine attacking talent in Amad Diallo, but a defensive structure that leaks against organized sides. R1 and R3 both flagged them as both "dangerous" and "most likely to underperform" — a contradiction that captures their volatility. Curaçao's World Cup debut is a great story; the margin against these three opponents will be significant.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- GROUP F -->
+  <div class="ga-block" id="group-f">
+    <div class="ga-header">
+      <div class="ga-letter-big">F</div>
+      <div class="ga-header-right">
+        <div class="ga-title">Netherlands · Japan · Sweden · Tunisia</div>
+        <div class="ga-meta">Jun 14–25 · SoFi, Seattle, Miami · Japan Upset Watch · Viktor Gyökeres Factor</div>
+      </div>
+      <div class="ga-badge"><span class="badge badge-m">Medium Confidence</span></div>
+    </div>
+    <div class="ga-body">
+      <div class="ga-standings">
+        <div class="gs-head">Consensus Prediction</div>
+        <div class="gs-row"><div class="gs-pos pos1">1</div><div class="gs-flag">🇳🇱</div><div class="gs-info"><div class="gs-name">Netherlands</div><div class="gs-tag">Van Dijk, Dumfries · Xavi Simons absent</div></div><div class="gs-conf" style="color:var(--accent)">-125</div></div>
+        <div class="advance-line">⬡ Advance to Round of 32</div>
+        <div class="gs-row"><div class="gs-pos pos2">2</div><div class="gs-flag">🇯🇵</div><div class="gs-info"><div class="gs-name">Japan</div><div class="gs-tag">Bundesliga core · Elite pressing sync</div></div><div class="gs-conf">+275</div></div>
+        <div class="gs-row"><div class="gs-pos pos3">3</div><div class="gs-flag">🇸🇪</div><div class="gs-info"><div class="gs-name">Sweden</div><div class="gs-tag">Potter's 5-3-2 · Gyökeres world-class form</div></div><div class="gs-conf">+450</div></div>
+        <div class="gs-row"><div class="gs-pos pos4">4</div><div class="gs-flag">🇹🇳</div><div class="gs-info"><div class="gs-name">Tunisia</div><div class="gs-tag">Compact but limited goal threat</div></div><div class="gs-conf">+1200</div></div>
+      </div>
+      <div class="ga-analysis">
+        <div class="analysis-section">
+          <div class="as-label">Intel Summary</div>
+          <div class="intel-row">
+            <div class="intel-item"><div class="il">Group Winner</div><div class="iv iv-w">Netherlands (narrow)</div></div>
+            <div class="intel-item"><div class="il">Runner-Up</div><div class="iv iv-w">Japan</div></div>
+            <div class="intel-item"><div class="il">Dangerous 3rd</div><div class="iv">Sweden</div></div>
+            <div class="intel-item"><div class="il">Likely to Underperform</div><div class="iv iv-r">Netherlands</div></div>
+          </div>
+          <div class="consensus-call">All three reports agreed on the identical order, though R2 added the sharpest note: Netherlands are both the group winner pick and the team most likely to underperform relative to expectations. R3 provided the most detailed case for Sweden, citing Graham Potter's 5-3-2 and Viktor Gyökeres' world-class finishing as a genuine threat not just to Tunisia but to any team in the group. R2 made the bold call that "Japan second in Group F is no longer a dark-horse pick" — signalling how much the football world now respects Japan's tactical maturity.</div>
+          <div class="no-conflict-box">✓ FULL CONSENSUS — Medium confidence due to Netherlands' acknowledged vulnerability, not source disagreement</div>
+        </div>
+        <div class="analysis-section">
+          <div class="as-label">Synthesis Reasoning</div>
+          <p style="font-size:13px; line-height:1.75; color:#c8ccd4;">The Netherlands is the most debated "safe favourite" prediction in the tournament. All three sources picked them first, but all three also listed them as the group's most likely underperformer. The Xavi Simons injury removes their best creative outlet; without him, Koeman's attack is far more reliant on Van Dijk's aerial threat from set pieces and wide combinations. Japan's Bundesliga-heavy squad — many of whom are used to tempo, pressing, and physicality — are now a genuine top-15 international team, not merely a tactical curiosity. Japan vs Netherlands (likely a deciding group fixture) is one of the most analytically fascinating match-ups of the group stage. Sweden is an underappreciated story: Graham Potter's setup is designed for exactly this kind of short-format tournament football — a 5-3-2 that concedes space, traps opponents, and Gyökeres finishes the chances that result. Sweden as a third-place qualifier is one of the most defensible "outside" picks in the tournament. Tunisia will frustrate but cannot generate enough to trouble these three sides.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- GROUP G -->
+  <div class="ga-block" id="group-g">
+    <div class="ga-header">
+      <div class="ga-letter-big">G</div>
+      <div class="ga-header-right">
+        <div class="ga-title">Belgium · Egypt · Iran · New Zealand</div>
+        <div class="ga-meta">Jun 14–25 · Kansas City, Boston, Dallas · Belgium Implosion Watch · Salah's Last WC</div>
+      </div>
+      <div class="ga-badge"><span class="badge badge-m">Medium Confidence</span></div>
+    </div>
+    <div class="ga-body">
+      <div class="ga-standings">
+        <div class="gs-head">Consensus Prediction</div>
+        <div class="gs-row"><div class="gs-pos pos1">1</div><div class="gs-flag">🇧🇪</div><div class="gs-info"><div class="gs-name">Belgium</div><div class="gs-tag">Lukaku 90th goal in warm-up · Ageing core caveat</div></div><div class="gs-conf" style="color:var(--accent)">-220</div></div>
+        <div class="advance-line">⬡ Advance to Round of 32</div>
+        <div class="gs-row"><div class="gs-pos pos2">2</div><div class="gs-flag">🇪🇬</div><div class="gs-info"><div class="gs-name">Egypt</div><div class="gs-tag">Salah · Reduced club returns but still decisive</div></div><div class="gs-conf">+400</div></div>
+        <div class="gs-row"><div class="gs-pos pos3">3</div><div class="gs-flag">🇮🇷</div><div class="gs-info"><div class="gs-name">Iran</div><div class="gs-tag">Deep low-block · AFC tournament experience</div></div><div class="gs-conf">+650</div></div>
+        <div class="gs-row"><div class="gs-pos pos4">4</div><div class="gs-flag">🇳🇿</div><div class="gs-info"><div class="gs-name">New Zealand</div><div class="gs-tag">Chris Wood aerial · Defensive issues post-Haiti warm-up</div></div><div class="gs-conf">+1900</div></div>
+      </div>
+      <div class="ga-analysis">
+        <div class="analysis-section">
+          <div class="as-label">Intel Summary</div>
+          <div class="intel-row">
+            <div class="intel-item"><div class="il">Group Winner</div><div class="iv iv-w">Belgium</div></div>
+            <div class="intel-item"><div class="il">Runner-Up</div><div class="iv iv-w">Egypt</div></div>
+            <div class="intel-item"><div class="il">Dangerous 3rd</div><div class="iv">Iran</div></div>
+            <div class="intel-item"><div class="il">Likely to Underperform</div><div class="iv iv-r">Belgium</div></div>
+          </div>
+          <div class="consensus-call">Full three-way consensus on the predicted table, but Belgium is simultaneously the group winner and the "most likely to underperform" prediction across all three sources — a tension every analyst acknowledged. The Belgium concern is not new. They exited the 2022 group stage as favourites. That track record, combined with an ageing core, explains medium confidence despite a favourable draw.</div>
+          <div class="no-conflict-box">✓ FULL CONSENSUS — Belgium implosion risk is the shared analytical anxiety across all three reports</div>
+        </div>
+        <div class="analysis-section">
+          <div class="as-label">Synthesis Reasoning</div>
+          <p style="font-size:13px; line-height:1.75; color:#c8ccd4;">Belgium's "golden generation" window is almost certainly closed. De Bruyne is 35, and the squad is in a transitional period that has never quite arrived at the transition. What saves them here is the draw: Egypt's Salah has had a season of "diminishing returns" per the betting market analysis, New Zealand are defensively vulnerable, and Iran's low block will frustrate them but not beat them if Belgium's front line functions. R2 added a useful timing note: Lukaku scored his 90th career goal for Belgium in a 2-1 warm-up win over Croatia in early June — a useful fitness marker. Egypt's Salah factor remains real: R1 highlighted that even at reduced form, he can decide a match on a single moment in a group-stage context, which is different from sustained 90-minute dominance. Iran are the most underappreciated side in this group — tactically intelligent, experienced in narrow wins at Asian level, and capable of absorbing pressure in a way that makes them far more dangerous than the +650 odds imply. New Zealand's Chris Wood is a genuine aerial threat but the squad depth issue is severe.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- GROUP H -->
+  <div class="ga-block" id="group-h">
+    <div class="ga-header">
+      <div class="ga-letter-big">H</div>
+      <div class="ga-header-right">
+        <div class="ga-title">Spain · Uruguay · Cape Verde · Saudi Arabia</div>
+        <div class="ga-meta">Jun 15–26 · Atlanta, Guadalajara · Safest Group Winner · Yamal Race to Fitness</div>
+      </div>
+      <div class="ga-badge"><span class="badge badge-m">Medium Confidence</span></div>
+    </div>
+    <div class="ga-body">
+      <div class="ga-standings">
+        <div class="gs-head">Consensus Prediction</div>
+        <div class="gs-row"><div class="gs-pos pos1">1</div><div class="gs-flag">🇪🇸</div><div class="gs-info"><div class="gs-name">Spain</div><div class="gs-tag">Euro 2024 champions · Yamal + Williams expected fit by Jun 15</div></div><div class="gs-conf" style="color:var(--accent)">-450</div></div>
+        <div class="advance-line">⬡ Advance to Round of 32</div>
+        <div class="gs-row"><div class="gs-pos pos2">2</div><div class="gs-flag">🇺🇾</div><div class="gs-info"><div class="gs-name">Uruguay</div><div class="gs-tag">Valverde, Darwin Nuñez · Bielsa's vertical press</div></div><div class="gs-conf">+500</div></div>
+        <div class="gs-row"><div class="gs-pos pos3">3</div><div class="gs-flag">🇨🇻</div><div class="gs-info"><div class="gs-name">Cape Verde</div><div class="gs-tag">WC debut · Athletic counter-attack · European squad base</div></div><div class="gs-conf" style="color:var(--orange)">+3000 ⬡</div></div>
+        <div class="gs-row"><div class="gs-pos pos4">4</div><div class="gs-flag">🇸🇦</div><div class="gs-info"><div class="gs-name">Saudi Arabia</div><div class="gs-tag">Declined post-2022 shock · Renard structure but limited output</div></div><div class="gs-conf" style="color:var(--orange)">+2200 ⬡</div></div>
+      </div>
+      <div class="ga-analysis">
+        <div class="analysis-section">
+          <div class="as-label">Intel Summary</div>
+          <div class="intel-row">
+            <div class="intel-item"><div class="il">Group Winner</div><div class="iv iv-g">Spain</div></div>
+            <div class="intel-item"><div class="il">Runner-Up</div><div class="iv iv-w">Uruguay</div></div>
+            <div class="intel-item"><div class="il">Dangerous 3rd</div><div class="iv iv-p">Cape Verde (debate)</div></div>
+            <div class="intel-item"><div class="il">Likely to Underperform</div><div class="iv iv-r">Saudi Arabia</div></div>
+          </div>
+          <div class="conflict-box">
+            <div class="cb-title">⚠ Source Conflict: 3rd vs 4th Place</div>
+            <div class="cb-body"><strong>R1 + R3:</strong> Cape Verde 3rd, Saudi Arabia 4th — based on Saudi Arabia's visible post-2022 decline, loss of key players from that squad, and Cape Verde's debut energy with an organized European-based squad.<br><br><strong>R2:</strong> Saudi Arabia 3rd, Cape Verde 4th — reasoning that Saudi Arabia have more World Cup experience, a more organized defensive structure under Hervé Renard, and that Cape Verde as debutants will struggle against the Spain-Uruguay quality wall.<br><br><strong>Resolution:</strong> Cape Verde 3rd (2-1). The key swing factor: Saudi Arabia's squad quality has declined measurably since 2022. Their remarkable result against Argentina that year was driven by a Saudi group playing at home in specific conditions against an overconfident Argentina. None of those contextual advantages apply here. Cape Verde, with a largely European-based squad, represents better organized opposition for a third-place finish against Uruguay and Saudi Arabia's encounter.</div>
+          </div>
+        </div>
+        <div class="analysis-section">
+          <div class="as-label">Synthesis Reasoning</div>
+          <p style="font-size:13px; line-height:1.75; color:#c8ccd4;">Spain at -450 is the safest group winner prediction in the tournament — R2 and R1 both agreed on this, and R3 rated Argentina only marginally more "safe" due to group quality. Spain's draw is the lightest of the seeded sides: Cape Verde are a debut nation, Saudi Arabia have declined sharply, and Uruguay — while dangerous — are not at the level of Brazil or France as group opponents. Yamal and Nico Williams, both managing hamstring issues heading into the tournament, are expected fit for the June 15 opener per De la Fuente. The Fermin López fractured foot exclusion is notable, but the depth (Rodri, Pedri, Dani Olmo, Oyarzabal, Gavi) absorbs it. Uruguay under Bielsa's vertical pressing model are a genuine physical test — Valverde has had one of the best La Liga seasons in his career, and Darwin Nuñez brings physical directness that Spain's structured backs have historically found difficult. The Uruguay vs Spain match is the group's genuine contest; everything else is confirmation.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- GROUP I -->
+  <div class="ga-block" id="group-i">
+    <div class="ga-header">
+      <div class="ga-letter-big">I</div>
+      <div class="ga-header-right">
+        <div class="ga-title">France · Norway · Senegal · Iraq</div>
+        <div class="ga-meta">Jun 16–26 · MetLife, Philadelphia, Gillette · The Group of Death · Haaland's WC Debut</div>
+      </div>
+      <div class="ga-badge"><span class="badge badge-m">Medium Confidence</span></div>
+    </div>
+    <div class="ga-body">
+      <div class="ga-standings">
+        <div class="gs-head">Consensus Prediction</div>
+        <div class="gs-row"><div class="gs-pos pos1">1</div><div class="gs-flag">🇫🇷</div><div class="gs-info"><div class="gs-name">France</div><div class="gs-tag">Mbappe · Griezmann · Saliba fitness Q · Elite depth</div></div><div class="gs-conf" style="color:var(--accent)">-300</div></div>
+        <div class="advance-line">⬡ Advance to Round of 32</div>
+        <div class="gs-row"><div class="gs-pos pos2">2</div><div class="gs-flag">🇳🇴</div><div class="gs-info"><div class="gs-name">Norway</div><div class="gs-tag">HAALAND · First WC since 1998 · Ødegaard engine</div></div><div class="gs-conf">+400</div></div>
+        <div class="gs-row"><div class="gs-pos pos3">3</div><div class="gs-flag">🇸🇳</div><div class="gs-info"><div class="gs-name">Senegal</div><div class="gs-tag">Mané, Sarr · 2022 QF · Defensive tournament pedigree</div></div><div class="gs-conf">+650</div></div>
+        <div class="gs-row"><div class="gs-pos pos4">4</div><div class="gs-flag">🇮🇶</div><div class="gs-info"><div class="gs-name">Iraq</div><div class="gs-tag">AFC playoff qualifier · Debut tournament · Outmatched</div></div><div class="gs-conf">+5000</div></div>
+      </div>
+      <div class="ga-analysis">
+        <div class="analysis-section">
+          <div class="as-label">Intel Summary</div>
+          <div class="intel-row">
+            <div class="intel-item"><div class="il">Group Winner</div><div class="iv iv-g">France</div></div>
+            <div class="intel-item"><div class="il">Runner-Up</div><div class="iv iv-w">Norway</div></div>
+            <div class="intel-item"><div class="il">Dangerous 3rd</div><div class="iv">Senegal</div></div>
+            <div class="intel-item"><div class="il">Likely to Underperform</div><div class="iv iv-r">Norway (expectations)</div></div>
+          </div>
+          <div class="consensus-call">All three reports agreed on the identical order, though each assigned different confidence levels. R1 and R2 rated this "Low" confidence specifically because of the Norway/Senegal second-place battle being genuinely coin-flip territory. The consensus pick is Norway second, driven by Haaland's singular ability to manufacture a winning goal from limited opportunities. R3 specifically classified Senegal as "the most dangerous third-place team in the entire tournament."</div>
+          <div class="no-conflict-box">✓ FULL CONSENSUS ON TABLE ORDER — Medium confidence overall; Norway vs Senegal for second is the tournament's best sub-group debate</div>
+        </div>
+        <div class="analysis-section">
+          <div class="as-label">Synthesis Reasoning</div>
+          <p style="font-size:13px; line-height:1.75; color:#c8ccd4;">The Group of Death designation is accurate. France are the market favourites for the whole tournament and should top this group, but Saliba's fitness doubt behind the defensive line is the one structural concern. The France vs Senegal opener on June 16 is the marquee match of the opening round — and all three sources noted it as the market's key early signal. France carry enough attacking depth (Mbappe, Olise, Dembélé per R3; Griezmann and Camavinga as the deeper spine per R1) to survive an early stumble. The Norway second-place call is the report's most debated single prediction. Senegal are a more complete team as a unit — physical, organized, experienced, and with a 2022 quarter-final run to draw from. What tilts it to Norway is Haaland's singular goal-scoring ability: in tight matches where a single moment settles qualification, Haaland is the most reliable finisher at this tournament. Norway haven't been to a World Cup since 1998, but their squad around Haaland and Ødegaard is now legitimately competitive. Iraq, a debut qualifier via AFC, are tactically organized but face a quality gulf that will likely leave them without points.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- GROUP J -->
+  <div class="ga-block" id="group-j">
+    <div class="ga-header">
+      <div class="ga-letter-big">J</div>
+      <div class="ga-header-right">
+        <div class="ga-title">Argentina · Austria · Algeria · Jordan</div>
+        <div class="ga-meta">Jun 16–27 · Kansas City, Dallas · Messi's Sixth World Cup · Defending Champions</div>
+      </div>
+      <div class="ga-badge"><span class="badge badge-h">High Confidence</span></div>
+    </div>
+    <div class="ga-body">
+      <div class="ga-standings">
+        <div class="gs-head">Consensus Prediction</div>
+        <div class="gs-row"><div class="gs-pos pos1">1</div><div class="gs-flag">🇦🇷</div><div class="gs-info"><div class="gs-name">Argentina</div><div class="gs-tag">Defending champions · 17 of 2022 squad retained · Messi hamstring managed</div></div><div class="gs-conf" style="color:var(--accent)">-500</div></div>
+        <div class="advance-line">⬡ Advance to Round of 32</div>
+        <div class="gs-row"><div class="gs-pos pos2">2</div><div class="gs-flag">🇦🇹</div><div class="gs-info"><div class="gs-name">Austria</div><div class="gs-tag">Rangnick gegenpressing · Sabitzer, Laimer · UEFA group toppers</div></div><div class="gs-conf">+550</div></div>
+        <div class="gs-row"><div class="gs-pos pos3">3</div><div class="gs-flag">🇩🇿</div><div class="gs-info"><div class="gs-name">Algeria</div><div class="gs-tag">Mahrez, Amoura · Luca Zidane in goal · AFCON pedigree</div></div><div class="gs-conf">+700</div></div>
+        <div class="gs-row"><div class="gs-pos pos4">4</div><div class="gs-flag">🇯🇴</div><div class="gs-info"><div class="gs-name">Jordan</div><div class="gs-tag">WC debut · Al-Taamari dynamic · Outclassed in this field</div></div><div class="gs-conf">+6000</div></div>
+      </div>
+      <div class="ga-analysis">
+        <div class="analysis-section">
+          <div class="as-label">Intel Summary</div>
+          <div class="intel-row">
+            <div class="intel-item"><div class="il">Group Winner</div><div class="iv iv-g">Argentina</div></div>
+            <div class="intel-item"><div class="il">Runner-Up</div><div class="iv iv-w">Austria</div></div>
+            <div class="intel-item"><div class="il">Dangerous 3rd</div><div class="iv">Algeria</div></div>
+            <div class="intel-item"><div class="il">Likely to Underperform</div><div class="iv iv-r">Algeria</div></div>
+          </div>
+          <div class="consensus-call">Full three-way consensus on all four positions. R3 gave the deepest case for Austria, specifically citing Ralf Rangnick's gegenpressing model as "perfectly designed for the physical demands of short-format tournament football." R2 noted this is the tournament's cleanest three-game schedule for a defending champion — Algeria and Jordan are beatable even with Messi on managed minutes.</div>
+          <div class="no-conflict-box">✓ FULL CONSENSUS — Safest group by combined quality gap; Argentina virtually certain to progress as group winners</div>
+        </div>
+        <div class="analysis-section">
+          <div class="as-label">Synthesis Reasoning</div>
+          <p style="font-size:13px; line-height:1.75; color:#c8ccd4;">Argentina's situation is almost uniquely favourable: a manageable group draw, a squad that has retained the tactical identity and defensive mentality of the 2022 champions, and enough depth to win without Messi at full fitness. As of June 4, Messi is training individually with a hamstring issue but is expected for the June 16 opener against Algeria. Scaloni's system — a high-press mid-block built around Romero, Lisandro Martínez, and Emi Martinez's aggressiveness — does not depend on Messi's physical peak, which is why three separate analytical sources rated this group confidently. Austria are the most interesting second-place team in the tournament: Rangnick's gegenpressing at club level transformed RB Leipzig and RB Salzburg, and his Austria side topped their UEFA qualifying group. Sabitzer and Laimer give them a genuine midfield engine, and their pressing could actually discomfort a Messi-managed Argentina on a bad night. Algeria have Mahrez and enough talent to trouble Austria but their defensive inconsistency in transition gives Austria the edge. Jordan, debutants with Al-Taamari as their main creative threat, will struggle for goals against this level of opposition.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- GROUP K -->
+  <div class="ga-block" id="group-k">
+    <div class="ga-header">
+      <div class="ga-letter-big">K</div>
+      <div class="ga-header-right">
+        <div class="ga-title">Portugal · Colombia · DR Congo · Uzbekistan</div>
+        <div class="ga-meta">Jun 17–27 · Houston, Mexico City, Miami, Guadalajara · Ronaldo's Final WC</div>
+      </div>
+      <div class="ga-badge"><span class="badge badge-h">High Confidence</span></div>
+    </div>
+    <div class="ga-body">
+      <div class="ga-standings">
+        <div class="gs-head">Consensus Prediction</div>
+        <div class="gs-row"><div class="gs-pos pos1">1</div><div class="gs-flag">🇵🇹</div><div class="gs-info"><div class="gs-name">Portugal</div><div class="gs-tag">Nations League champions · Bernardo, Bruno F., Leão · Ronaldo 41</div></div><div class="gs-conf" style="color:var(--accent)">-300</div></div>
+        <div class="advance-line">⬡ Advance to Round of 32</div>
+        <div class="gs-row"><div class="gs-pos pos2">2</div><div class="gs-flag">🇨🇴</div><div class="gs-info"><div class="gs-name">Colombia</div><div class="gs-tag">Luis Diaz (Bayern Munich) · James Rodriguez (MLS) · CONMEBOL 3rd</div></div><div class="gs-conf">+350</div></div>
+        <div class="gs-row"><div class="gs-pos pos3">3</div><div class="gs-flag">🇨🇩</div><div class="gs-info"><div class="gs-name">DR Congo</div><div class="gs-tag">Physically powerful · Transition threat · CAF return</div></div><div class="gs-conf" style="color:var(--orange)">+1800 ⬡</div></div>
+        <div class="gs-row"><div class="gs-pos pos4">4</div><div class="gs-flag">🇺🇿</div><div class="gs-info"><div class="gs-name">Uzbekistan</div><div class="gs-tag">WC debut · Khusanov (Man City), Fayzullaev · Organized</div></div><div class="gs-conf" style="color:var(--orange)">+3000 ⬡</div></div>
+      </div>
+      <div class="ga-analysis">
+        <div class="analysis-section">
+          <div class="as-label">Intel Summary</div>
+          <div class="intel-row">
+            <div class="intel-item"><div class="il">Group Winner</div><div class="iv iv-g">Portugal</div></div>
+            <div class="intel-item"><div class="il">Runner-Up</div><div class="iv iv-w">Colombia</div></div>
+            <div class="intel-item"><div class="il">Dangerous 3rd</div><div class="iv iv-p">DR Congo</div></div>
+            <div class="intel-item"><div class="il">Likely to Underperform</div><div class="iv iv-r">Colombia</div></div>
+          </div>
+          <div class="conflict-box">
+            <div class="cb-title">⚠ Source Conflict: 3rd vs 4th Place</div>
+            <div class="cb-body"><strong>R1 + R2:</strong> DR Congo 3rd, Uzbekistan 4th — citing DR Congo's physical power and transition speed as attributes that translate better to short-format tournament football than Uzbekistan's organized but possession-limited approach.<br><br><strong>R3:</strong> Uzbekistan 3rd, DR Congo 4th — making the specific case for Uzbekistan's defensive organization, Manchester City defender Abdukodir Khusanov's quality, and Fayzullaev's creativity as factors that will earn more points across three games than DR Congo's more volatile transition-based threat.<br><br><strong>Resolution:</strong> DR Congo 3rd (2-1). The key argument: DR Congo's physical style and counter-attacking speed tends to generate more results in individual matches than Uzbekistan's steady but limited possession game. However, the Uzbekistan case is not weak — Khusanov at Man City and Fayzullaev's technical quality make them the more developed modern football side of the two debutants. This 3rd/4th split has the narrowest confidence margin of the three conflicts in this report.</div>
+          </div>
+        </div>
+        <div class="analysis-section">
+          <div class="as-label">Synthesis Reasoning</div>
+          <p style="font-size:13px; line-height:1.75; color:#c8ccd4;">Portugal are the reigning UEFA Nations League champions and carry the deepest squad they've assembled in a generation — Bernardo Silva, Bruno Fernandes, João Neves, Rafael Leão, and Pedro Neto give Roberto Martínez multiple attacking systems independent of Ronaldo. The crucial intelligence from R1's research: Portugal drew 0-0 with Mexico and beat the USA 2-0 in friendlies without Ronaldo, demonstrating tactical independence from their 41-year-old captain. Ronaldo will start; the question is how many minutes across three group games. Colombia are a genuinely dangerous second-place side — Luis Diaz now at Bayern Munich represents a tier-1 wide attacker, and James Rodriguez's experience (wherever he's playing) adds creative vision. Consecutive March friendly losses to Croatia and France raised real questions about Colombia's defensive structure, which is why all three sources also listed Colombia as "most likely to underperform." The Portugal vs Colombia fixture (June 27, closing matchday) is the group's defining match. Portugal need to be careful not to assume the group is won before it is — the R2 analysis specifically flagged the risk of Portugal's attack becoming "too Ronaldo-centric" at the cost of tactical balance.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- GROUP L -->
+  <div class="ga-block" id="group-l">
+    <div class="ga-header">
+      <div class="ga-letter-big">L</div>
+      <div class="ga-header-right">
+        <div class="ga-title">England · Croatia · Ghana · Panama</div>
+        <div class="ga-meta">Jun 17–27 · Dallas, Boston, MetLife · Tuchel's First WC · 60 Years of Hurt</div>
+      </div>
+      <div class="ga-badge"><span class="badge badge-h">High Confidence</span></div>
+    </div>
+    <div class="ga-body">
+      <div class="ga-standings">
+        <div class="gs-head">Consensus Prediction</div>
+        <div class="gs-row"><div class="gs-pos pos1">1</div><div class="gs-flag">🏴󠁧󠁢󠁥󠁮󠁧󠁿</div><div class="gs-info"><div class="gs-name">England</div><div class="gs-tag">Tuchel · Kane, Bellingham (No.10), Saka, Rashford</div></div><div class="gs-conf" style="color:var(--accent)">-200</div></div>
+        <div class="advance-line">⬡ Advance to Round of 32</div>
+        <div class="gs-row"><div class="gs-pos pos2">2</div><div class="gs-flag">🇭🇷</div><div class="gs-info"><div class="gs-name">Croatia</div><div class="gs-tag">Modric farewell · Gvardiol, Kovacic · Tactical intelligence</div></div><div class="gs-conf">+350</div></div>
+        <div class="gs-row"><div class="gs-pos pos3">3</div><div class="gs-flag">🇬🇭</div><div class="gs-info"><div class="gs-name">Ghana</div><div class="gs-tag">Kudus (West Ham) · Partey · Transition threat</div></div><div class="gs-conf">+900</div></div>
+        <div class="gs-row"><div class="gs-pos pos4">4</div><div class="gs-flag">🇵🇦</div><div class="gs-info"><div class="gs-name">Panama</div><div class="gs-tag">Physical CONCACAF qualifier · Limited attacking ceiling</div></div><div class="gs-conf">+3000</div></div>
+      </div>
+      <div class="ga-analysis">
+        <div class="analysis-section">
+          <div class="as-label">Intel Summary</div>
+          <div class="intel-row">
+            <div class="intel-item"><div class="il">Group Winner</div><div class="iv iv-w">England</div></div>
+            <div class="intel-item"><div class="il">Runner-Up</div><div class="iv iv-w">Croatia</div></div>
+            <div class="intel-item"><div class="il">Dangerous 3rd</div><div class="iv">Ghana</div></div>
+            <div class="intel-item"><div class="il">Likely to Underperform</div><div class="iv iv-r">Croatia / England</div></div>
+          </div>
+          <div class="consensus-call">Complete three-way consensus. All sources flagged two separate "most likely to underperform" answers — England relative to expectations, and Croatia relative to age. R2 was sharpest: listing Croatia as the team most likely to underperform, given the Modric farewell tour dynamic and ageing legs over three physically demanding group games. Tuchel's England squad is deeper than any Southgate era selection, but the controversial omissions (Foden, Palmer, Alexander-Arnold) introduce genuine selection debate.</div>
+          <div class="no-conflict-box">✓ FULL CONSENSUS — High confidence; England's superior depth and Croatia's age are the key variables, not the table order</div>
+        </div>
+        <div class="analysis-section">
+          <div class="as-label">Synthesis Reasoning</div>
+          <p style="font-size:13px; line-height:1.75; color:#c8ccd4;">England's opener against Croatia on June 17 in Dallas is the defining fixture of Group L, echoing the 2018 semi-final heartbreak. Croatia beat England 2-1 after extra time in Moscow; England beat them in Euro 2020's group stage. The head-to-head is exactly balanced, which is why all three sources gave Group L a cautious qualifier despite England's -200 odds. Tuchel's selection has generated controversy — Foden, Palmer, and Alexander-Arnold are absent; Bellingham gets the No.10 shirt; Rashford takes the No.11 — but the squad is materially deeper than previous cycles. Kane remains the most reliable penalty-box striker in the tournament. Croatia's tactical intelligence under their coaching staff makes them dangerous for exactly three tight group games; the concern is whether the physical demands of Dallas's heat and three short-rest cycles expose the age in their squad (Modric is 40). Ghana with Kudus and Partey can create chaos in open games — if Croatia and England cancel each other out in the opener, Ghana vs Panama suddenly matters enormously. Panama are disciplined and compact but their offensive ceiling is limited.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div><!-- end groups wrapper -->
+
+<!-- META VERDICTS -->
+<section class="section" id="verdicts" style="background: linear-gradient(180deg, #080a0d 0%, #0d101a 100%);">
+  <div class="section-title">Consensus Verdicts</div>
+  <div class="section-sub">Five calls synthesized across all three reports — with conflict resolution where sources diverged</div>
+
+  <div class="verdict-grid">
+    <div class="verdict-card" style="border-top: 3px solid var(--accent3);">
+      <div class="vc-label">Safest Group Winner</div>
+      <div class="vc-value" style="color:var(--accent3);">🇪🇸 Spain · Group H</div>
+      <div class="vc-desc">Tournament-favourite pricing. Euro 2024 and Nations League champion. Lightest draw of any seeded team. Yamal and Nico Williams expected fit by June 15 opener. The squad — Rodri, Pedri, Dani Olmo, Bernardo, Oyarzabal — absorbs the injury absentees.</div>
+      <div class="vc-conflict">SOURCES: R1 = Spain ✓ R2 = Spain ✓ R3 = Argentina<br>Resolved: Spain 2-1. R3 argued Argentina's group draw gives higher certainty — a defensible view, but Spain's -450 price reflects superior squad quality and depth advantage over Group J's competition.</div>
+    </div>
+    <div class="verdict-card" style="border-top: 3px solid var(--accent2);">
+      <div class="vc-label">Most Vulnerable Group Winner</div>
+      <div class="vc-value" style="color:var(--accent2);">🇺🇸 USA · Group D</div>
+      <div class="vc-desc">Thin centre-back corps. Home advantage is the primary edge, not squad quality. Turkey's technical ceiling (Guler, Yildiz, Calhanoglu) may exceed the USMNT's. A defensive breakdown against Turkey in the decider is genuinely plausible.</div>
+      <div class="vc-conflict">SOURCES: R1 = Belgium ✓ R2 = USA ✓ R3 = USA<br>Resolved: USA 2-1. Belgium was R1's pick based on 2022 group exit history — a strong second answer. Belgium's implosion risk is real but a different type of vulnerability (expectations vs. quality gap).</div>
+    </div>
+    <div class="verdict-card" style="border-top: 3px solid var(--gold);">
+      <div class="vc-label">Hardest Group to Predict</div>
+      <div class="vc-value" style="color:var(--gold);">⚡ Group D</div>
+      <div class="vc-desc">USA and Turkey separated by home crowd alone. Paraguay at +350 for group win suggests a CONMEBOL pedigree the odds respect. Australia's 2022 form adds a fourth live element. All four positions genuinely uncertain.</div>
+      <div class="vc-conflict">SOURCES: R1 = Group D ✓ R2 = Group D ✓ R3 = Group I<br>Resolved: Group D 2-1. R3 nominated Group I (France/Norway/Senegal all elite) — a valid case for "most dangerous for favorites." Group D is harder to predict in terms of final standings; Group I is more dangerous for a seeded team to exit. Both are correct for different reasons.</div>
+    </div>
+  </div>
+
+  <div class="verdict-grid" style="grid-template-columns: 1fr 1fr; margin-top: 14px;">
+    <div class="verdict-card" style="border-top: 3px solid var(--purple);">
+      <div class="vc-label">Most Likely "Big Name" to Finish Second</div>
+      <div class="vc-value" style="color:var(--purple);">🇺🇾 Uruguay · Group H</div>
+      <div class="vc-desc">Valverde at his Real Madrid peak. Darwin Nuñez's physical directness. Bielsa's intense vertical pressing system. Uruguay will push Spain harder than the odds imply — but Spain's collective depth in every line is too much to overcome for first place. A deeply dangerous runner-up for the knockout bracket.</div>
+      <div class="vc-conflict">SOURCES: R1 = Uruguay ✓ R2 = Uruguay ✓ R3 = Uruguay ✓<br>Three-way consensus — no conflict to resolve.</div>
+    </div>
+    <div class="verdict-card" style="border-top: 3px solid var(--orange);">
+      <div class="vc-label">Most Likely Third-Place Qualifier</div>
+      <div class="vc-value" style="color:var(--orange);">Three-Way Split — All Credible</div>
+      <div class="vc-desc">R1: Scotland (Group C) — organized, set-piece capable, can beat Haiti and Morocco draw.<br>R2: Senegal (Group I) — physically dominant, tournament-tested, dangerous through the bracket.<br>R3: Sweden (Group F) — Potter's 5-3-2 + Gyökeres clinical form = ideal third-place profile.<br><br>All three are viable. Senegal is the most cited as advancing deep into the knockout rounds if they qualify third.</div>
+      <div class="vc-conflict">SOURCES: Three-way split. No majority. All three arguments are analytically sound — this is one to present as an open question for audience engagement.</div>
+    </div>
+  </div>
+</section>
+
+<!-- BOLD CALL -->
+<section class="section" style="background: rgba(255,77,77,0.02);">
+  <div class="section-title" style="color:var(--accent2)">The FID Call</div>
+  <div class="section-sub">FID's pre-tournament position — calling it before the ball is kicked, diverging from the broader consensus</div>
+  <div class="bold-call-block">
+    <div class="bc-kicker">Primary FID Call — Analytical Override · Pre-Tournament Position</div>
+    <div class="bc-title">🇹🇷 Türkiye Wins Group D — We're Calling It</div>
+    <div class="bc-body">This is not a hedge or a secondary observation. This is FID's primary position on Group D: Turkey top this group ahead of the USA. The broader analytical consensus had USA first — home advantage, largest crowd of the group stage, host nation momentum. We disagree, and we're saying it clearly before a ball is kicked. Turkey's technical ceiling — Arda Guler at Real Madrid, Kenan Yildiz at Juventus, Hakan Calhanoglu captaining Inter — objectively exceeds the USMNT's in open play. The analytical data underlines it: R3 identified that USA's transition shape breaks down against exactly the type of high-tempo, positionally intelligent side Turkey represent, citing a 5-2 warm-up loss to Belgium as the evidence. Every source simultaneously called USA the group favourite and the tournament's most likely Pot 1 underperformer. A team cannot hold both labels without one of them being wrong. The decider is June 26 at SoFi Stadium in Inglewood. If Turkey arrive at that fixture having beaten Paraguay and Australia — which is not a stretch given the squad comparison — the atmosphere becomes irrelevant. We expect them to. FID is on Turkey.</div>
+  </div>
+  <div class="bold-call-block" style="border-color: var(--purple); background: rgba(167,139,250,0.03); margin-top:12px;">
+    <div class="bc-kicker">Secondary Bold Call from R2 · Strong analytical support</div>
+    <div class="bc-title">🇯🇵 Japan Finishes Above Netherlands in Group F</div>
+    <div class="bc-body">R2 explicitly made this the group's "Biggest Debate Point." Japan's tactical maturity — synchronised pressing, rapid transitions, Bundesliga-based technical skill — has evolved to the point where they are no longer a dark-horse team. Xavi Simons' injury depletes Netherlands' best creative outlet. If Japan take points from Sweden and hit Netherlands in their first encounter, a group inversion is genuinely possible. The Japan vs Netherlands fixture is R1's pick for the most tactically compelling match of the first round.</div>
+  </div>
+</section>
+
+<!-- DEBATE SECTION -->
+<section class="section" id="debate">
+  <div class="section-title">5 Biggest Social Media Debate Points</div>
+  <div class="section-sub">Synthesized from all three reports · The calls that will generate the most pushback</div>
+  <div class="debate-list">
+
+    <div class="debate-item">
+      <div class="di-num">01</div>
+      <div class="di-body">
+        <div class="di-title">Turkey Top Group D: Technical Ceiling Settles It</div>
+        <div class="di-text">FID's primary Group D call is Turkey first — a position that diverges from the majority source consensus and will generate the most pushback of any prediction in this report. The case is not built on sentiment or contrarianism. Arda Guler, Kenan Yildiz, and Hakan Calhanoglu represent a technical tier the USMNT cannot match in open play. USA's home advantage at SoFi is real — but its impact is most decisive when teams are closely matched, and this group is not closely matched at the squad quality level. The more important signal: every analytical source simultaneously labelled USA the group favourite and the tournament's most likely Pot 1 underperformer. A team cannot hold both labels without one of them being accurate. Turkey's path is clean — beat Paraguay, beat Australia, arrive at SoFi on June 26 with leverage rather than desperation. At that point, the crowd is atmosphere, not a game-changer. FID is on Turkey first. Come back to this debate point after June 26.</div>
+      </div>
+    </div>
+
+    <div class="debate-item">
+      <div class="di-num">02</div>
+      <div class="di-body">
+        <div class="di-title">Norway Second Above Senegal: Haaland vs Tournament Pedigree</div>
+        <div class="di-text">The Norway-Senegal second-place battle in Group I split R1 and R2 from a market-confidence perspective. Senegal are the more complete team: physical, experienced, 2022 quarter-finalists, defensively organized, with Mané and Sarr providing class up front. Norway have one player (Haaland) capable of winning a tight match in a single moment that Senegal cannot replicate. R3 went further, calling Senegal "the most dangerous third-place team in the entire tournament" — effectively saying: predicting Norway second is right, but if Senegal qualifies third, they'll still go deep in the bracket. This distinction matters enormously for prediction contests.</div>
+      </div>
+    </div>
+
+    <div class="debate-item">
+      <div class="di-num">03</div>
+      <div class="di-body">
+        <div class="di-title">Belgium: Still the Most Likely Top-Seed to Exit at the Group Stage</div>
+        <div class="di-text">All three sources picked Belgium first in Group G. All three sources also listed Belgium as the group's "most likely to underperform." This contradiction — present in every analytical report about Belgium since 2018 — has now been repeated twice successfully at a World Cup (2022 exit) and once unsuccessfully (2018 third place). The 2025 data point: Lukaku scored his 90th international goal in a warm-up win over Croatia in early June — a form signal that leans positive. But De Bruyne at 35, an ageing core, and the exact same cautionary narrative playing out since Qatar 2022 means this debate never dies. Belgium are the tournament's most emotionally exhausting prediction to make.</div>
+      </div>
+    </div>
+
+    <div class="debate-item">
+      <div class="di-num">04</div>
+      <div class="di-body">
+        <div class="di-title">Morocco Opens Against Brazil: The Most Dangerous Opening-Day Fixture</div>
+        <div class="di-text">The June 13 fixture at MetLife is the single group-stage match most likely to scramble a group prediction. Brazil are without Rodrygo and Estevão, Neymar's fitness is genuinely unclear, and Ancelotti has had limited time to embed a cohesive system. Morocco, even under new coach Ouahbi (correcting R3's error of listing Regragui), retain the defensive identity that eliminated Spain and Portugal in 2022. If Morocco win that match, Brazil spend three weeks in "recovery mode" while Scotland-Haiti plays out with suddenly massive implications. Three of three reports predicted Brazil to recover and finish first regardless — but the process matters for goal difference and qualification dynamics.</div>
+      </div>
+    </div>
+
+    <div class="debate-item">
+      <div class="di-num">05</div>
+      <div class="di-body">
+        <div class="di-title">Portugal's Ronaldo Problem: Squad Depth vs Star Power Circus</div>
+        <div class="di-text">Portugal are the reigning Nations League champions. Their squad is the deepest it has ever been — Bernardo Silva, Bruno Fernandes, João Neves, Rafael Leão, Pedro Neto. They demonstrated they could beat the USA 2-0 and draw with Mexico without Ronaldo in recent friendlies. And yet: Ronaldo, at 41, will start every game he is available for, and the attention he commands reshapes how Colombia and other opponents prepare tactically. R2 made the sharpest observation: Portugal's biggest risk is "the attack becoming too Ronaldo-centric at the cost of tactical balance" — exactly what happened in the 2022 quarter-final loss to Morocco. Colombia's Luis Diaz vs Portugal's backline on June 27 is the match that will define whether this is a Roberto Martínez masterclass or another tournament shaped by a single narrative.</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- SOURCES -->
+<section class="section">
+  <div class="section-title" style="font-size:28px;">Sources & References</div>
+  <div class="section-sub">Multi-source data intelligence · All data current to June 4, 2026</div>
+  <div class="sources-grid">
+    <div class="si"><div class="si-text">Tournament injury tracking data — all 48 squads (June 2026)</div></div>
+    <div class="si"><div class="si-text">Official squad registration lists — all 48 nations (June 2, 2026)</div></div>
+    <div class="si"><div class="si-text">Sportsbook and market odds data — group stage pricing (June 2, 2026)</div></div>
+    <div class="si"><div class="si-text">Statistical projection models and supercomputer group simulations</div></div>
+    <div class="si"><div class="si-text">Expected goals (xG) and advanced metrics — group stage projections</div></div>
+    <div class="si"><div class="si-text">Tactical previews and formation analysis — all 12 groups (June 2026)</div></div>
+    <div class="si"><div class="si-text">International football editorial coverage — key group previews (June 2026)</div></div>
+    <div class="si"><div class="si-text">Depth chart and injury intelligence — major seeded nations (June 2026)</div></div>
+    <div class="si"><div class="si-text">Squad selection and fitness reports — qualifying period through June 2026</div></div>
+    <div class="si"><div class="si-text">Injury update intelligence — South American and European squads (June 2026)</div></div>
+    <div class="si"><div class="si-text">Prediction markets and crowd-intelligence data (June 2026)</div></div>
+    <div class="si"><div class="si-text">R2: AI-assisted market analysis — odds signals and group pricing (June 3, 2026)</div></div>
+    <div class="si"><div class="si-text">R3: AI-assisted tactical deep dive — formation and system analysis (June 3, 2026)</div></div>
+    <div class="si"><div class="si-text">Official FIFA World Cup 2026 draw documentation and competition structure</div></div>
+    <div class="si"><div class="si-text">Coach appointment and squad selection updates — all 48 nations (May–June 2026)</div></div>
+    <div class="si"><div class="si-text">Group stage schedule, fixture and venue data (June 2026)</div></div>
+    <div class="si"><div class="si-text">National team final squad confirmations — multiple confederations (June 2, 2026)</div></div>
+    <div class="si"><div class="si-text">Club form and international performance data — 2025/26 season</div></div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="ft-brand">Football Intelligence Desk</div>
+  <div class="ft-note">
+    Multi-Source AI Synthesis · June 4, 2026<br>
+    R1: FID Original Research · R2: AI Market Analysis · R3: AI Tactical Deep Dive<br>
+    Conflicts resolved by 2-of-3 majority + analytical reasoning · Not betting advice
+  </div>
+</footer>
+
+</body>
+</html>
