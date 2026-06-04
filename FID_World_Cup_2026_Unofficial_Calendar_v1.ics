@@ -1,0 +1,1989 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Football Intelligence Desk//World Cup 2026 Unofficial Calendar v1
+ //EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:FID World Cup 2026 Unofficial Calendar
+X-WR-CALDESC:Unofficial fan calendar by Football Intelligence Desk. Not aff
+ iliated with FIFA. Fixtures may change.
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:3932cf26b36ef0c5b790@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260611T190000Z
+DTEND:20260611T210000Z
+SUMMARY:World Cup 2026: MEX vs RSA
+DESCRIPTION:Round: Group Stage\nGroup: A\nFixture: Mexico vs South Africa\n
+ Singapore time: Fri 12 Jun 2026\, 03:00 SGT\nUnofficial fan calendar by Fo
+ otball Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. 
+ Fixtures are subject to change\; verify final details with official source
+ s.\nKnockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: MEX vs RSA
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f302ed5f7579d30e690a@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260612T020000Z
+DTEND:20260612T040000Z
+SUMMARY:World Cup 2026: KOR vs CZE
+DESCRIPTION:Round: Group Stage\nGroup: A\nFixture: Korea Republic vs Czechi
+ a\nSingapore time: Fri 12 Jun 2026\, 10:00 SGT\nUnofficial fan calendar by
+  Football Intelligence Desk (@footballinteldesk).\nNot affiliated with FIF
+ A. Fixtures are subject to change\; verify final details with official sou
+ rces.\nKnockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: KOR vs CZE
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:42fb9d6e51495707d0dd@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260612T190000Z
+DTEND:20260612T210000Z
+SUMMARY:World Cup 2026: CAN vs BIH
+DESCRIPTION:Round: Group Stage\nGroup: B\nFixture: Canada vs Bosnia and Her
+ zegovina\nSingapore time: Sat 13 Jun 2026\, 03:00 SGT\nUnofficial fan cale
+ ndar by Football Intelligence Desk (@footballinteldesk).\nNot affiliated w
+ ith FIFA. Fixtures are subject to change\; verify final details with offic
+ ial sources.\nKnockout fixtures use placeholders until teams are confirmed
+ .
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: CAN vs BIH
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9cb7f9f4307408e9ca4d@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260613T010000Z
+DTEND:20260613T030000Z
+SUMMARY:World Cup 2026: USA vs PAR
+DESCRIPTION:Round: Group Stage\nGroup: D\nFixture: USA vs Paraguay\nSingapo
+ re time: Sat 13 Jun 2026\, 09:00 SGT\nUnofficial fan calendar by Football 
+ Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. Fixture
+ s are subject to change\; verify final details with official sources.\nKno
+ ckout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: USA vs PAR
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:75886cbb461bd1eda46f@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260613T190000Z
+DTEND:20260613T210000Z
+SUMMARY:World Cup 2026: QAT vs SUI
+DESCRIPTION:Round: Group Stage\nGroup: B\nFixture: Qatar vs Switzerland\nSi
+ ngapore time: Sun 14 Jun 2026\, 03:00 SGT\nUnofficial fan calendar by Foot
+ ball Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. Fi
+ xtures are subject to change\; verify final details with official sources.
+ \nKnockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: QAT vs SUI
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1d62f484481faed80ed7@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260613T220000Z
+DTEND:20260614T000000Z
+SUMMARY:World Cup 2026: BRA vs MAR
+DESCRIPTION:Round: Group Stage\nGroup: C\nFixture: Brazil vs Morocco\nSinga
+ pore time: Sun 14 Jun 2026\, 06:00 SGT\nUnofficial fan calendar by Footbal
+ l Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. Fixtu
+ res are subject to change\; verify final details with official sources.\nK
+ nockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: BRA vs MAR
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5cc14e07caa451c79ba1@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260614T010000Z
+DTEND:20260614T030000Z
+SUMMARY:World Cup 2026: HAI vs SCO
+DESCRIPTION:Round: Group Stage\nGroup: C\nFixture: Haiti vs Scotland\nSinga
+ pore time: Sun 14 Jun 2026\, 09:00 SGT\nUnofficial fan calendar by Footbal
+ l Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. Fixtu
+ res are subject to change\; verify final details with official sources.\nK
+ nockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: HAI vs SCO
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4081b4e9a97e3f6de521@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260614T040000Z
+DTEND:20260614T060000Z
+SUMMARY:World Cup 2026: AUS vs TUR
+DESCRIPTION:Round: Group Stage\nGroup: D\nFixture: Australia vs Türkiye\nS
+ ingapore time: Sun 14 Jun 2026\, 12:00 SGT\nUnofficial fan calendar by Foo
+ tball Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. F
+ ixtures are subject to change\; verify final details with official sources
+ .\nKnockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: AUS vs TUR
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cf156f7a33b16835eac8@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260614T170000Z
+DTEND:20260614T190000Z
+SUMMARY:World Cup 2026: GER vs CUW
+DESCRIPTION:Round: Group Stage\nGroup: E\nFixture: Germany vs Curaçao\nSin
+ gapore time: Mon 15 Jun 2026\, 01:00 SGT\nUnofficial fan calendar by Footb
+ all Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. Fix
+ tures are subject to change\; verify final details with official sources.\
+ nKnockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: GER vs CUW
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0cb04fcc3e380861226a@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260614T200000Z
+DTEND:20260614T220000Z
+SUMMARY:World Cup 2026: NED vs JPN
+DESCRIPTION:Round: Group Stage\nGroup: F\nFixture: Netherlands vs Japan\nSi
+ ngapore time: Mon 15 Jun 2026\, 04:00 SGT\nUnofficial fan calendar by Foot
+ ball Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. Fi
+ xtures are subject to change\; verify final details with official sources.
+ \nKnockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: NED vs JPN
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:917f3ca6bd960fd3d66e@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260614T230000Z
+DTEND:20260615T010000Z
+SUMMARY:World Cup 2026: CIV vs ECU
+DESCRIPTION:Round: Group Stage\nGroup: E\nFixture: Côte d’Ivoire vs Ecua
+ dor\nSingapore time: Mon 15 Jun 2026\, 07:00 SGT\nUnofficial fan calendar 
+ by Football Intelligence Desk (@footballinteldesk).\nNot affiliated with F
+ IFA. Fixtures are subject to change\; verify final details with official s
+ ources.\nKnockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: CIV vs ECU
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4fd14fcbfe1cbd8890dc@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260615T020000Z
+DTEND:20260615T040000Z
+SUMMARY:World Cup 2026: SWE vs TUN
+DESCRIPTION:Round: Group Stage\nGroup: F\nFixture: Sweden vs Tunisia\nSinga
+ pore time: Mon 15 Jun 2026\, 10:00 SGT\nUnofficial fan calendar by Footbal
+ l Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. Fixtu
+ res are subject to change\; verify final details with official sources.\nK
+ nockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: SWE vs TUN
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3c6137e7d6e27631eb14@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260615T160000Z
+DTEND:20260615T180000Z
+SUMMARY:World Cup 2026: ESP vs CPV
+DESCRIPTION:Round: Group Stage\nGroup: H\nFixture: Spain vs Cabo Verde\nSin
+ gapore time: Tue 16 Jun 2026\, 00:00 SGT\nUnofficial fan calendar by Footb
+ all Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. Fix
+ tures are subject to change\; verify final details with official sources.\
+ nKnockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: ESP vs CPV
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9accd849a05438601ced@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260615T190000Z
+DTEND:20260615T210000Z
+SUMMARY:World Cup 2026: BEL vs EGY
+DESCRIPTION:Round: Group Stage\nGroup: G\nFixture: Belgium vs Egypt\nSingap
+ ore time: Tue 16 Jun 2026\, 03:00 SGT\nUnofficial fan calendar by Football
+  Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. Fixtur
+ es are subject to change\; verify final details with official sources.\nKn
+ ockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: BEL vs EGY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0d5d449463f3a25da78b@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260615T220000Z
+DTEND:20260616T000000Z
+SUMMARY:World Cup 2026: KSA vs URU
+DESCRIPTION:Round: Group Stage\nGroup: H\nFixture: Saudi Arabia vs Uruguay\
+ nSingapore time: Tue 16 Jun 2026\, 06:00 SGT\nUnofficial fan calendar by F
+ ootball Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA.
+  Fixtures are subject to change\; verify final details with official sourc
+ es.\nKnockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: KSA vs URU
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1c2584804579195f9fe4@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260616T010000Z
+DTEND:20260616T030000Z
+SUMMARY:World Cup 2026: IRN vs NZL
+DESCRIPTION:Round: Group Stage\nGroup: G\nFixture: IR Iran vs New Zealand\n
+ Singapore time: Tue 16 Jun 2026\, 09:00 SGT\nUnofficial fan calendar by Fo
+ otball Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. 
+ Fixtures are subject to change\; verify final details with official source
+ s.\nKnockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: IRN vs NZL
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:29014f47712fc607707e@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260616T190000Z
+DTEND:20260616T210000Z
+SUMMARY:World Cup 2026: FRA vs SEN
+DESCRIPTION:Round: Group Stage\nGroup: I\nFixture: France vs Senegal\nSinga
+ pore time: Wed 17 Jun 2026\, 03:00 SGT\nUnofficial fan calendar by Footbal
+ l Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. Fixtu
+ res are subject to change\; verify final details with official sources.\nK
+ nockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: FRA vs SEN
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5488207035e3e45d5080@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260616T220000Z
+DTEND:20260617T000000Z
+SUMMARY:World Cup 2026: IRQ vs NOR
+DESCRIPTION:Round: Group Stage\nGroup: I\nFixture: Iraq vs Norway\nSingapor
+ e time: Wed 17 Jun 2026\, 06:00 SGT\nUnofficial fan calendar by Football I
+ ntelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. Fixtures
+  are subject to change\; verify final details with official sources.\nKnoc
+ kout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: IRQ vs NOR
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:413735870154dd9ec50b@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260617T010000Z
+DTEND:20260617T030000Z
+SUMMARY:World Cup 2026: ARG vs ALG
+DESCRIPTION:Round: Group Stage\nGroup: J\nFixture: Argentina vs Algeria\nSi
+ ngapore time: Wed 17 Jun 2026\, 09:00 SGT\nUnofficial fan calendar by Foot
+ ball Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. Fi
+ xtures are subject to change\; verify final details with official sources.
+ \nKnockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: ARG vs ALG
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3340192c54f83c048cef@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260617T040000Z
+DTEND:20260617T060000Z
+SUMMARY:World Cup 2026: AUT vs JOR
+DESCRIPTION:Round: Group Stage\nGroup: J\nFixture: Austria vs Jordan\nSinga
+ pore time: Wed 17 Jun 2026\, 12:00 SGT\nUnofficial fan calendar by Footbal
+ l Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. Fixtu
+ res are subject to change\; verify final details with official sources.\nK
+ nockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: AUT vs JOR
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2dc1fa140ae65272be7c@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260617T170000Z
+DTEND:20260617T190000Z
+SUMMARY:World Cup 2026: POR vs COD
+DESCRIPTION:Round: Group Stage\nGroup: K\nFixture: Portugal vs Congo DR\nSi
+ ngapore time: Thu 18 Jun 2026\, 01:00 SGT\nUnofficial fan calendar by Foot
+ ball Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. Fi
+ xtures are subject to change\; verify final details with official sources.
+ \nKnockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: POR vs COD
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ebbbd857de932199fca8@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260617T200000Z
+DTEND:20260617T220000Z
+SUMMARY:World Cup 2026: ENG vs CRO
+DESCRIPTION:Round: Group Stage\nGroup: L\nFixture: England vs Croatia\nSing
+ apore time: Thu 18 Jun 2026\, 04:00 SGT\nUnofficial fan calendar by Footba
+ ll Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. Fixt
+ ures are subject to change\; verify final details with official sources.\n
+ Knockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: ENG vs CRO
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e04825e6f0321b5d8cd9@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260617T230000Z
+DTEND:20260618T010000Z
+SUMMARY:World Cup 2026: GHA vs PAN
+DESCRIPTION:Round: Group Stage\nGroup: L\nFixture: Ghana vs Panama\nSingapo
+ re time: Thu 18 Jun 2026\, 07:00 SGT\nUnofficial fan calendar by Football 
+ Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. Fixture
+ s are subject to change\; verify final details with official sources.\nKno
+ ckout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: GHA vs PAN
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:de52d41b8b6a1c294c8e@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260618T020000Z
+DTEND:20260618T040000Z
+SUMMARY:World Cup 2026: UZB vs COL
+DESCRIPTION:Round: Group Stage\nGroup: K\nFixture: Uzbekistan vs Colombia\n
+ Singapore time: Thu 18 Jun 2026\, 10:00 SGT\nUnofficial fan calendar by Fo
+ otball Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. 
+ Fixtures are subject to change\; verify final details with official source
+ s.\nKnockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: UZB vs COL
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5200912ab0546fec1630@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260618T160000Z
+DTEND:20260618T180000Z
+SUMMARY:World Cup 2026: CZE vs RSA
+DESCRIPTION:Round: Group Stage\nGroup: A\nFixture: Czechia vs South Africa\
+ nSingapore time: Fri 19 Jun 2026\, 00:00 SGT\nUnofficial fan calendar by F
+ ootball Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA.
+  Fixtures are subject to change\; verify final details with official sourc
+ es.\nKnockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: CZE vs RSA
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:08255a455193f1fb5d50@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260618T190000Z
+DTEND:20260618T210000Z
+SUMMARY:World Cup 2026: SUI vs BIH
+DESCRIPTION:Round: Group Stage\nGroup: B\nFixture: Switzerland vs Bosnia an
+ d Herzegovina\nSingapore time: Fri 19 Jun 2026\, 03:00 SGT\nUnofficial fan
+  calendar by Football Intelligence Desk (@footballinteldesk).\nNot affilia
+ ted with FIFA. Fixtures are subject to change\; verify final details with 
+ official sources.\nKnockout fixtures use placeholders until teams are conf
+ irmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: SUI vs BIH
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ddbad51b03b8c7b2b198@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260618T220000Z
+DTEND:20260619T000000Z
+SUMMARY:World Cup 2026: CAN vs QAT
+DESCRIPTION:Round: Group Stage\nGroup: B\nFixture: Canada vs Qatar\nSingapo
+ re time: Fri 19 Jun 2026\, 06:00 SGT\nUnofficial fan calendar by Football 
+ Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. Fixture
+ s are subject to change\; verify final details with official sources.\nKno
+ ckout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: CAN vs QAT
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:28027bbcc42de5a6a8eb@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260619T010000Z
+DTEND:20260619T030000Z
+SUMMARY:World Cup 2026: MEX vs KOR
+DESCRIPTION:Round: Group Stage\nGroup: A\nFixture: Mexico vs Korea Republic
+ \nSingapore time: Fri 19 Jun 2026\, 09:00 SGT\nUnofficial fan calendar by 
+ Football Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA
+ . Fixtures are subject to change\; verify final details with official sour
+ ces.\nKnockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: MEX vs KOR
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c81c7938bef5370fca3c@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260619T190000Z
+DTEND:20260619T210000Z
+SUMMARY:World Cup 2026: USA vs AUS
+DESCRIPTION:Round: Group Stage\nGroup: D\nFixture: USA vs Australia\nSingap
+ ore time: Sat 20 Jun 2026\, 03:00 SGT\nUnofficial fan calendar by Football
+  Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. Fixtur
+ es are subject to change\; verify final details with official sources.\nKn
+ ockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: USA vs AUS
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f5519ae8c186dd800ce7@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260619T220000Z
+DTEND:20260620T000000Z
+SUMMARY:World Cup 2026: SCO vs MAR
+DESCRIPTION:Round: Group Stage\nGroup: C\nFixture: Scotland vs Morocco\nSin
+ gapore time: Sat 20 Jun 2026\, 06:00 SGT\nUnofficial fan calendar by Footb
+ all Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. Fix
+ tures are subject to change\; verify final details with official sources.\
+ nKnockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: SCO vs MAR
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2fcaffab0aaacd8e2c2e@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260620T010000Z
+DTEND:20260620T030000Z
+SUMMARY:World Cup 2026: BRA vs HAI
+DESCRIPTION:Round: Group Stage\nGroup: C\nFixture: Brazil vs Haiti\nSingapo
+ re time: Sat 20 Jun 2026\, 09:00 SGT\nUnofficial fan calendar by Football 
+ Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. Fixture
+ s are subject to change\; verify final details with official sources.\nKno
+ ckout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: BRA vs HAI
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8f8dc604c0e1fcc5eec1@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260620T040000Z
+DTEND:20260620T060000Z
+SUMMARY:World Cup 2026: TUR vs PAR
+DESCRIPTION:Round: Group Stage\nGroup: D\nFixture: Türkiye vs Paraguay\nSi
+ ngapore time: Sat 20 Jun 2026\, 12:00 SGT\nUnofficial fan calendar by Foot
+ ball Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. Fi
+ xtures are subject to change\; verify final details with official sources.
+ \nKnockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: TUR vs PAR
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1d9f2c41b3ea3cb25c30@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260620T170000Z
+DTEND:20260620T190000Z
+SUMMARY:World Cup 2026: NED vs SWE
+DESCRIPTION:Round: Group Stage\nGroup: F\nFixture: Netherlands vs Sweden\nS
+ ingapore time: Sun 21 Jun 2026\, 01:00 SGT\nUnofficial fan calendar by Foo
+ tball Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. F
+ ixtures are subject to change\; verify final details with official sources
+ .\nKnockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: NED vs SWE
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:adc173d8b2d894ccfa8c@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260620T200000Z
+DTEND:20260620T220000Z
+SUMMARY:World Cup 2026: GER vs CIV
+DESCRIPTION:Round: Group Stage\nGroup: E\nFixture: Germany vs Côte d’Ivo
+ ire\nSingapore time: Sun 21 Jun 2026\, 04:00 SGT\nUnofficial fan calendar 
+ by Football Intelligence Desk (@footballinteldesk).\nNot affiliated with F
+ IFA. Fixtures are subject to change\; verify final details with official s
+ ources.\nKnockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: GER vs CIV
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:26c6898865e0cbaf4c4c@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260621T000000Z
+DTEND:20260621T020000Z
+SUMMARY:World Cup 2026: ECU vs CUW
+DESCRIPTION:Round: Group Stage\nGroup: E\nFixture: Ecuador vs Curaçao\nSin
+ gapore time: Sun 21 Jun 2026\, 08:00 SGT\nUnofficial fan calendar by Footb
+ all Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. Fix
+ tures are subject to change\; verify final details with official sources.\
+ nKnockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: ECU vs CUW
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b752583547cfad004425@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260621T040000Z
+DTEND:20260621T060000Z
+SUMMARY:World Cup 2026: TUN vs JPN
+DESCRIPTION:Round: Group Stage\nGroup: F\nFixture: Tunisia vs Japan\nSingap
+ ore time: Sun 21 Jun 2026\, 12:00 SGT\nUnofficial fan calendar by Football
+  Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. Fixtur
+ es are subject to change\; verify final details with official sources.\nKn
+ ockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: TUN vs JPN
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d8fafc350880e2d2e9e1@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260621T160000Z
+DTEND:20260621T180000Z
+SUMMARY:World Cup 2026: ESP vs KSA
+DESCRIPTION:Round: Group Stage\nGroup: H\nFixture: Spain vs Saudi Arabia\nS
+ ingapore time: Mon 22 Jun 2026\, 00:00 SGT\nUnofficial fan calendar by Foo
+ tball Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. F
+ ixtures are subject to change\; verify final details with official sources
+ .\nKnockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: ESP vs KSA
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2cc71a88864880dbbfe5@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260621T190000Z
+DTEND:20260621T210000Z
+SUMMARY:World Cup 2026: BEL vs IRN
+DESCRIPTION:Round: Group Stage\nGroup: G\nFixture: Belgium vs IR Iran\nSing
+ apore time: Mon 22 Jun 2026\, 03:00 SGT\nUnofficial fan calendar by Footba
+ ll Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. Fixt
+ ures are subject to change\; verify final details with official sources.\n
+ Knockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: BEL vs IRN
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8a8528e75fdd3bd23740@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260621T220000Z
+DTEND:20260622T000000Z
+SUMMARY:World Cup 2026: URU vs CPV
+DESCRIPTION:Round: Group Stage\nGroup: H\nFixture: Uruguay vs Cabo Verde\nS
+ ingapore time: Mon 22 Jun 2026\, 06:00 SGT\nUnofficial fan calendar by Foo
+ tball Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. F
+ ixtures are subject to change\; verify final details with official sources
+ .\nKnockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: URU vs CPV
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a1edfa77968f6854fffa@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260622T010000Z
+DTEND:20260622T030000Z
+SUMMARY:World Cup 2026: NZL vs EGY
+DESCRIPTION:Round: Group Stage\nGroup: G\nFixture: New Zealand vs Egypt\nSi
+ ngapore time: Mon 22 Jun 2026\, 09:00 SGT\nUnofficial fan calendar by Foot
+ ball Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. Fi
+ xtures are subject to change\; verify final details with official sources.
+ \nKnockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: NZL vs EGY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a087fef0f5b345a69143@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260622T170000Z
+DTEND:20260622T190000Z
+SUMMARY:World Cup 2026: ARG vs AUT
+DESCRIPTION:Round: Group Stage\nGroup: J\nFixture: Argentina vs Austria\nSi
+ ngapore time: Tue 23 Jun 2026\, 01:00 SGT\nUnofficial fan calendar by Foot
+ ball Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. Fi
+ xtures are subject to change\; verify final details with official sources.
+ \nKnockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: ARG vs AUT
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:79e8ee76f513d61bc3ec@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260622T210000Z
+DTEND:20260622T230000Z
+SUMMARY:World Cup 2026: FRA vs IRQ
+DESCRIPTION:Round: Group Stage\nGroup: I\nFixture: France vs Iraq\nSingapor
+ e time: Tue 23 Jun 2026\, 05:00 SGT\nUnofficial fan calendar by Football I
+ ntelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. Fixtures
+  are subject to change\; verify final details with official sources.\nKnoc
+ kout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: FRA vs IRQ
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:59d56ce43fac0d1de495@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260623T000000Z
+DTEND:20260623T020000Z
+SUMMARY:World Cup 2026: NOR vs SEN
+DESCRIPTION:Round: Group Stage\nGroup: I\nFixture: Norway vs Senegal\nSinga
+ pore time: Tue 23 Jun 2026\, 08:00 SGT\nUnofficial fan calendar by Footbal
+ l Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. Fixtu
+ res are subject to change\; verify final details with official sources.\nK
+ nockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: NOR vs SEN
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c1800e6b288e51ddf98f@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260623T030000Z
+DTEND:20260623T050000Z
+SUMMARY:World Cup 2026: JOR vs ALG
+DESCRIPTION:Round: Group Stage\nGroup: J\nFixture: Jordan vs Algeria\nSinga
+ pore time: Tue 23 Jun 2026\, 11:00 SGT\nUnofficial fan calendar by Footbal
+ l Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. Fixtu
+ res are subject to change\; verify final details with official sources.\nK
+ nockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: JOR vs ALG
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b6034d3a83c60ff5824c@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260623T170000Z
+DTEND:20260623T190000Z
+SUMMARY:World Cup 2026: POR vs UZB
+DESCRIPTION:Round: Group Stage\nGroup: K\nFixture: Portugal vs Uzbekistan\n
+ Singapore time: Wed 24 Jun 2026\, 01:00 SGT\nUnofficial fan calendar by Fo
+ otball Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. 
+ Fixtures are subject to change\; verify final details with official source
+ s.\nKnockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: POR vs UZB
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e0b2c4e6547da3e6650b@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260623T200000Z
+DTEND:20260623T220000Z
+SUMMARY:World Cup 2026: ENG vs GHA
+DESCRIPTION:Round: Group Stage\nGroup: L\nFixture: England vs Ghana\nSingap
+ ore time: Wed 24 Jun 2026\, 04:00 SGT\nUnofficial fan calendar by Football
+  Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. Fixtur
+ es are subject to change\; verify final details with official sources.\nKn
+ ockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: ENG vs GHA
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:861a444b4a3899e4b31a@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260623T230000Z
+DTEND:20260624T010000Z
+SUMMARY:World Cup 2026: PAN vs CRO
+DESCRIPTION:Round: Group Stage\nGroup: L\nFixture: Panama vs Croatia\nSinga
+ pore time: Wed 24 Jun 2026\, 07:00 SGT\nUnofficial fan calendar by Footbal
+ l Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. Fixtu
+ res are subject to change\; verify final details with official sources.\nK
+ nockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: PAN vs CRO
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a338691d19d8dd7d03c7@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260624T020000Z
+DTEND:20260624T040000Z
+SUMMARY:World Cup 2026: COL vs COD
+DESCRIPTION:Round: Group Stage\nGroup: K\nFixture: Colombia vs Congo DR\nSi
+ ngapore time: Wed 24 Jun 2026\, 10:00 SGT\nUnofficial fan calendar by Foot
+ ball Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. Fi
+ xtures are subject to change\; verify final details with official sources.
+ \nKnockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: COL vs COD
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:880d956ec12c68300679@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260624T190000Z
+DTEND:20260624T210000Z
+SUMMARY:World Cup 2026: SUI vs CAN
+DESCRIPTION:Round: Group Stage\nGroup: B\nFixture: Switzerland vs Canada\nS
+ ingapore time: Thu 25 Jun 2026\, 03:00 SGT\nUnofficial fan calendar by Foo
+ tball Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. F
+ ixtures are subject to change\; verify final details with official sources
+ .\nKnockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: SUI vs CAN
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:42d67d3f48e10485ec9f@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260624T190000Z
+DTEND:20260624T210000Z
+SUMMARY:World Cup 2026: BIH vs QAT
+DESCRIPTION:Round: Group Stage\nGroup: B\nFixture: Bosnia and Herzegovina v
+ s Qatar\nSingapore time: Thu 25 Jun 2026\, 03:00 SGT\nUnofficial fan calen
+ dar by Football Intelligence Desk (@footballinteldesk).\nNot affiliated wi
+ th FIFA. Fixtures are subject to change\; verify final details with offici
+ al sources.\nKnockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: BIH vs QAT
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c004c4b95026ae0b5910@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260624T220000Z
+DTEND:20260625T000000Z
+SUMMARY:World Cup 2026: SCO vs BRA
+DESCRIPTION:Round: Group Stage\nGroup: C\nFixture: Scotland vs Brazil\nSing
+ apore time: Thu 25 Jun 2026\, 06:00 SGT\nUnofficial fan calendar by Footba
+ ll Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. Fixt
+ ures are subject to change\; verify final details with official sources.\n
+ Knockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: SCO vs BRA
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2d54cad6219aa4004082@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260624T220000Z
+DTEND:20260625T000000Z
+SUMMARY:World Cup 2026: MAR vs HAI
+DESCRIPTION:Round: Group Stage\nGroup: C\nFixture: Morocco vs Haiti\nSingap
+ ore time: Thu 25 Jun 2026\, 06:00 SGT\nUnofficial fan calendar by Football
+  Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. Fixtur
+ es are subject to change\; verify final details with official sources.\nKn
+ ockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: MAR vs HAI
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b47d24c21bf3508e6a41@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260625T010000Z
+DTEND:20260625T030000Z
+SUMMARY:World Cup 2026: CZE vs MEX
+DESCRIPTION:Round: Group Stage\nGroup: A\nFixture: Czechia vs Mexico\nSinga
+ pore time: Thu 25 Jun 2026\, 09:00 SGT\nUnofficial fan calendar by Footbal
+ l Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. Fixtu
+ res are subject to change\; verify final details with official sources.\nK
+ nockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: CZE vs MEX
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:91e97d27b0abe743afe0@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260625T010000Z
+DTEND:20260625T030000Z
+SUMMARY:World Cup 2026: RSA vs KOR
+DESCRIPTION:Round: Group Stage\nGroup: A\nFixture: South Africa vs Korea Re
+ public\nSingapore time: Thu 25 Jun 2026\, 09:00 SGT\nUnofficial fan calend
+ ar by Football Intelligence Desk (@footballinteldesk).\nNot affiliated wit
+ h FIFA. Fixtures are subject to change\; verify final details with officia
+ l sources.\nKnockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: RSA vs KOR
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:22597432b571b9687ecd@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260625T200000Z
+DTEND:20260625T220000Z
+SUMMARY:World Cup 2026: CUW vs CIV
+DESCRIPTION:Round: Group Stage\nGroup: E\nFixture: Curaçao vs Côte d’Iv
+ oire\nSingapore time: Fri 26 Jun 2026\, 04:00 SGT\nUnofficial fan calendar
+  by Football Intelligence Desk (@footballinteldesk).\nNot affiliated with 
+ FIFA. Fixtures are subject to change\; verify final details with official 
+ sources.\nKnockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: CUW vs CIV
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6b8a91ee9df4060a1e5e@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260625T200000Z
+DTEND:20260625T220000Z
+SUMMARY:World Cup 2026: ECU vs GER
+DESCRIPTION:Round: Group Stage\nGroup: E\nFixture: Ecuador vs Germany\nSing
+ apore time: Fri 26 Jun 2026\, 04:00 SGT\nUnofficial fan calendar by Footba
+ ll Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. Fixt
+ ures are subject to change\; verify final details with official sources.\n
+ Knockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: ECU vs GER
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4d69d2c6a880d8031ddf@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260625T230000Z
+DTEND:20260626T010000Z
+SUMMARY:World Cup 2026: JPN vs SWE
+DESCRIPTION:Round: Group Stage\nGroup: F\nFixture: Japan vs Sweden\nSingapo
+ re time: Fri 26 Jun 2026\, 07:00 SGT\nUnofficial fan calendar by Football 
+ Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. Fixture
+ s are subject to change\; verify final details with official sources.\nKno
+ ckout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: JPN vs SWE
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5b7ffcc2c2e4cfccc79f@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260625T230000Z
+DTEND:20260626T010000Z
+SUMMARY:World Cup 2026: TUN vs NED
+DESCRIPTION:Round: Group Stage\nGroup: F\nFixture: Tunisia vs Netherlands\n
+ Singapore time: Fri 26 Jun 2026\, 07:00 SGT\nUnofficial fan calendar by Fo
+ otball Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. 
+ Fixtures are subject to change\; verify final details with official source
+ s.\nKnockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: TUN vs NED
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e36953a1516cb95fd548@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260626T020000Z
+DTEND:20260626T040000Z
+SUMMARY:World Cup 2026: TUR vs USA
+DESCRIPTION:Round: Group Stage\nGroup: D\nFixture: Türkiye vs USA\nSingapo
+ re time: Fri 26 Jun 2026\, 10:00 SGT\nUnofficial fan calendar by Football 
+ Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. Fixture
+ s are subject to change\; verify final details with official sources.\nKno
+ ckout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: TUR vs USA
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:55276169d20909a9d33d@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260626T020000Z
+DTEND:20260626T040000Z
+SUMMARY:World Cup 2026: PAR vs AUS
+DESCRIPTION:Round: Group Stage\nGroup: D\nFixture: Paraguay vs Australia\nS
+ ingapore time: Fri 26 Jun 2026\, 10:00 SGT\nUnofficial fan calendar by Foo
+ tball Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. F
+ ixtures are subject to change\; verify final details with official sources
+ .\nKnockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: PAR vs AUS
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e1013e54c22ee8943d0f@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260626T190000Z
+DTEND:20260626T210000Z
+SUMMARY:World Cup 2026: NOR vs FRA
+DESCRIPTION:Round: Group Stage\nGroup: I\nFixture: Norway vs France\nSingap
+ ore time: Sat 27 Jun 2026\, 03:00 SGT\nUnofficial fan calendar by Football
+  Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. Fixtur
+ es are subject to change\; verify final details with official sources.\nKn
+ ockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: NOR vs FRA
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ef304517d42870dca77e@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260626T190000Z
+DTEND:20260626T210000Z
+SUMMARY:World Cup 2026: SEN vs IRQ
+DESCRIPTION:Round: Group Stage\nGroup: I\nFixture: Senegal vs Iraq\nSingapo
+ re time: Sat 27 Jun 2026\, 03:00 SGT\nUnofficial fan calendar by Football 
+ Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. Fixture
+ s are subject to change\; verify final details with official sources.\nKno
+ ckout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: SEN vs IRQ
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0e5b817812c3eed58e36@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260627T000000Z
+DTEND:20260627T020000Z
+SUMMARY:World Cup 2026: URU vs ESP
+DESCRIPTION:Round: Group Stage\nGroup: H\nFixture: Uruguay vs Spain\nSingap
+ ore time: Sat 27 Jun 2026\, 08:00 SGT\nUnofficial fan calendar by Football
+  Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. Fixtur
+ es are subject to change\; verify final details with official sources.\nKn
+ ockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: URU vs ESP
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:883a51d4573f20111618@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260627T000000Z
+DTEND:20260627T020000Z
+SUMMARY:World Cup 2026: CPV vs KSA
+DESCRIPTION:Round: Group Stage\nGroup: H\nFixture: Cabo Verde vs Saudi Arab
+ ia\nSingapore time: Sat 27 Jun 2026\, 08:00 SGT\nUnofficial fan calendar b
+ y Football Intelligence Desk (@footballinteldesk).\nNot affiliated with FI
+ FA. Fixtures are subject to change\; verify final details with official so
+ urces.\nKnockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: CPV vs KSA
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1ab61d49fbc15a7c6e16@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260627T030000Z
+DTEND:20260627T050000Z
+SUMMARY:World Cup 2026: NZL vs BEL
+DESCRIPTION:Round: Group Stage\nGroup: G\nFixture: New Zealand vs Belgium\n
+ Singapore time: Sat 27 Jun 2026\, 11:00 SGT\nUnofficial fan calendar by Fo
+ otball Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. 
+ Fixtures are subject to change\; verify final details with official source
+ s.\nKnockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: NZL vs BEL
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2aa2f80163ab203f23ea@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260627T030000Z
+DTEND:20260627T050000Z
+SUMMARY:World Cup 2026: EGY vs IRN
+DESCRIPTION:Round: Group Stage\nGroup: G\nFixture: Egypt vs IR Iran\nSingap
+ ore time: Sat 27 Jun 2026\, 11:00 SGT\nUnofficial fan calendar by Football
+  Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. Fixtur
+ es are subject to change\; verify final details with official sources.\nKn
+ ockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: EGY vs IRN
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:94e6c4c7bcd3ccc5fe18@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260627T210000Z
+DTEND:20260627T230000Z
+SUMMARY:World Cup 2026: PAN vs ENG
+DESCRIPTION:Round: Group Stage\nGroup: L\nFixture: Panama vs England\nSinga
+ pore time: Sun 28 Jun 2026\, 05:00 SGT\nUnofficial fan calendar by Footbal
+ l Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. Fixtu
+ res are subject to change\; verify final details with official sources.\nK
+ nockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: PAN vs ENG
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cab60fb18c1c814aca10@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260627T210000Z
+DTEND:20260627T230000Z
+SUMMARY:World Cup 2026: CRO vs GHA
+DESCRIPTION:Round: Group Stage\nGroup: L\nFixture: Croatia vs Ghana\nSingap
+ ore time: Sun 28 Jun 2026\, 05:00 SGT\nUnofficial fan calendar by Football
+  Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. Fixtur
+ es are subject to change\; verify final details with official sources.\nKn
+ ockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: CRO vs GHA
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7058242574946bbb438c@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260627T233000Z
+DTEND:20260628T013000Z
+SUMMARY:World Cup 2026: COL vs POR
+DESCRIPTION:Round: Group Stage\nGroup: K\nFixture: Colombia vs Portugal\nSi
+ ngapore time: Sun 28 Jun 2026\, 07:30 SGT\nUnofficial fan calendar by Foot
+ ball Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. Fi
+ xtures are subject to change\; verify final details with official sources.
+ \nKnockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: COL vs POR
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:42451293a9d2dd295296@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260627T233000Z
+DTEND:20260628T013000Z
+SUMMARY:World Cup 2026: COD vs UZB
+DESCRIPTION:Round: Group Stage\nGroup: K\nFixture: Congo DR vs Uzbekistan\n
+ Singapore time: Sun 28 Jun 2026\, 07:30 SGT\nUnofficial fan calendar by Fo
+ otball Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. 
+ Fixtures are subject to change\; verify final details with official source
+ s.\nKnockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: COD vs UZB
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b6d61ddf4ffb0629b9d5@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260628T020000Z
+DTEND:20260628T040000Z
+SUMMARY:World Cup 2026: JOR vs ARG
+DESCRIPTION:Round: Group Stage\nGroup: J\nFixture: Jordan vs Argentina\nSin
+ gapore time: Sun 28 Jun 2026\, 10:00 SGT\nUnofficial fan calendar by Footb
+ all Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. Fix
+ tures are subject to change\; verify final details with official sources.\
+ nKnockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: JOR vs ARG
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a52ed2736b277e7ae4c9@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260628T020000Z
+DTEND:20260628T040000Z
+SUMMARY:World Cup 2026: ALG vs AUT
+DESCRIPTION:Round: Group Stage\nGroup: J\nFixture: Algeria vs Austria\nSing
+ apore time: Sun 28 Jun 2026\, 10:00 SGT\nUnofficial fan calendar by Footba
+ ll Intelligence Desk (@footballinteldesk).\nNot affiliated with FIFA. Fixt
+ ures are subject to change\; verify final details with official sources.\n
+ Knockout fixtures use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: ALG vs AUT
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:389c603983e156035683@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260628T190000Z
+DTEND:20260628T220000Z
+SUMMARY:World Cup 2026: Round of 32 - TBC vs TBC
+DESCRIPTION:Round: Round of 32\nFixture: TBC vs TBC\nSingapore time: Mon 29
+  Jun 2026\, 03:00 SGT\nUnofficial fan calendar by Football Intelligence De
+ sk (@footballinteldesk).\nNot affiliated with FIFA. Fixtures are subject t
+ o change\; verify final details with official sources.\nKnockout fixtures 
+ use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: Round of 32 - TBC vs TBC
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0fd5897e2293c0098e3a@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260629T170000Z
+DTEND:20260629T200000Z
+SUMMARY:World Cup 2026: Round of 32 - TBC vs TBC
+DESCRIPTION:Round: Round of 32\nFixture: TBC vs TBC\nSingapore time: Tue 30
+  Jun 2026\, 01:00 SGT\nUnofficial fan calendar by Football Intelligence De
+ sk (@footballinteldesk).\nNot affiliated with FIFA. Fixtures are subject t
+ o change\; verify final details with official sources.\nKnockout fixtures 
+ use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: Round of 32 - TBC vs TBC
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e97c2a3895eebf1a6f1d@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260629T203000Z
+DTEND:20260629T233000Z
+SUMMARY:World Cup 2026: Round of 32 - TBC vs TBC
+DESCRIPTION:Round: Round of 32\nFixture: TBC vs TBC\nSingapore time: Tue 30
+  Jun 2026\, 04:30 SGT\nUnofficial fan calendar by Football Intelligence De
+ sk (@footballinteldesk).\nNot affiliated with FIFA. Fixtures are subject t
+ o change\; verify final details with official sources.\nKnockout fixtures 
+ use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: Round of 32 - TBC vs TBC
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:42844b1e68fea9e885c0@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260630T010000Z
+DTEND:20260630T040000Z
+SUMMARY:World Cup 2026: Round of 32 - TBC vs TBC
+DESCRIPTION:Round: Round of 32\nFixture: TBC vs TBC\nSingapore time: Tue 30
+  Jun 2026\, 09:00 SGT\nUnofficial fan calendar by Football Intelligence De
+ sk (@footballinteldesk).\nNot affiliated with FIFA. Fixtures are subject t
+ o change\; verify final details with official sources.\nKnockout fixtures 
+ use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: Round of 32 - TBC vs TBC
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:45f44f23da3f43b60af5@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260630T170000Z
+DTEND:20260630T200000Z
+SUMMARY:World Cup 2026: Round of 32 - TBC vs TBC
+DESCRIPTION:Round: Round of 32\nFixture: TBC vs TBC\nSingapore time: Wed 01
+  Jul 2026\, 01:00 SGT\nUnofficial fan calendar by Football Intelligence De
+ sk (@footballinteldesk).\nNot affiliated with FIFA. Fixtures are subject t
+ o change\; verify final details with official sources.\nKnockout fixtures 
+ use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: Round of 32 - TBC vs TBC
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d1363777162ffcfa4e69@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260630T210000Z
+DTEND:20260701T000000Z
+SUMMARY:World Cup 2026: Round of 32 - TBC vs TBC
+DESCRIPTION:Round: Round of 32\nFixture: TBC vs TBC\nSingapore time: Wed 01
+  Jul 2026\, 05:00 SGT\nUnofficial fan calendar by Football Intelligence De
+ sk (@footballinteldesk).\nNot affiliated with FIFA. Fixtures are subject t
+ o change\; verify final details with official sources.\nKnockout fixtures 
+ use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: Round of 32 - TBC vs TBC
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ef5af5c99263cfeb4ea7@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260701T010000Z
+DTEND:20260701T040000Z
+SUMMARY:World Cup 2026: Round of 32 - TBC vs TBC
+DESCRIPTION:Round: Round of 32\nFixture: TBC vs TBC\nSingapore time: Wed 01
+  Jul 2026\, 09:00 SGT\nUnofficial fan calendar by Football Intelligence De
+ sk (@footballinteldesk).\nNot affiliated with FIFA. Fixtures are subject t
+ o change\; verify final details with official sources.\nKnockout fixtures 
+ use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: Round of 32 - TBC vs TBC
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f9e69f9a161d2e78ec6c@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260701T160000Z
+DTEND:20260701T190000Z
+SUMMARY:World Cup 2026: Round of 32 - TBC vs TBC
+DESCRIPTION:Round: Round of 32\nFixture: TBC vs TBC\nSingapore time: Thu 02
+  Jul 2026\, 00:00 SGT\nUnofficial fan calendar by Football Intelligence De
+ sk (@footballinteldesk).\nNot affiliated with FIFA. Fixtures are subject t
+ o change\; verify final details with official sources.\nKnockout fixtures 
+ use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: Round of 32 - TBC vs TBC
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:90f5ff98267a38833940@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260701T200000Z
+DTEND:20260701T230000Z
+SUMMARY:World Cup 2026: Round of 32 - TBC vs TBC
+DESCRIPTION:Round: Round of 32\nFixture: TBC vs TBC\nSingapore time: Thu 02
+  Jul 2026\, 04:00 SGT\nUnofficial fan calendar by Football Intelligence De
+ sk (@footballinteldesk).\nNot affiliated with FIFA. Fixtures are subject t
+ o change\; verify final details with official sources.\nKnockout fixtures 
+ use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: Round of 32 - TBC vs TBC
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4b6609a5103ed340e0e1@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260702T000000Z
+DTEND:20260702T030000Z
+SUMMARY:World Cup 2026: Round of 32 - TBC vs TBC
+DESCRIPTION:Round: Round of 32\nFixture: TBC vs TBC\nSingapore time: Thu 02
+  Jul 2026\, 08:00 SGT\nUnofficial fan calendar by Football Intelligence De
+ sk (@footballinteldesk).\nNot affiliated with FIFA. Fixtures are subject t
+ o change\; verify final details with official sources.\nKnockout fixtures 
+ use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: Round of 32 - TBC vs TBC
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:779a98de6c08c020994b@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260702T190000Z
+DTEND:20260702T220000Z
+SUMMARY:World Cup 2026: Round of 32 - TBC vs TBC
+DESCRIPTION:Round: Round of 32\nFixture: TBC vs TBC\nSingapore time: Fri 03
+  Jul 2026\, 03:00 SGT\nUnofficial fan calendar by Football Intelligence De
+ sk (@footballinteldesk).\nNot affiliated with FIFA. Fixtures are subject t
+ o change\; verify final details with official sources.\nKnockout fixtures 
+ use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: Round of 32 - TBC vs TBC
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:454b0877a53eb2191bdf@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260702T230000Z
+DTEND:20260703T020000Z
+SUMMARY:World Cup 2026: Round of 32 - TBC vs TBC
+DESCRIPTION:Round: Round of 32\nFixture: TBC vs TBC\nSingapore time: Fri 03
+  Jul 2026\, 07:00 SGT\nUnofficial fan calendar by Football Intelligence De
+ sk (@footballinteldesk).\nNot affiliated with FIFA. Fixtures are subject t
+ o change\; verify final details with official sources.\nKnockout fixtures 
+ use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: Round of 32 - TBC vs TBC
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dc9f2fae33346d319d29@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260703T030000Z
+DTEND:20260703T060000Z
+SUMMARY:World Cup 2026: Round of 32 - TBC vs TBC
+DESCRIPTION:Round: Round of 32\nFixture: TBC vs TBC\nSingapore time: Fri 03
+  Jul 2026\, 11:00 SGT\nUnofficial fan calendar by Football Intelligence De
+ sk (@footballinteldesk).\nNot affiliated with FIFA. Fixtures are subject t
+ o change\; verify final details with official sources.\nKnockout fixtures 
+ use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: Round of 32 - TBC vs TBC
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3f38879c22abf23c5ca6@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260703T180000Z
+DTEND:20260703T210000Z
+SUMMARY:World Cup 2026: Round of 32 - TBC vs TBC
+DESCRIPTION:Round: Round of 32\nFixture: TBC vs TBC\nSingapore time: Sat 04
+  Jul 2026\, 02:00 SGT\nUnofficial fan calendar by Football Intelligence De
+ sk (@footballinteldesk).\nNot affiliated with FIFA. Fixtures are subject t
+ o change\; verify final details with official sources.\nKnockout fixtures 
+ use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: Round of 32 - TBC vs TBC
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:41d430fa872d1ba202ff@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260703T220000Z
+DTEND:20260704T010000Z
+SUMMARY:World Cup 2026: Round of 32 - TBC vs TBC
+DESCRIPTION:Round: Round of 32\nFixture: TBC vs TBC\nSingapore time: Sat 04
+  Jul 2026\, 06:00 SGT\nUnofficial fan calendar by Football Intelligence De
+ sk (@footballinteldesk).\nNot affiliated with FIFA. Fixtures are subject t
+ o change\; verify final details with official sources.\nKnockout fixtures 
+ use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: Round of 32 - TBC vs TBC
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:57ad4b8bf214f1d0dc19@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260704T013000Z
+DTEND:20260704T043000Z
+SUMMARY:World Cup 2026: Round of 32 - TBC vs TBC
+DESCRIPTION:Round: Round of 32\nFixture: TBC vs TBC\nSingapore time: Sat 04
+  Jul 2026\, 09:30 SGT\nUnofficial fan calendar by Football Intelligence De
+ sk (@footballinteldesk).\nNot affiliated with FIFA. Fixtures are subject t
+ o change\; verify final details with official sources.\nKnockout fixtures 
+ use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: Round of 32 - TBC vs TBC
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0c14cbb3ff94203128f9@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260704T170000Z
+DTEND:20260704T200000Z
+SUMMARY:World Cup 2026: Round of 16 - TBC vs TBC
+DESCRIPTION:Round: Round of 16\nFixture: TBC vs TBC\nSingapore time: Sun 05
+  Jul 2026\, 01:00 SGT\nUnofficial fan calendar by Football Intelligence De
+ sk (@footballinteldesk).\nNot affiliated with FIFA. Fixtures are subject t
+ o change\; verify final details with official sources.\nKnockout fixtures 
+ use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: Round of 16 - TBC vs TBC
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:94166e80fdae0744c9f4@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260704T210000Z
+DTEND:20260705T000000Z
+SUMMARY:World Cup 2026: Round of 16 - TBC vs TBC
+DESCRIPTION:Round: Round of 16\nFixture: TBC vs TBC\nSingapore time: Sun 05
+  Jul 2026\, 05:00 SGT\nUnofficial fan calendar by Football Intelligence De
+ sk (@footballinteldesk).\nNot affiliated with FIFA. Fixtures are subject t
+ o change\; verify final details with official sources.\nKnockout fixtures 
+ use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: Round of 16 - TBC vs TBC
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:162f4f986cb03fef2c1a@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260705T200000Z
+DTEND:20260705T230000Z
+SUMMARY:World Cup 2026: Round of 16 - TBC vs TBC
+DESCRIPTION:Round: Round of 16\nFixture: TBC vs TBC\nSingapore time: Mon 06
+  Jul 2026\, 04:00 SGT\nUnofficial fan calendar by Football Intelligence De
+ sk (@footballinteldesk).\nNot affiliated with FIFA. Fixtures are subject t
+ o change\; verify final details with official sources.\nKnockout fixtures 
+ use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: Round of 16 - TBC vs TBC
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eb9e76de73d6a32649cf@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260706T000000Z
+DTEND:20260706T030000Z
+SUMMARY:World Cup 2026: Round of 16 - TBC vs TBC
+DESCRIPTION:Round: Round of 16\nFixture: TBC vs TBC\nSingapore time: Mon 06
+  Jul 2026\, 08:00 SGT\nUnofficial fan calendar by Football Intelligence De
+ sk (@footballinteldesk).\nNot affiliated with FIFA. Fixtures are subject t
+ o change\; verify final details with official sources.\nKnockout fixtures 
+ use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: Round of 16 - TBC vs TBC
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:19c2c2b0f94293e55897@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260706T190000Z
+DTEND:20260706T220000Z
+SUMMARY:World Cup 2026: Round of 16 - TBC vs TBC
+DESCRIPTION:Round: Round of 16\nFixture: TBC vs TBC\nSingapore time: Tue 07
+  Jul 2026\, 03:00 SGT\nUnofficial fan calendar by Football Intelligence De
+ sk (@footballinteldesk).\nNot affiliated with FIFA. Fixtures are subject t
+ o change\; verify final details with official sources.\nKnockout fixtures 
+ use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: Round of 16 - TBC vs TBC
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:77612e43c83a866a284b@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260707T000000Z
+DTEND:20260707T030000Z
+SUMMARY:World Cup 2026: Round of 16 - TBC vs TBC
+DESCRIPTION:Round: Round of 16\nFixture: TBC vs TBC\nSingapore time: Tue 07
+  Jul 2026\, 08:00 SGT\nUnofficial fan calendar by Football Intelligence De
+ sk (@footballinteldesk).\nNot affiliated with FIFA. Fixtures are subject t
+ o change\; verify final details with official sources.\nKnockout fixtures 
+ use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: Round of 16 - TBC vs TBC
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6c4c184a4f6057c33784@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260707T160000Z
+DTEND:20260707T190000Z
+SUMMARY:World Cup 2026: Round of 16 - TBC vs TBC
+DESCRIPTION:Round: Round of 16\nFixture: TBC vs TBC\nSingapore time: Wed 08
+  Jul 2026\, 00:00 SGT\nUnofficial fan calendar by Football Intelligence De
+ sk (@footballinteldesk).\nNot affiliated with FIFA. Fixtures are subject t
+ o change\; verify final details with official sources.\nKnockout fixtures 
+ use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: Round of 16 - TBC vs TBC
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20dbed12f31802cfdac5@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260707T200000Z
+DTEND:20260707T230000Z
+SUMMARY:World Cup 2026: Round of 16 - TBC vs TBC
+DESCRIPTION:Round: Round of 16\nFixture: TBC vs TBC\nSingapore time: Wed 08
+  Jul 2026\, 04:00 SGT\nUnofficial fan calendar by Football Intelligence De
+ sk (@footballinteldesk).\nNot affiliated with FIFA. Fixtures are subject t
+ o change\; verify final details with official sources.\nKnockout fixtures 
+ use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: Round of 16 - TBC vs TBC
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:319310bbc244349d13ec@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260709T200000Z
+DTEND:20260709T230000Z
+SUMMARY:World Cup 2026: Quarter-Finals - TBC vs TBC
+DESCRIPTION:Round: Quarter-Finals\nFixture: TBC vs TBC\nSingapore time: Fri
+  10 Jul 2026\, 04:00 SGT\nUnofficial fan calendar by Football Intelligence
+  Desk (@footballinteldesk).\nNot affiliated with FIFA. Fixtures are subjec
+ t to change\; verify final details with official sources.\nKnockout fixtur
+ es use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: Quarter-Finals - TBC vs TBC
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bed9fae97bb8c4689529@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260710T190000Z
+DTEND:20260710T220000Z
+SUMMARY:World Cup 2026: Quarter-Finals - TBC vs TBC
+DESCRIPTION:Round: Quarter-Finals\nFixture: TBC vs TBC\nSingapore time: Sat
+  11 Jul 2026\, 03:00 SGT\nUnofficial fan calendar by Football Intelligence
+  Desk (@footballinteldesk).\nNot affiliated with FIFA. Fixtures are subjec
+ t to change\; verify final details with official sources.\nKnockout fixtur
+ es use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: Quarter-Finals - TBC vs TBC
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4286dab613db862e232d@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260711T210000Z
+DTEND:20260712T000000Z
+SUMMARY:World Cup 2026: Quarter-Finals - TBC vs TBC
+DESCRIPTION:Round: Quarter-Finals\nFixture: TBC vs TBC\nSingapore time: Sun
+  12 Jul 2026\, 05:00 SGT\nUnofficial fan calendar by Football Intelligence
+  Desk (@footballinteldesk).\nNot affiliated with FIFA. Fixtures are subjec
+ t to change\; verify final details with official sources.\nKnockout fixtur
+ es use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: Quarter-Finals - TBC vs TBC
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:29a45b866bc54f6a3699@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260712T010000Z
+DTEND:20260712T040000Z
+SUMMARY:World Cup 2026: Quarter-Finals - TBC vs TBC
+DESCRIPTION:Round: Quarter-Finals\nFixture: TBC vs TBC\nSingapore time: Sun
+  12 Jul 2026\, 09:00 SGT\nUnofficial fan calendar by Football Intelligence
+  Desk (@footballinteldesk).\nNot affiliated with FIFA. Fixtures are subjec
+ t to change\; verify final details with official sources.\nKnockout fixtur
+ es use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: Quarter-Finals - TBC vs TBC
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:363c23a35419e8175ebe@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260714T190000Z
+DTEND:20260714T220000Z
+SUMMARY:World Cup 2026: Semi-Finals - TBC vs TBC
+DESCRIPTION:Round: Semi-Finals\nFixture: TBC vs TBC\nSingapore time: Wed 15
+  Jul 2026\, 03:00 SGT\nUnofficial fan calendar by Football Intelligence De
+ sk (@footballinteldesk).\nNot affiliated with FIFA. Fixtures are subject t
+ o change\; verify final details with official sources.\nKnockout fixtures 
+ use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: Semi-Finals - TBC vs TBC
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dae3754225a961a1333e@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260715T190000Z
+DTEND:20260715T220000Z
+SUMMARY:World Cup 2026: Semi-Finals - TBC vs TBC
+DESCRIPTION:Round: Semi-Finals\nFixture: TBC vs TBC\nSingapore time: Thu 16
+  Jul 2026\, 03:00 SGT\nUnofficial fan calendar by Football Intelligence De
+ sk (@footballinteldesk).\nNot affiliated with FIFA. Fixtures are subject t
+ o change\; verify final details with official sources.\nKnockout fixtures 
+ use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: Semi-Finals - TBC vs TBC
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6d591a13743f776b1206@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260718T210000Z
+DTEND:20260719T000000Z
+SUMMARY:World Cup 2026: Bronze Final - TBC vs TBC
+DESCRIPTION:Round: Bronze Final\nFixture: TBC vs TBC\nSingapore time: Sun 1
+ 9 Jul 2026\, 05:00 SGT\nUnofficial fan calendar by Football Intelligence D
+ esk (@footballinteldesk).\nNot affiliated with FIFA. Fixtures are subject 
+ to change\; verify final details with official sources.\nKnockout fixtures
+  use placeholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: Bronze Final - TBC vs TBC
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e7290a7419583b0a963c@footballinteldesk
+DTSTAMP:20260603T053018Z
+DTSTART:20260719T190000Z
+DTEND:20260719T220000Z
+SUMMARY:World Cup 2026: Final - TBC vs TBC
+DESCRIPTION:Round: Final\nFixture: TBC vs TBC\nSingapore time: Mon 20 Jul 2
+ 026\, 03:00 SGT\nUnofficial fan calendar by Football Intelligence Desk (@f
+ ootballinteldesk).\nNot affiliated with FIFA. Fixtures are subject to chan
+ ge\; verify final details with official sources.\nKnockout fixtures use pl
+ aceholders until teams are confirmed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:World Cup 2026: Final - TBC vs TBC
+END:VALARM
+END:VEVENT
+END:VCALENDAR
