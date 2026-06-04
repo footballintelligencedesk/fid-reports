@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Football Intelligence Desk — 2026 Golden Boot Report</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=DM+Mono:wght@300;400;500&family=Barlow+Condensed:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --gold: #C9A840;
+    --gold-dim: #8a7230;
+    --white: #F4F0E8;
+    --white-dim: #9e9a92;
+    --bg: #0D0D0D;
+    --bg-card: #141414;
+    --bg-table: #111111;
+    --border: #262626;
+    --accent-red: #C0392B;
+    --accent-blue: #2C7BB6;
+    --accent-green: #27AE60;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--white);
+    font-family: 'EB Garamond', Georgia, serif;
+    font-size: 18px;
+    line-height: 1.75;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 60px 40px;
+  }
+
+  /* ===== MASTHEAD ===== */
+  .masthead {
+    border-top: 3px solid var(--gold);
+    border-bottom: 1px solid var(--border);
+    padding: 24px 0 20px;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+  .masthead-name {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+  .masthead-date {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--white-dim);
+    letter-spacing: 1px;
+  }
+
+  /* ===== HERO ===== */
+  .hero {
+    margin-bottom: 56px;
+    padding-bottom: 56px;
+    border-bottom: 1px solid var(--border);
+  }
+  .report-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 20px;
+  }
+  h1 {
+    font-size: clamp(38px, 5.5vw, 62px);
+    font-weight: 700;
+    line-height: 1.08;
+    margin-bottom: 24px;
+    color: var(--white);
+    letter-spacing: -0.5px;
+  }
+  h1 em {
+    font-style: italic;
+    color: var(--gold);
+  }
+  .standfirst {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #c8c4bb;
+    max-width: 700px;
+    font-style: italic;
+  }
+
+  /* ===== SECTION HEADERS ===== */
+  h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-top: 56px;
+    margin-bottom: 24px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--border);
+  }
+  h3 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 36px;
+    margin-bottom: 12px;
+    color: var(--white);
+  }
+  h3 .group-tag {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: var(--gold-dim);
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  /* ===== BODY TEXT ===== */
+  p {
+    margin-bottom: 18px;
+    color: #d8d4cc;
+  }
+  p strong {
+    color: var(--white);
+    font-weight: 600;
+  }
+
+  /* ===== PULL QUOTE ===== */
+  .pull-quote {
+    border-left: 3px solid var(--gold);
+    padding: 6px 0 6px 24px;
+    margin: 36px 0;
+    font-size: 22px;
+    font-style: italic;
+    color: var(--white);
+    line-height: 1.5;
+  }
+
+  /* ===== FILTER CARDS ===== */
+  .filters-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin: 24px 0 40px;
+  }
+  .filter-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-top: 2px solid var(--gold);
+    padding: 20px 22px;
+  }
+  .filter-num {
+    font-family: 'DM Mono', monospace;
+    font-size: 28px;
+    font-weight: 300;
+    color: var(--gold);
+    line-height: 1;
+    margin-bottom: 8px;
+  }
+  .filter-title {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--white);
+    margin-bottom: 8px;
+  }
+  .filter-desc {
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--white-dim);
+    margin: 0;
+  }
+
+  /* ===== TABLES ===== */
+  .table-wrap {
+    overflow-x: auto;
+    margin: 20px 0 32px;
+    border: 1px solid var(--border);
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--bg-table);
+    font-size: 13.5px;
+  }
+  thead th {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--gold);
+    background: #0a0a0a;
+    padding: 10px 14px;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+    white-space: nowrap;
+  }
+  tbody tr {
+    border-bottom: 1px solid #1a1a1a;
+  }
+  tbody tr:last-child { border-bottom: none; }
+  tbody tr:hover { background: #181818; }
+  td {
+    padding: 9px 14px;
+    color: #c8c4bb;
+    vertical-align: middle;
+  }
+  td strong {
+    color: var(--white);
+    font-weight: 600;
+  }
+  td.group-cell {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--gold-dim);
+    font-weight: 500;
+  }
+  td.scorer-cell {
+    font-weight: 600;
+    color: var(--white);
+    white-space: nowrap;
+  }
+  td.flag-note {
+    font-style: italic;
+    color: #7a7670;
+    font-size: 12px;
+  }
+
+  /* ===== CONTENDER PROFILES ===== */
+  .contender {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    margin: 32px 0;
+    padding: 32px 36px;
+    position: relative;
+    overflow: hidden;
+  }
+  .contender::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+  }
+  .contender.gold::before { background: var(--gold); }
+  .contender.silver::before { background: #9e9e9e; }
+  .contender.bronze::before { background: #cd7f32; }
+
+  .contender-rank {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 900;
+    font-size: 80px;
+    color: #1d1d1d;
+    position: absolute;
+    right: 28px;
+    top: 10px;
+    line-height: 1;
+    user-select: none;
+  }
+  .contender-header {
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+    margin-bottom: 4px;
+    flex-wrap: wrap;
+  }
+  .contender-name {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--white);
+  }
+  .contender-meta {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--white-dim);
+    letter-spacing: 1px;
+  }
+  .contender-verdict {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    margin-bottom: 18px;
+    display: inline-block;
+  }
+  .verdict-gold { color: var(--gold); border: 1px solid var(--gold-dim); }
+  .verdict-silver { color: #9e9e9e; border: 1px solid #555; }
+  .verdict-bronze { color: #cd7f32; border: 1px solid #7a5020; }
+
+  .case-for {
+    margin-top: 18px;
+    padding-top: 18px;
+    border-top: 1px solid #1f1f1f;
+  }
+  .case-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--white-dim);
+    margin-bottom: 12px;
+  }
+  .case-item {
+    display: flex;
+    gap: 14px;
+    margin-bottom: 10px;
+    align-items: flex-start;
+  }
+  .case-dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: var(--gold);
+    margin-top: 9px;
+    flex-shrink: 0;
+  }
+  .case-item p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #c0bbb4;
+  }
+  .risk-note {
+    margin-top: 16px;
+    padding: 12px 16px;
+    background: #0a0a0a;
+    border-left: 2px solid #3a3a3a;
+    font-size: 14px;
+    color: #7a7670;
+    font-style: italic;
+  }
+
+  /* ===== SCORING MATRIX ===== */
+  .matrix-wrap {
+    margin: 24px 0;
+    border: 1px solid var(--border);
+    overflow-x: auto;
+  }
+  .matrix-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--bg-table);
+  }
+  .matrix-table thead th {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--gold);
+    background: #090909;
+    padding: 10px 14px;
+    text-align: center;
+    border-bottom: 1px solid var(--border);
+  }
+  .matrix-table thead th:first-child { text-align: left; }
+  .matrix-table tbody td {
+    padding: 13px 14px;
+    text-align: center;
+    border-bottom: 1px solid #1a1a1a;
+    font-size: 14px;
+    color: #c8c4bb;
+  }
+  .matrix-table tbody td:first-child {
+    text-align: left;
+    font-weight: 600;
+    color: var(--white);
+    font-size: 16px;
+  }
+  .matrix-table tbody td.sub { font-size: 11px; color: var(--white-dim); display: block; font-weight: 400; }
+  .score-high {
+    color: var(--gold);
+    font-weight: 700;
+    font-size: 16px;
+  }
+  .score-mid {
+    color: #c8c4bb;
+    font-weight: 500;
+    font-size: 15px;
+  }
+  .total-cell {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    color: var(--gold);
+  }
+  .matrix-table tbody tr:last-child td { border-bottom: none; }
+
+  /* ===== VERDICT BLOCK ===== */
+  .verdict-block {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-top: 3px solid var(--gold);
+    padding: 36px 40px;
+    margin: 40px 0 60px;
+  }
+  .verdict-block h2 {
+    margin-top: 0;
+    border: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  .verdict-name {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--gold);
+    margin-bottom: 8px;
+    line-height: 1.1;
+  }
+  .verdict-sub {
+    font-family: 'DM Mono', monospace;
+    font-size: 12px;
+    color: var(--white-dim);
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+  }
+  .verdict-text {
+    font-size: 18px;
+    line-height: 1.75;
+    color: #c8c4bb;
+    margin: 0;
+  }
+
+  /* ===== FOOTER ===== */
+  .footer {
+    margin-top: 80px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .footer-brand {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 900;
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+  .footer-note {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    color: #444;
+    letter-spacing: 1px;
+    text-align: right;
+  }
+
+  /* ===== DIVIDER ===== */
+  .section-div {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 48px 0;
+  }
+
+  /* ===== NOTE BOX ===== */
+  .note-box {
+    background: #111;
+    border: 1px solid #242424;
+    border-left: 3px solid var(--gold-dim);
+    padding: 16px 20px;
+    margin: 24px 0;
+    font-size: 14px;
+    color: #7a7670;
+  }
+  .note-box strong {
+    color: var(--white-dim);
+  }
+
+  @media (max-width: 640px) {
+    body { padding: 36px 20px; }
+    .filters-grid { grid-template-columns: 1fr; }
+    .contender { padding: 24px 22px; }
+    .contender-rank { font-size: 56px; right: 16px; }
+    .verdict-block { padding: 28px 24px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- MASTHEAD -->
+<div class="masthead">
+  <span class="masthead-name">The Football Intelligence Desk</span>
+  <span class="masthead-date">JUNE 2026 / PRE-TOURNAMENT EDITION</span>
+</div>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="report-label">ANALYTICAL REPORT · 2026 FIFA WORLD CUP</div>
+  <h1>The Race for the <em>Golden Boot</em></h1>
+  <p class="standfirst">A full-field analysis of all 48 qualified nations — group-by-group tactical profiles, designated primary scorers, and a systematic projection framework to identify who wins the most coveted individual prize in football.</p>
+</div>
+
+<!-- CONTEXT -->
+<h2>The Changed Equation</h2>
+
+<p>The 2026 FIFA World Cup is the first to operate under a 48-team, eight-match structure — up from the traditional seven-match maximum for finalists. That single additional knockout round changes the arithmetic of the Golden Boot race in ways that matter. A player who exits at the Round of 32 now faces a mathematical ceiling roughly 12–15% lower than someone who reaches the final. Tournament depth is no longer just about prestige; it's a direct scoring multiplier.</p>
+
+<p>At the same time, the expanded format brings in a wave of defensively limited debutants. Several groups contain nations playing their first World Cup, and for elite forwards in those groups, the window to build a significant early goal cushion is wider than in any previous tournament. The player who understands how to exploit both dynamics — opening-phase accumulation followed by deep knockout football — is the one who wins this race.</p>
+
+<div class="filters-grid">
+  <div class="filter-card">
+    <div class="filter-num">01</div>
+    <div class="filter-title">Physical Peak</div>
+    <p class="filter-desc">The eight-match ceiling penalizes players on either side of their prime. Ages 24–29 is the window where recovery capacity, metabolic output, and finishing sharpness all converge.</p>
+  </div>
+  <div class="filter-card">
+    <div class="filter-num">02</div>
+    <div class="filter-title">Team Progression</div>
+    <p class="filter-desc">A player whose nation exits at the Round of 32 is dead in the water regardless of their individual quality. Realistic deep-run probability is the primary filter on the full field.</p>
+  </div>
+  <div class="filter-card">
+    <div class="filter-num">03</div>
+    <div class="filter-title">Tactical Funnel</div>
+    <p class="filter-desc">Decentralized attacking systems distribute goals across five or six players. The Golden Boot winner needs to play in a structure where high-value chances and penalty duties flow through one body.</p>
+  </div>
+  <div class="filter-card">
+    <div class="filter-num">04</div>
+    <div class="filter-title">Group Vulnerability</div>
+    <p class="filter-desc">Groups with defensively exposed or newly qualified opponents allow elite forwards to build cushions that withstand difficult knockout draws. Opponent quality in the group stage is a legitimate structural variable.</p>
+  </div>
+</div>
+
+
+<!-- ===================== GROUP TABLES ===================== -->
+<h2>Group-by-Group · Primary Scorer Analysis</h2>
+<p>The following assessments identify the designated primary goalscoring threat for each of the 48 qualified nations, with brief tactical context. These designations inform the master field projection that follows.</p>
+
+<!-- GROUP A -->
+<h3><span class="group-tag">GROUP A</span>Mexico · South Africa · Korea Republic · Czechia</h3>
+<p>A tactically uneven group. Korea Republic are the clear standout with Son Heung-min operating as world-class left-sided inside forward. Czechia's Patrik Schick enters in strong domestic form (16 Bundesliga goals for Leverkusen) and handles penalties. Mexico's Santiago Gimenez represents a dangerous penalty-box operator at the prime of his AC Milan career. South Africa will defend and transition; Lyle Foster is the outlet.</p>
+<div class="table-wrap">
+  <table>
+    <thead><tr><th>Country</th><th>Primary Scorer</th><th>Club</th><th>Role</th></tr></thead>
+    <tbody>
+      <tr><td>Mexico</td><td class="scorer-cell">Santiago Gimenez</td><td>AC Milan</td><td>Central penalty-box reference</td></tr>
+      <tr><td>South Africa</td><td class="scorer-cell">Lyle Foster</td><td>Burnley</td><td>Transitional target forward</td></tr>
+      <tr><td>Korea Republic</td><td class="scorer-cell">Son Heung-min</td><td>LAFC</td><td>Inverted left winger / set-piece taker</td></tr>
+      <tr><td>Czechia</td><td class="scorer-cell">Patrik Schick</td><td>Bayer Leverkusen</td><td>Advanced poacher / penalty taker</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- GROUP B -->
+<h3><span class="group-tag">GROUP B</span>Canada · Bosnia & Herzegovina · Qatar · Switzerland</h3>
+<p>Canada's Jonathan David (Juventus) is the clinical engine of a Jesse Marsch transition system built to create chances on the break. Ermedin Demirovic was one of the Bundesliga's most productive pressers (12 goals, Stuttgart); his physical, relentless style suits a nation that will need to fight for every point. Qatar, on home confederation turf, rides on Akram Afif's creative output and designated penalty duties.</p>
+<div class="table-wrap">
+  <table>
+    <thead><tr><th>Country</th><th>Primary Scorer</th><th>Club</th><th>Role</th></tr></thead>
+    <tbody>
+      <tr><td>Canada</td><td class="scorer-cell">Jonathan David</td><td>Juventus</td><td>Advanced transition finisher</td></tr>
+      <tr><td>Bosnia &amp; Herz.</td><td class="scorer-cell">Ermedin Demirovic</td><td>Stuttgart</td><td>High-pressing central striker</td></tr>
+      <tr><td>Qatar</td><td class="scorer-cell">Akram Afif</td><td>Al Sadd</td><td>Inside forward / penalty taker</td></tr>
+      <tr><td>Switzerland</td><td class="scorer-cell">Breel Embolo</td><td>Rennes</td><td>Physical central target</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- GROUP C -->
+<h3><span class="group-tag">GROUP C</span>Brazil · Morocco · Haiti · Scotland</h3>
+<p>Brazil's group draw is the most asymmetric in the tournament. Haiti represent one of the most defensively exposed squads at this World Cup — their qualification campaign exposed a pronounced vulnerability to pace and direct running inside the box. Morocco carry genuine knockout threat; Ayoub El Kaabi is a proven Champions League-level poacher at Olympiacos. Scotland, under Steve Clarke's disciplined mid-block, will be difficult to break down but have limited ceiling. Vinicius Junior, Neymar operating as deep creator, and Raphinha form a front three that will find significant goal-scoring space in this group.</p>
+<div class="table-wrap">
+  <table>
+    <thead><tr><th>Country</th><th>Primary Scorer</th><th>Club</th><th>Role</th></tr></thead>
+    <tbody>
+      <tr><td>Brazil</td><td class="scorer-cell">Vinicius Junior</td><td>Real Madrid</td><td>Explosive left-sided inside forward</td></tr>
+      <tr><td>Morocco</td><td class="scorer-cell">Ayoub El Kaabi</td><td>Olympiacos</td><td>Traditional central poacher</td></tr>
+      <tr><td>Haiti</td><td class="scorer-cell">Duckens Nazon</td><td>CSKA Sofia</td><td>Physical transition spearhead</td></tr>
+      <tr><td>Scotland</td><td class="scorer-cell">Lawrence Shankland</td><td>Hearts</td><td>Central penalty-box finisher</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- GROUP D -->
+<h3><span class="group-tag">GROUP D</span>USA · Paraguay · Australia · Türkiye</h3>
+<p>Christian Pulisic leads a USA side that has matured considerably tactically under late qualification adjustments. His left-forward position, penalty monopoly, and tendency to arrive late at the back post make him the most consistent American goal threat. Kenan Yildiz is a Juventus talent playing an advanced number-ten role for Türkiye — fluid enough to accumulate against weaker opponents but not a traditional focal point. Nestory Irankunda's raw pace gives Australia an outlet in behind; Julio Enciso is Paraguay's most creative and direct ball-carrier.</p>
+<div class="table-wrap">
+  <table>
+    <thead><tr><th>Country</th><th>Primary Scorer</th><th>Club</th><th>Role</th></tr></thead>
+    <tbody>
+      <tr><td>USA</td><td class="scorer-cell">Christian Pulisic</td><td>AC Milan</td><td>Left forward / designated penalty taker</td></tr>
+      <tr><td>Paraguay</td><td class="scorer-cell">Julio Enciso</td><td>Brighton</td><td>Free-roaming creative second striker</td></tr>
+      <tr><td>Australia</td><td class="scorer-cell">Nestory Irankunda</td><td>Bayern Munich</td><td>Direct, explosive inside forward</td></tr>
+      <tr><td>Türkiye</td><td class="scorer-cell">Kenan Yildiz</td><td>Juventus</td><td>Advanced playmaker cutting centrally</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- GROUP E -->
+<h3><span class="group-tag">GROUP E</span>Germany · Curaçao · Ivory Coast · Ecuador</h3>
+<p>Deniz Undav's 19-goal Stuttgart campaign earned him the undisputed striker role in Nagelsmann's Germany — ahead of Havertz and behind Musiala in the creative chain. Germany's system produces high-volume, high-quality chances; Undav's positioning is the primary beneficiary. Curaçao (tournament debutants under Dick Advocaat) present no significant tactical threat. Ivory Coast's Sébastien Haller adds aerial-dominant poaching; Ecuador are defensively solid but limited going forward with Enner Valencia increasingly reliant on experience over pace.</p>
+<div class="table-wrap">
+  <table>
+    <thead><tr><th>Country</th><th>Primary Scorer</th><th>Club</th><th>Role</th></tr></thead>
+    <tbody>
+      <tr><td>Germany</td><td class="scorer-cell">Deniz Undav</td><td>Stuttgart</td><td>Tactical central poacher</td></tr>
+      <tr><td>Curaçao</td><td class="scorer-cell">Juninho Bacuna</td><td>Volendam</td><td>Box-to-box midfielder / set-piece</td></tr>
+      <tr><td>Ivory Coast</td><td class="scorer-cell">Sébastien Haller</td><td>Leganés</td><td>Target forward / aerial threat</td></tr>
+      <tr><td>Ecuador</td><td class="scorer-cell">Enner Valencia</td><td>Internacional</td><td>Veteran poacher / penalty taker</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- GROUP F -->
+<h3><span class="group-tag">GROUP F</span>Netherlands · Japan · Sweden · Tunisia</h3>
+<p>Group F has the most interesting individual storyline in the tournament: Viktor Gyökeres enters this stage having been arguably the most clinical striker in European club football over the past 18 months at Sporting CP. However, Sweden face a realistic ceiling of one, possibly two knockout wins, which limits his ceiling for the Golden Boot race overall. Cody Gakpo is the Netherlands' primary scoring outlet from the left channel, with consistent delivery from overlapping full-backs. Japan's Ayase Ueda is an orthodox central poacher with sharp penalty-area movement.</p>
+<div class="table-wrap">
+  <table>
+    <thead><tr><th>Country</th><th>Primary Scorer</th><th>Club</th><th>Role</th></tr></thead>
+    <tbody>
+      <tr><td>Netherlands</td><td class="scorer-cell">Cody Gakpo</td><td>Liverpool</td><td>Left-sided inside forward</td></tr>
+      <tr><td>Japan</td><td class="scorer-cell">Ayase Ueda</td><td>Feyenoord</td><td>Traditional penalty-box finisher</td></tr>
+      <tr><td>Sweden</td><td class="scorer-cell">Viktor Gyökeres</td><td>Sporting CP</td><td>Complete physically dominant striker</td></tr>
+      <tr><td>Tunisia</td><td class="scorer-cell">Youssef Msakni</td><td>Al Arabi</td><td>Veteran playmaker / penalty taker</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- GROUP G -->
+<h3><span class="group-tag">GROUP G</span>Belgium · Egypt · IR Iran · New Zealand</h3>
+<p>Mohamed Salah's involvement in this tournament deserves particular attention: his inside-cutting delivery from the right, combined with absolute certainty on penalties, makes Egypt's system almost entirely reliant on his output. At his age (33 during the tournament) and given his Liverpool form, he remains entirely capable of producing an outlier scoring run. Romelu Lukaku leads Belgium as a traditional number nine, sustained by Jeremy Doku's supply from the right. Mehdi Taremi (Inter Milan) is technically the most gifted forward in this group after Salah. Chris Wood is functional but ceiling-limited.</p>
+<div class="table-wrap">
+  <table>
+    <thead><tr><th>Country</th><th>Primary Scorer</th><th>Club</th><th>Role</th></tr></thead>
+    <tbody>
+      <tr><td>Belgium</td><td class="scorer-cell">Romelu Lukaku</td><td>Napoli</td><td>Central physical target forward</td></tr>
+      <tr><td>Egypt</td><td class="scorer-cell">Mohamed Salah</td><td>Liverpool</td><td>Inside-cutting right forward / penalty taker</td></tr>
+      <tr><td>IR Iran</td><td class="scorer-cell">Mehdi Taremi</td><td>Inter Milan</td><td>Advanced target man / penalty taker</td></tr>
+      <tr><td>New Zealand</td><td class="scorer-cell">Chris Wood</td><td>Nottingham Forest</td><td>Traditional aerial target</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- GROUP H -->
+<h3><span class="group-tag">GROUP H</span>Spain · Cape Verde · Saudi Arabia · Uruguay</h3>
+<p>A note on Spain's designation: Álvaro Morata is listed as the primary scorer by position, and his off-the-ball movement inside the penalty area genuinely earns it. However, Spain's goals will realistically be distributed across Morata, Lamine Yamal, and Nico Williams in a way that limits any single player's accumulation. This is one of the most decentralized attacking structures in the tournament — the tactical funnel that the Golden Boot requires is largely absent. Darwin Núñez leads Bielsa's Uruguay in an extremely forward-heavy role; Saudi Arabia's Salem Al-Dawsari carries the weight of creative and goal-scoring responsibility for the host nation.</p>
+<div class="table-wrap">
+  <table>
+    <thead><tr><th>Country</th><th>Primary Scorer</th><th>Club</th><th>Role</th></tr></thead>
+    <tbody>
+      <tr><td>Spain</td><td class="scorer-cell">Álvaro Morata</td><td>AC Milan</td><td>Central reference point</td></tr>
+      <tr><td>Cape Verde</td><td class="scorer-cell">Ryan Mendes</td><td>Iğdır FK</td><td>Wide forward / primary penalty taker</td></tr>
+      <tr><td>Saudi Arabia</td><td class="scorer-cell">Salem Al-Dawsari</td><td>Al Hilal</td><td>Inverted left playmaker with penalty duties</td></tr>
+      <tr><td>Uruguay</td><td class="scorer-cell">Darwin Núñez</td><td>Liverpool</td><td>Direct, physical transition striker</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- GROUP I -->
+<h3><span class="group-tag">GROUP I</span>France · Senegal · Iraq · Norway</h3>
+<p>The two most recognizable Golden Boot candidates on the planet sit in Group I, and they are both favorites to advance deep into the knockout bracket. Kylian Mbappé, reigning 2022 Golden Boot winner, operates with complete freedom on France's left. Erling Haaland enters as the single most prolific striker in world football since 2021, with a Norwegian system entirely built around feeding him centrally. The key distinction: France project to the final with high confidence, while Norway face a considerably harder knockout road. Both will accumulate early against Iraq. Nicolas Jackson (Chelsea) has emerged as Senegal's attacking focal point ahead of the aging Sadio Mané.</p>
+<div class="table-wrap">
+  <table>
+    <thead><tr><th>Country</th><th>Primary Scorer</th><th>Club</th><th>Role</th></tr></thead>
+    <tbody>
+      <tr><td>France</td><td class="scorer-cell">Kylian Mbappé</td><td>Real Madrid</td><td>Free-roaming left forward / penalty taker</td></tr>
+      <tr><td>Senegal</td><td class="scorer-cell">Nicolas Jackson</td><td>Chelsea</td><td>Dynamic transition striker</td></tr>
+      <tr><td>Iraq</td><td class="scorer-cell">Aymen Hussein</td><td>Al-Khor</td><td>Physical target man</td></tr>
+      <tr><td>Norway</td><td class="scorer-cell">Erling Haaland</td><td>Man City</td><td>World-class complete finisher</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- GROUP J -->
+<h3><span class="group-tag">GROUP J</span>Argentina · Algeria · Austria · Jordan</h3>
+<p>Argentina's primary scorer designation goes to Lautaro Martínez, not Messi — and the reasoning is defensible. In Scaloni's system, Messi increasingly drops to the half-space as a deep creator and set-piece driver, with Martínez leading the line. Lautaro's penalty-box movement and clinical finishing at Inter Milan make him the most likely to accumulate. Algeria's Bounedjah provides reliable central presence but Algeria lack the team quality to progress. Jordan, tournament debutants, are tactically disciplined but scoring-limited.</p>
+<div class="table-wrap">
+  <table>
+    <thead><tr><th>Country</th><th>Primary Scorer</th><th>Club</th><th>Role</th></tr></thead>
+    <tbody>
+      <tr><td>Argentina</td><td class="scorer-cell">Lautaro Martínez</td><td>Inter Milan</td><td>Central penalty-box poacher</td></tr>
+      <tr><td>Algeria</td><td class="scorer-cell">Baghdad Bounedjah</td><td>Al-Shamal</td><td>Traditional physical target</td></tr>
+      <tr><td>Austria</td><td class="scorer-cell">Michael Gregoritsch</td><td>Augsburg</td><td>Physical high-pressing forward</td></tr>
+      <tr><td>Jordan</td><td class="scorer-cell">Mousa Al-Tamari</td><td>Stade Rennais</td><td>Right-sided inside forward / creator</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- GROUP K -->
+<h3><span class="group-tag">GROUP K</span>Portugal · Congo DR · Uzbekistan · Colombia</h3>
+<p>Cristiano Ronaldo's sixth World Cup will generate the most media attention in Group K, but the analytical case for him as a Golden Boot contender is weaker than the headlines suggest. At 41, the question is not whether he can score — he clearly still can — but whether Portugal carry the consistent deep-run quality to play eight matches while he remains the primary beneficiary of their attacking structure. Luis Díaz, operating as Bayern Munich's left forward, is Colombia's most dynamic threat; Jhon Durán's Aston Villa form makes him an interesting alternative but Díaz is the designated outlet. Yoane Wissa brings pace and left-channel running for Congo DR.</p>
+<div class="table-wrap">
+  <table>
+    <thead><tr><th>Country</th><th>Primary Scorer</th><th>Club</th><th>Role</th></tr></thead>
+    <tbody>
+      <tr><td>Portugal</td><td class="scorer-cell">Cristiano Ronaldo</td><td>Al Nassr</td><td>Central poacher / penalty taker</td></tr>
+      <tr><td>Congo DR</td><td class="scorer-cell">Yoane Wissa</td><td>Newcastle</td><td>Explosive left-sided inside forward</td></tr>
+      <tr><td>Uzbekistan</td><td class="scorer-cell">Eldor Shomurodov</td><td>Roma</td><td>Talismanic central target forward</td></tr>
+      <tr><td>Colombia</td><td class="scorer-cell">Luis Díaz</td><td>Bayern Munich</td><td>Left-sided transition inside forward</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- GROUP L -->
+<h3><span class="group-tag">GROUP L</span>England · Croatia · Ghana · Panama</h3>
+<p>Harry Kane won the 2022 Golden Boot prediction discussion but ultimately lost it on the pitch. This time, the structural conditions around him are significantly more favourable. A 36-goal European Golden Shoe season for Bayern Munich is the form baseline. Thomas Tuchel's England system centralises Kane more explicitly than Gareth Southgate ever did — with Bellingham and Saka feeding a traditional number nine rather than the fluid system Kane often operated in. Panama and Ghana are the kind of opponents who will test England's execution but not their fundamentals; both games should yield multiple Kane involvements. Croatia have quality through Kramarić but are defensively strong enough to contain and too limited to threaten deep.</p>
+<div class="table-wrap">
+  <table>
+    <thead><tr><th>Country</th><th>Primary Scorer</th><th>Club</th><th>Role</th></tr></thead>
+    <tbody>
+      <tr><td>England</td><td class="scorer-cell">Harry Kane</td><td>Bayern Munich</td><td>Complete forward / designated penalty taker</td></tr>
+      <tr><td>Croatia</td><td class="scorer-cell">Andrej Kramarić</td><td>Hoffenheim</td><td>Technically gifted second striker</td></tr>
+      <tr><td>Ghana</td><td class="scorer-cell">Mohammed Kudus</td><td>West Ham</td><td>Dynamic free-roaming attacking midfielder</td></tr>
+      <tr><td>Panama</td><td class="scorer-cell">José Fajardo</td><td>Universidad Católica</td><td>Physical transition striker</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<hr class="section-div">
+
+<!-- MASTER TABLE -->
+<h2>Master Field · All 48 Designated Primary Scorers</h2>
+<p>Complete consolidation of the primary goalscoring designation for each of the 48 qualified nations. This is the full field from which the Golden Boot projection is built.</p>
+
+<div class="table-wrap">
+  <table>
+    <thead>
+      <tr>
+        <th>Grp</th><th>Nation</th><th>Player</th><th>Club</th><th>Attack Zone</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="group-cell">A</td><td>Mexico</td><td class="scorer-cell">S. Gimenez</td><td>AC Milan</td><td>Central Box</td></tr>
+      <tr><td class="group-cell">A</td><td>South Africa</td><td class="scorer-cell">L. Foster</td><td>Burnley</td><td>Central Box</td></tr>
+      <tr><td class="group-cell">A</td><td>Korea Republic</td><td class="scorer-cell">Son Heung-min</td><td>LAFC</td><td>Left Half-Space</td></tr>
+      <tr><td class="group-cell">A</td><td>Czechia</td><td class="scorer-cell">P. Schick</td><td>Bayer Leverkusen</td><td>Central Box</td></tr>
+      <tr><td class="group-cell">B</td><td>Canada</td><td class="scorer-cell">J. David</td><td>Juventus</td><td>Central Box</td></tr>
+      <tr><td class="group-cell">B</td><td>Bosnia &amp; Herz.</td><td class="scorer-cell">E. Demirovic</td><td>Stuttgart</td><td>Central Box</td></tr>
+      <tr><td class="group-cell">B</td><td>Qatar</td><td class="scorer-cell">A. Afif</td><td>Al Sadd</td><td>Left Flank</td></tr>
+      <tr><td class="group-cell">B</td><td>Switzerland</td><td class="scorer-cell">B. Embolo</td><td>Rennes</td><td>Central Box</td></tr>
+      <tr><td class="group-cell">C</td><td>Brazil</td><td class="scorer-cell">Vinicius Junior</td><td>Real Madrid</td><td>Left Flank</td></tr>
+      <tr><td class="group-cell">C</td><td>Morocco</td><td class="scorer-cell">A. El Kaabi</td><td>Olympiacos</td><td>Central Box</td></tr>
+      <tr><td class="group-cell">C</td><td>Haiti</td><td class="scorer-cell">D. Nazon</td><td>CSKA Sofia</td><td>Central Box</td></tr>
+      <tr><td class="group-cell">C</td><td>Scotland</td><td class="scorer-cell">L. Shankland</td><td>Hearts</td><td>Central Box</td></tr>
+      <tr><td class="group-cell">D</td><td>USA</td><td class="scorer-cell">C. Pulisic</td><td>AC Milan</td><td>Left Flank</td></tr>
+      <tr><td class="group-cell">D</td><td>Paraguay</td><td class="scorer-cell">J. Enciso</td><td>Brighton</td><td>Central Box</td></tr>
+      <tr><td class="group-cell">D</td><td>Australia</td><td class="scorer-cell">N. Irankunda</td><td>Bayern Munich</td><td>Right Flank</td></tr>
+      <tr><td class="group-cell">D</td><td>Türkiye</td><td class="scorer-cell">K. Yildiz</td><td>Juventus</td><td>Left Flank</td></tr>
+      <tr><td class="group-cell">E</td><td>Germany</td><td class="scorer-cell">D. Undav</td><td>Stuttgart</td><td>Central Box</td></tr>
+      <tr><td class="group-cell">E</td><td>Curaçao</td><td class="scorer-cell">J. Bacuna</td><td>Volendam</td><td>Central Midfield</td></tr>
+      <tr><td class="group-cell">E</td><td>Ivory Coast</td><td class="scorer-cell">S. Haller</td><td>Leganés</td><td>Central Box</td></tr>
+      <tr><td class="group-cell">E</td><td>Ecuador</td><td class="scorer-cell">E. Valencia</td><td>Internacional</td><td>Central Box</td></tr>
+      <tr><td class="group-cell">F</td><td>Netherlands</td><td class="scorer-cell">C. Gakpo</td><td>Liverpool</td><td>Left Flank</td></tr>
+      <tr><td class="group-cell">F</td><td>Japan</td><td class="scorer-cell">A. Ueda</td><td>Feyenoord</td><td>Central Box</td></tr>
+      <tr><td class="group-cell">F</td><td>Sweden</td><td class="scorer-cell">V. Gyökeres</td><td>Sporting CP</td><td>Central Box</td></tr>
+      <tr><td class="group-cell">F</td><td>Tunisia</td><td class="scorer-cell">Y. Msakni</td><td>Al Arabi</td><td>Left Flank</td></tr>
+      <tr><td class="group-cell">G</td><td>Belgium</td><td class="scorer-cell">R. Lukaku</td><td>Napoli</td><td>Central Box</td></tr>
+      <tr><td class="group-cell">G</td><td>Egypt</td><td class="scorer-cell">M. Salah</td><td>Liverpool</td><td>Right Flank</td></tr>
+      <tr><td class="group-cell">G</td><td>IR Iran</td><td class="scorer-cell">M. Taremi</td><td>Inter Milan</td><td>Central Box</td></tr>
+      <tr><td class="group-cell">G</td><td>New Zealand</td><td class="scorer-cell">C. Wood</td><td>Nottingham Forest</td><td>Central Box</td></tr>
+      <tr><td class="group-cell">H</td><td>Spain</td><td class="scorer-cell">Á. Morata</td><td>AC Milan</td><td>Central Box</td></tr>
+      <tr><td class="group-cell">H</td><td>Cape Verde</td><td class="scorer-cell">R. Mendes</td><td>Iğdır FK</td><td>Left Flank</td></tr>
+      <tr><td class="group-cell">H</td><td>Saudi Arabia</td><td class="scorer-cell">S. Al-Dawsari</td><td>Al Hilal</td><td>Left Flank</td></tr>
+      <tr><td class="group-cell">H</td><td>Uruguay</td><td class="scorer-cell">D. Núñez</td><td>Liverpool</td><td>Central Box</td></tr>
+      <tr><td class="group-cell">I</td><td>France</td><td class="scorer-cell">K. Mbappé</td><td>Real Madrid</td><td>Left Flank</td></tr>
+      <tr><td class="group-cell">I</td><td>Senegal</td><td class="scorer-cell">N. Jackson</td><td>Chelsea</td><td>Central Box</td></tr>
+      <tr><td class="group-cell">I</td><td>Iraq</td><td class="scorer-cell">A. Hussein</td><td>Al-Khor</td><td>Central Box</td></tr>
+      <tr><td class="group-cell">I</td><td>Norway</td><td class="scorer-cell">E. Haaland</td><td>Man City</td><td>Central Box</td></tr>
+      <tr><td class="group-cell">J</td><td>Argentina</td><td class="scorer-cell">L. Martínez</td><td>Inter Milan</td><td>Central Box</td></tr>
+      <tr><td class="group-cell">J</td><td>Algeria</td><td class="scorer-cell">B. Bounedjah</td><td>Al-Shamal</td><td>Central Box</td></tr>
+      <tr><td class="group-cell">J</td><td>Austria</td><td class="scorer-cell">M. Gregoritsch</td><td>Augsburg</td><td>Central Box</td></tr>
+      <tr><td class="group-cell">J</td><td>Jordan</td><td class="scorer-cell">M. Al-Tamari</td><td>Stade Rennais</td><td>Right Flank</td></tr>
+      <tr><td class="group-cell">K</td><td>Portugal</td><td class="scorer-cell">C. Ronaldo</td><td>Al Nassr</td><td>Central Box</td></tr>
+      <tr><td class="group-cell">K</td><td>Congo DR</td><td class="scorer-cell">Y. Wissa</td><td>Newcastle</td><td>Left Flank</td></tr>
+      <tr><td class="group-cell">K</td><td>Uzbekistan</td><td class="scorer-cell">E. Shomurodov</td><td>Roma</td><td>Central Box</td></tr>
+      <tr><td class="group-cell">K</td><td>Colombia</td><td class="scorer-cell">L. Díaz</td><td>Bayern Munich</td><td>Left Flank</td></tr>
+      <tr><td class="group-cell">L</td><td>England</td><td class="scorer-cell">H. Kane</td><td>Bayern Munich</td><td>Central Box</td></tr>
+      <tr><td class="group-cell">L</td><td>Croatia</td><td class="scorer-cell">A. Kramarić</td><td>Hoffenheim</td><td>Central Box</td></tr>
+      <tr><td class="group-cell">L</td><td>Ghana</td><td class="scorer-cell">M. Kudus</td><td>West Ham</td><td>Right Flank</td></tr>
+      <tr><td class="group-cell">L</td><td>Panama</td><td class="scorer-cell">J. Fajardo</td><td>Univ. Católica</td><td>Central Box</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<hr class="section-div">
+
+<!-- CONTENDERS -->
+<h2>The Final Three · Projection Contenders</h2>
+<p>Applying the four analytical filters to all 48 designated primary scorers reduces the realistic Golden Boot field to three players. Every other candidate fails on at least one of the critical dimensions — team progression probability, tactical funnel, group vulnerability, or physical peak. The following three pass all four.</p>
+
+<!-- KANE -->
+<div class="contender gold">
+  <div class="contender-rank">1</div>
+  <div class="contender-header">
+    <div class="contender-name">Harry Kane</div>
+    <div class="contender-meta">ENGLAND · BAYERN MUNICH · AGE 32</div>
+  </div>
+  <span class="contender-verdict verdict-gold">FAVOURITE</span>
+  <p>Kane enters this tournament having produced the finest domestic season of his career — 36 goals in 31 Bundesliga appearances, including a hat-trick in the DFB Cup final. The European Golden Shoe is the evidence; the question marks around his previous international tournament performances are the counterargument. Those counterarguments carry less weight here than ever before.</p>
+  <div class="case-for">
+    <div class="case-label">The analytical case</div>
+    <div class="case-item"><span class="case-dot"></span><p><strong>Tactical architecture:</strong> Tuchel's England system centralizes Kane explicitly. Bellingham and Saka operate as the creative engine; Kane is the destination. He holds absolute monopoly over penalty duties — historically among the highest-percentage scoring opportunities at a World Cup.</p></div>
+    <div class="case-item"><span class="case-dot"></span><p><strong>Group draw:</strong> Panama and Ghana operate in defensively exposed, high-transition systems. Both will concede early and shift into damage-limitation mode, which plays directly into Kane's movement in behind a mid-block. England should be able to manufacture three to four high-quality chances per game in the opening phase.</p></div>
+    <div class="case-item"><span class="case-dot"></span><p><strong>Deep-run probability:</strong> England are among the four or five realistic finalists in this tournament. If Kane accumulates in the group stage and England navigate the knockout bracket, he has an eight-game ceiling — the maximum in this format.</p></div>
+    <div class="case-item"><span class="case-dot"></span><p><strong>The 2022 failure revisited:</strong> His missed penalty against France in Qatar was the difference between two and four goals in that tournament. The structure of that England team, under Southgate, was not optimally built to funnel chances through Kane the way a Tuchel system is. That context matters.</p></div>
+  </div>
+  <div class="risk-note"><strong>Risk:</strong> Kane's finishing in knockout football at international level carries a historical question mark. He has scored in World Cups, but his rate drops in elimination games. If England face a high-defensive block early in the knockout rounds, his accumulation could plateau quickly.</div>
+</div>
+
+<!-- MBAPPÉ -->
+<div class="contender silver">
+  <div class="contender-rank">2</div>
+  <div class="contender-header">
+    <div class="contender-name">Kylian Mbappé</div>
+    <div class="contender-meta">FRANCE · REAL MADRID · AGE 27</div>
+  </div>
+  <span class="contender-verdict verdict-silver">CHALLENGER</span>
+  <p>The reigning 2022 Golden Boot winner is at peak physical age and comes into a tournament where France project, by most reasonable assessments, as the team most likely to reach the final. Group I is genuinely exploitable. The argument against Mbappé winning the Golden Boot is not one of quality or opportunity — it is structural.</p>
+  <div class="case-for">
+    <div class="case-label">The analytical case</div>
+    <div class="case-item"><span class="case-dot"></span><p><strong>Quality baseline:</strong> At 27, with Real Madrid experience added to his toolkit, Mbappé is the most dynamically dangerous forward at this tournament in transition. His ability to generate goals from his own creation — without depending on service quality — makes him uniquely independent of team performance levels.</p></div>
+    <div class="case-item"><span class="case-dot"></span><p><strong>Group matchup:</strong> Iraq and Senegal's defensive structures both rely on mid-blocks that push relatively high, leaving space in behind. Mbappé against Iraq in particular represents one of the tournament's most one-sided individual matchups on paper.</p></div>
+    <div class="case-item"><span class="case-dot"></span><p><strong>System role:</strong> Deschamps builds France's defensive phase around Mbappé being available high up the pitch to receive on the break. He doesn't track back. He doesn't defend. His function is to be the first name on a fast break, and France generate those breaks constantly.</p></div>
+    <div class="case-item"><span class="case-dot"></span><p><strong>Deep-run probability:</strong> France are the most likely finalist in this projection. If Mbappé is fit and firing, he has a genuine path to eight games.</p></div>
+  </div>
+  <div class="risk-note"><strong>Why he falls short of #1:</strong> France's attacking output is shared across Mbappé, Olise, and Barcola in a way that reduces Mbappé's expected goal share relative to Kane's in England's system. France also have a historically volatile knockout record — they have been eliminated early at tournaments where they were pre-tournament favourites. A single bad day ends this campaign.</div>
+</div>
+
+<!-- VINICIUS -->
+<div class="contender bronze">
+  <div class="contender-rank">3</div>
+  <div class="contender-header">
+    <div class="contender-name">Vinicius Junior</div>
+    <div class="contender-meta">BRAZIL · REAL MADRID · AGE 24</div>
+  </div>
+  <span class="contender-verdict verdict-bronze">DARK HORSE</span>
+  <p>Vinicius is the youngest of the three contenders and the one whose Golden Boot case rests most heavily on a single structural advantage: Brazil's Group C draw against Haiti is one of the tournament's most imbalanced individual matchups, and Ancelotti's Brazilian system is architecturally built around Vinicius doing what he already does at Real Madrid — making diagonal runs into the penalty area from the left, with Neymar dropping into the half-space as creator.</p>
+  <div class="case-for">
+    <div class="case-label">The analytical case</div>
+    <div class="case-item"><span class="case-dot"></span><p><strong>Group vulnerability:</strong> Haiti's defensive metrics during qualification were among the worst in CONCACAF. Their backline operates high, relies on offside traps that struggle against pace, and has limited experience at this level. Vinicius against Haiti is arguably the most dangerous individual group-stage matchup in the entire tournament.</p></div>
+    <div class="case-item"><span class="case-dot"></span><p><strong>System replication:</strong> Ancelotti's presence as Brazil manager is not coincidental. The structure mirrors the Real Madrid shape almost exactly — Vinicius on the left, cutting inside, with midfield runners arriving late to occupy defensive attention. The familiarity between manager and player at this level is a meaningful advantage over, say, a striker adapting to a new international system mid-tournament.</p></div>
+    <div class="case-item"><span class="case-dot"></span><p><strong>Physical ceiling:</strong> At 24, Vinicius is the player here with the most room above his current ceiling. He is also the fastest of the three contenders and the least dependent on possession being built around him through central channels.</p></div>
+    <div class="case-item"><span class="case-dot"></span><p><strong>Deep-run probability:</strong> Brazil with Ancelotti are a realistic semi-finalist or finalist. Their squad depth in midfield (Rodrygo, the back line) is the strongest it has been in a decade.</p></div>
+  </div>
+  <div class="risk-note"><strong>Why he's third:</strong> Vinicius remains a more inconsistent finisher than Kane or Mbappé in high-stakes, compact defensive environments. His ceiling is extraordinary; his floor involves wasted chances in tight knockout games. He also shares Brazil's attacking output meaningfully with Raphinha, which softens the funnel effect. His case depends more heavily on a big group-stage performance than either of the top two candidates.</div>
+</div>
+
+<hr class="section-div">
+
+<!-- MATRIX -->
+<h2>Quantitative Matrix · Five-Dimension Scoring</h2>
+<p>Each of the three final contenders is evaluated across five analytical dimensions, each scored out of 10. The matrix distills the qualitative analysis above into a structured comparative summary.</p>
+
+<div class="note-box"><strong>Scoring logic:</strong> 10 represents the optimal scenario for that dimension in this tournament's specific context. No adjustment is made for legacy, brand, or market narrative — only sporting factors.</div>
+
+<div class="matrix-wrap">
+  <table class="matrix-table">
+    <thead>
+      <tr>
+        <th>Player</th>
+        <th>Form &amp; Quality</th>
+        <th>Tactical Funnel</th>
+        <th>Group Vulnerability</th>
+        <th>Deep-Run Probability</th>
+        <th>Tournament Pedigree</th>
+        <th>Total /50</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Harry Kane</strong><span class="sub">England · Bayern</span></td>
+        <td class="score-high">10</td>
+        <td class="score-high">10</td>
+        <td class="score-high">9</td>
+        <td class="score-high">9</td>
+        <td class="score-high">10</td>
+        <td class="total-cell">48</td>
+      </tr>
+      <tr>
+        <td><strong>Kylian Mbappé</strong><span class="sub">France · Real Madrid</span></td>
+        <td class="score-high">9</td>
+        <td class="score-mid">9</td>
+        <td class="score-mid">8</td>
+        <td class="score-high">10</td>
+        <td class="score-high">10</td>
+        <td class="total-cell">46</td>
+      </tr>
+      <tr>
+        <td><strong>Vinicius Junior</strong><span class="sub">Brazil · Real Madrid</span></td>
+        <td class="score-high">9</td>
+        <td class="score-mid">8</td>
+        <td class="score-high">10</td>
+        <td class="score-high">9</td>
+        <td class="score-mid">8</td>
+        <td class="total-cell">44</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<hr class="section-div">
+
+<!-- VERDICT -->
+<div class="verdict-block">
+  <h2>The Call</h2>
+  <div class="verdict-name">Harry Kane</div>
+  <div class="verdict-sub">ENGLAND · GOLDEN BOOT PROJECTION · 2026 FIFA WORLD CUP</div>
+  <p class="verdict-text">Kane's case is not built on sentiment or star power. It is built on the most clinical domestic scoring season in European football this year, a national team system that explicitly centralises his role as primary finisher and set-piece executor, and a group draw that opens the realistic opportunity to build a multi-goal lead in the opening phase against Panama and Ghana. England's projected deep-run probability is second only to France's. If the tournament reaches its most likely format — England in the semi-final, France in the final — the only player with a serious mathematical claim on Kane at that stage is Mbappé.</p>
+  <br>
+  <p class="verdict-text">The 2022 miss will not define this campaign. The 2026 conditions are structurally superior for Kane in almost every dimension that matters for the Golden Boot race. The 48-team format, designed at first glance to widen the field, actually makes it harder for players on weaker nations — removing Haaland, Gyökeres, and Díaz from realistic contention. What remains is precisely the profile Kane embodies: elite form, tactical centrality, favourable draw, and a team capable of playing eight matches.</p>
+</div>
+
+<!-- FOOTNOTE ON HONOURABLE MENTIONS -->
+<h2>Beyond the Three · Notable Exclusions</h2>
+<p><strong>Erling Haaland</strong> is the most obvious omission. His exclusion is purely structural — Norway's knockout pathway is brutal, and their group-stage ceiling is two wins maximum. A first or second-place finish in Group I draws France or Senegal in the Round of 32. Norway's exit probability before the quarter-final is high enough to effectively remove Haaland from the conversation despite his being the most complete finisher in world football.</p>
+<p><strong>Viktor Gyökeres</strong> faces the same problem from Group F. Sweden are a dark horse quarter-final team at best. His goal-per-game rate at Sporting CP is extraordinary; his tournament ceiling is not.</p>
+<p><strong>Mohamed Salah</strong> is the most interesting exclusion. Egypt are realistically a Round of 32 exit, but Salah's individual quality and penalty-taking certainty means he could be sitting at five or six goals before that exit. He will not win the Golden Boot, but he will likely finish as one of the tournament's most visible individual performers regardless of Egypt's fate.</p>
+<p><strong>Cristiano Ronaldo</strong> at 41 can still score goals. The analytical objection is not capability — it is sustainability across eight high-intensity matches in a compressed summer window against the best defensive structures in the world. Portugal's team quality also introduces uncertainty about deep-run probability. The case for Ronaldo winning the Golden Boot requires a chain of events too unlikely to factor into a primary projection.</p>
+
+<div class="footer">
+  <div class="footer-brand">The Football Intelligence Desk</div>
+  <div class="footer-note">PRE-TOURNAMENT PROJECTION · JUNE 2026<br>For analytical purposes only. All projections subject to tournament developments.</div>
+</div>
+
+</body>
+</html>
